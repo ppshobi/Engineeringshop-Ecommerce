@@ -1,3 +1,15 @@
+<?php
+	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+		require_once('../app/Category.php');
+		
+		$result=Category::add($_POST['name'],$_POST['description']);
+		if ($result) {
+			echo "<script>" . "document.getElementById(success).style.display = \"'block'\"" . "</script>";
+		}else{
+			echo "<script>" . "document.getElementById('error').style.display='block'" . "</script>";
+		}
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +28,14 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-
+<style type="text/css">
+	#success{
+		display: none;
+	}
+	#error{
+		display: none;
+	}
+</style>
 </head>
 
 <body>
@@ -26,7 +45,7 @@
 		<div class="row">
 			<ol class="breadcrumb">
 				<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-				<li class="active">Icons</li>
+				<li class="active">Category</li>
 			</ol>
 		</div><!--/.row-->
 		
@@ -43,16 +62,39 @@
 					<div class="panel-heading">Form Elements</div>
 					<div class="panel-body">
 						<div class="col-md-6">
-							<form role="form">
+							<form role="form" method="post" action="">
 							
 								<div class="form-group">
 									<label>Category Name</label>
-									<input class="form-control" placeholder="Enter Category Name">
+									<input class="form-control" name="name" placeholder="Enter Category Name">
+								</div>
+								<div class="form-group">
+									<label>Category Description</label>
+									<textarea class="form-control" name="description" rows="3"></textarea>
 								</div>
 								<button type="submit" class="btn btn-primary">Add Category</button>
 								<button type="reset" class="btn btn-default">Reset</button>
 							</div>
 						</form>
+						
+					</div>
+					<div class="alert bg-success" id="success" role="alert">
+						<svg class="glyph stroked checkmark">
+							<use xlink:href="#stroked-checkmark"></use>
+						</svg>
+						 Successfully Added Category
+						 <a href="#" class="pull-right">
+						 	<span class="glyphicon glyphicon-remove"></span>
+						 </a>
+					</div>
+					<div class="alert bg-danger" id="error" role="alert">
+						<svg class="glyph stroked checkmark">
+							<use xlink:href="#stroked-checkmark"></use>
+						</svg>
+						 Something went wrong
+						 <a href="#" class="pull-right">
+						 	<span class="glyphicon glyphicon-remove"></span>
+						 </a>
 					</div>
 				</div>
 			</div><!-- /.col-->
