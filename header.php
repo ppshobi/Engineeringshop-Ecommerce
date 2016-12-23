@@ -1,4 +1,4 @@
- <header class="header header-style3">
+ <header class="header header-style2">
         <div class="header-top">
             <div class="container">
                 <h5>Sport Headphone Equipment</h5>
@@ -348,16 +348,9 @@
                 </a>
                 <nav id="primary-navigation" class="site-navigation main-menu">
                     <ul id="primary-menu" class="menu">
-                        <li class="menu-item has-childrent active">
+                        <li class="menu-item active">
                             <a href="#">Home</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="index.php">Home 1</a></li>
-                                <li class="menu-item"><a href="home-v2.php">Home 2</a></li>
-                                <li class="menu-item active"><a href="home-v3.php">Home 3</a></li>
-                                <li class="menu-item"><a href="home-v4.php">Home 4</a></li>
-                                <li class="menu-item"><a href="home-v5.php">Home 5</a></li>
-                                <li class="menu-item"><a href="home-v6.php">Home 6</a></li>
-                            </ul>
+                            
                         </li>
                         <li class="menu-item"><a href="#">New Arrival</a></li>
                         <li class="menu-item"><a href="#">Deals</a></li>

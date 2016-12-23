@@ -17,7 +17,7 @@
 </head>
 <!-- End .header -->
 <body class="home home3">
-   <?php include_once('header.php');?>
+    <?php include_once('header.php');?>
     <div class="main-content">
         <div class="banner banner-home banner-home3">
             <div class="container">
