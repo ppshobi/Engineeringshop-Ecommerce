@@ -1,4 +1,4 @@
- <header class="header header-style2">
+ <header class="header header-style3">
         <div class="header-top">
             <div class="container">
                 <h5>Sport Headphone Equipment</h5>
