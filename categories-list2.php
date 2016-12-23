@@ -105,7 +105,7 @@
             <div class="container">
                 <div class="header-bottom-left">
                     <h1 class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/images/logo.png" alt="logo">
                         </a>
                     </h1>
@@ -207,12 +207,12 @@
                         <li class="menu-item has-childrent">
                             <a href="#">Home</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="index.html">Home 1</a></li>
-                                <li class="menu-item"><a href="home-v2.html">Home 2</a></li>
-                                <li class="menu-item"><a href="home-v3.html">Home 3</a></li>
-                                <li class="menu-item"><a href="home-v4.html">Home 4</a></li>
-                                <li class="menu-item"><a href="home-v5.html">Home 5</a></li>
-                                <li class="menu-item"><a href="home-v6.html">Home 6</a></li>
+                                <li class="menu-item"><a href="index.php">Home 1</a></li>
+                                <li class="menu-item"><a href="home-v2.php">Home 2</a></li>
+                                <li class="menu-item"><a href="home-v3.php">Home 3</a></li>
+                                <li class="menu-item"><a href="home-v4.php">Home 4</a></li>
+                                <li class="menu-item"><a href="home-v5.php">Home 5</a></li>
+                                <li class="menu-item"><a href="home-v6.php">Home 6</a></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a href="#">New Arrival</a></li>
@@ -220,15 +220,15 @@
                         <li class="menu-item has-childrent active">
                             <a href="#">Shop</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="categories-grid.html">Categories Grid 1</a></li>
-                                <li class="menu-item"><a href="category-grid-right-sidebar.html">Categories Grid 1 Right Sidebar</a></li>
-                                <li class="menu-item"><a href="categories-grid2.html">Categories Grid 2</a></li>
-                                <li class="menu-item"><a href="categories-grid2-right-sidebar.html">Categories Grid 2 Right Sidebar</a></li>
-                                <li class="menu-item"><a href="categories-grid3.html">Categories Grid 3</a></li>
-                                <li class="menu-item"><a href="categories-list1.html">Categories List 1</a></li>
-                                <li class="menu-item"><a href="categories-list1-right-sidebar.html">Categories List 1 Right Sidebar</a></li>
-                                <li class="menu-item active"><a href="categories-list2.html">Categories List 2</a></li>
-                                <li class="menu-item"><a href="categories-list2-right-sidebar.html">Categories List 2 Right Sidebar</a></li>
+                                <li class="menu-item"><a href="categories-grid.php">Categories Grid 1</a></li>
+                                <li class="menu-item"><a href="category-grid-right-sidebar.php">Categories Grid 1 Right Sidebar</a></li>
+                                <li class="menu-item"><a href="categories-grid2.php">Categories Grid 2</a></li>
+                                <li class="menu-item"><a href="categories-grid2-right-sidebar.php">Categories Grid 2 Right Sidebar</a></li>
+                                <li class="menu-item"><a href="categories-grid3.php">Categories Grid 3</a></li>
+                                <li class="menu-item"><a href="categories-list1.php">Categories List 1</a></li>
+                                <li class="menu-item"><a href="categories-list1-right-sidebar.php">Categories List 1 Right Sidebar</a></li>
+                                <li class="menu-item active"><a href="categories-list2.php">Categories List 2</a></li>
+                                <li class="menu-item"><a href="categories-list2-right-sidebar.php">Categories List 2 Right Sidebar</a></li>
                             </ul>
                         </li>
 
@@ -236,15 +236,15 @@
                         <li class="menu-item has-childrent">
                             <a href="#">Pages</a>
                             <ul class="sub-menu">
-                                <li class="menu-item"><a href="blogpost.html">Blog Post</a></li>
-                                <li class="menu-item"><a href="product-detail.html">Product Detail</a></li>
-                                <li class="menu-item"><a href="shopping-carrt.html">Cart</a></li>
-                                <li class="menu-item"><a href="checkout.html">Check Out</a></li>
-                                <li class="menu-item"><a href="contact.html">Contact Us</a></li>
-                                <li class="menu-item"><a href="about.html">About US</a></li>
+                                <li class="menu-item"><a href="blogpost.php">Blog Post</a></li>
+                                <li class="menu-item"><a href="product-detail.php">Product Detail</a></li>
+                                <li class="menu-item"><a href="shopping-carrt.php">Cart</a></li>
+                                <li class="menu-item"><a href="checkout.php">Check Out</a></li>
+                                <li class="menu-item"><a href="contact.php">Contact Us</a></li>
+                                <li class="menu-item"><a href="about.php">About US</a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a href="blog.html">Blog</a></li>
+                        <li class="menu-item"><a href="blog.php">Blog</a></li>
                     </ul>
                 </nav>
             </div>
@@ -699,7 +699,7 @@
                     <div class="col-md-3 col-sm-6 has-logo">
                         <div class="footer-top-logo">
                             <h1 class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/images/logo.png" alt="logo">
                                 </a>
                             </h1>

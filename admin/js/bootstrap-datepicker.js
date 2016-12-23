@@ -684,7 +684,7 @@
 			while (i < 12){
 				html += '<span class="month">'+dates[this.o.language].monthsShort[i++]+'</span>';
 			}
-			this.picker.find('.datepicker-months td').html(html);
+			this.picker.find('.datepicker-months td').php(html);
 		},
 
 		setRange: function(range){
@@ -857,7 +857,7 @@
 				html += '<span class="' + classes.join(' ') + '">'+year+'</span>';
 				year += 1;
 			}
-			yearCont.html(html);
+			yearCont.php(html);
 		},
 
 		updateNavArrows: function(){

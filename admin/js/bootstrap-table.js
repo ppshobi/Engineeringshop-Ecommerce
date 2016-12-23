@@ -278,7 +278,7 @@
         }
         this.$header.find('th').each(function () {
             var column = $.extend({}, {
-                title: $(this).html(),
+                title: $(this).php(),
                 'class': $(this).attr('class')
             }, $(this).data());
 
@@ -305,7 +305,7 @@
             $(this).find('td').each(function (i) {
                 var field = that.options.columns[i].field;
 
-                row[field] = $(this).html();
+                row[field] = $(this).php();
                 // save td's id and class
                 row['_' + field + '_id'] = $(this).attr('id');
                 row['_' + field + '_class'] = $(this).attr('class');
@@ -386,7 +386,7 @@
             html.push('</th>');
         });
 
-        this.$header.find('tr').html(html.join(''));
+        this.$header.find('tr').php(html.join(''));
         this.$header.find('th').each(function (i) {
             $(this).data(visibleColumns[i]);
         });
@@ -496,7 +496,7 @@
             $search,
             switchableCount = 0;
 
-        this.$toolbar = this.$container.find('.fixed-table-toolbar').html('');
+        this.$toolbar = this.$container.find('.fixed-table-toolbar').php('');
 
         if (typeof this.options.toolbar === 'string') {
             $('<div class="bars pull-left"></div>')
@@ -754,7 +754,7 @@
                 '</ul>',
             '</div>');
 
-        this.$pagination.html(html.join(''));
+        this.$pagination.php(html.join(''));
 
         $pageList = this.$pagination.find('.page-list a');
         $first = this.$pagination.find('.page-first');
@@ -970,7 +970,7 @@
                 '</tr>');
         }
 
-        this.$body.html(html.join(''));
+        this.$body.php(html.join(''));
 
         if (!fixedScroll) {
             this.$container.find('.fixed-table-body').scrollTop(0);
@@ -1181,7 +1181,7 @@
                 'border-bottom': '1px solid #dddddd',
                 'margin-right': scrollWidth
             }).find('table').css('width', that.$el.css('width'))
-                .html('').attr('class', that.$el.attr('class'))
+                .php('').attr('class', that.$el.attr('class'))
                 .append(that.$header_);
 
             // fix bug: $.data() is not working as expected after $.append()
@@ -1369,7 +1369,7 @@
         $(this.options.toolbar).insertBefore(this.$el);
         this.$container.next().remove();
         this.$container.remove();
-        this.$el.html(this.$el_.html())
+        this.$el.php(this.$el_.php())
             .attr('class', this.$el_.attr('class') || ''); // reset the class
     };
 

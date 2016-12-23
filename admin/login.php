@@ -36,7 +36,7 @@
 									<input name="remember" type="checkbox" value="Remember Me">Remember Me
 								</label>
 							</div>
-							<a href="index.html" class="btn btn-primary">Login</a>
+							<a href="index.php" class="btn btn-primary">Login</a>
 						</fieldset>
 					</form>
 				</div>

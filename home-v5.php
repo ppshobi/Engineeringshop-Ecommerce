@@ -96,7 +96,7 @@
                 <div class="row">
                     <div class="header-bottom-left col-sm-3">
                         <h1 class="logo">
-                            <a href="index.html">
+                            <a href="index.php">
                                 <img src="assets/images/logo4.png" alt="logo">
                             </a>
                         </h1>
@@ -214,14 +214,14 @@
                     <nav id="primary-navigation" class="site-navigation main-menu">
                         <ul id="primary-menu" class="menu">
                             <li class="menu-item has-childrent item-home">
-                                <a href="index.html"><i class="flaticon-home"></i></a>
+                                <a href="index.php"><i class="flaticon-home"></i></a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="index.html">Home 1</a></li>
-                                    <li class="menu-item"><a href="home-v2.html">Home 2</a></li>
-                                    <li class="menu-item"><a href="home-v3.html">Home 3</a></li>
-                                    <li class="menu-item"><a href="home-v4.html">Home 4</a></li>
-                                    <li class="menu-item active"><a href="home-v5.html">Home 5</a></li>
-                                    <li class="menu-item"><a href="home-v6.html">Home 6</a></li>
+                                    <li class="menu-item"><a href="index.php">Home 1</a></li>
+                                    <li class="menu-item"><a href="home-v2.php">Home 2</a></li>
+                                    <li class="menu-item"><a href="home-v3.php">Home 3</a></li>
+                                    <li class="menu-item"><a href="home-v4.php">Home 4</a></li>
+                                    <li class="menu-item active"><a href="home-v5.php">Home 5</a></li>
+                                    <li class="menu-item"><a href="home-v6.php">Home 6</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="#">New Arrival</a></li>
@@ -229,29 +229,29 @@
                             <li class="menu-item has-childrent">
                                 <a href="#">Shop</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="categories-grid.html">Categories Grid 1</a></li>
-                                    <li class="menu-item"><a href="category-grid-right-sidebar.html">Categories Grid 1 Right Sidebar</a></li>
-                                    <li class="menu-item"><a href="categories-grid2.html">Categories Grid 2</a></li>
-                                    <li class="menu-item"><a href="categories-grid2-right-sidebar.html">Categories Grid 2 Right Sidebar</a></li>
-                                    <li class="menu-item"><a href="categories-grid3.html">Categories Grid 3</a></li>
-                                    <li class="menu-item"><a href="categories-list1.html">Categories List 1</a></li>
-                                    <li class="menu-item"><a href="categories-list1-right-sidebar.html">Categories List 1 Right Sidebar</a></li>
-                                    <li class="menu-item"><a href="categories-list2.html">Categories List 2</a></li>
-                                    <li class="menu-item"><a href="categories-list2-right-sidebar.html">Categories List 2 Right Sidebar</a></li>
+                                    <li class="menu-item"><a href="categories-grid.php">Categories Grid 1</a></li>
+                                    <li class="menu-item"><a href="category-grid-right-sidebar.php">Categories Grid 1 Right Sidebar</a></li>
+                                    <li class="menu-item"><a href="categories-grid2.php">Categories Grid 2</a></li>
+                                    <li class="menu-item"><a href="categories-grid2-right-sidebar.php">Categories Grid 2 Right Sidebar</a></li>
+                                    <li class="menu-item"><a href="categories-grid3.php">Categories Grid 3</a></li>
+                                    <li class="menu-item"><a href="categories-list1.php">Categories List 1</a></li>
+                                    <li class="menu-item"><a href="categories-list1-right-sidebar.php">Categories List 1 Right Sidebar</a></li>
+                                    <li class="menu-item"><a href="categories-list2.php">Categories List 2</a></li>
+                                    <li class="menu-item"><a href="categories-list2-right-sidebar.php">Categories List 2 Right Sidebar</a></li>
                                 </ul>
                             </li>
                             <li class="menu-item has-childrent">
                                 <a href="#">Pages</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item"><a href="blogpost.html">Blog Post</a></li>
-                                    <li class="menu-item"><a href="product-detail.html">Product Detail</a></li>
-                                    <li class="menu-item"><a href="shopping-carrt.html">Cart</a></li>
-                                    <li class="menu-item"><a href="checkout.html">Check Out</a></li>
-                                    <li class="menu-item"><a href="contact.html">Contact Us</a></li>
-                                    <li class="menu-item"><a href="about.html">About US</a></li>
+                                    <li class="menu-item"><a href="blogpost.php">Blog Post</a></li>
+                                    <li class="menu-item"><a href="product-detail.php">Product Detail</a></li>
+                                    <li class="menu-item"><a href="shopping-carrt.php">Cart</a></li>
+                                    <li class="menu-item"><a href="checkout.php">Check Out</a></li>
+                                    <li class="menu-item"><a href="contact.php">Contact Us</a></li>
+                                    <li class="menu-item"><a href="about.php">About US</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="blog.html">Blog</a></li>
+                            <li class="menu-item"><a href="blog.php">Blog</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -563,7 +563,7 @@
                                                             $99.00
                                                             <p class="deal-in-on">Deal is on</p>
                                                         </div>
-                                                        <a href="categories-grid.html" class="deal-link">Shop now</a>
+                                                        <a href="categories-grid.php" class="deal-link">Shop now</a>
                                                     </div>
 
                                                 </div>
@@ -595,7 +595,7 @@
                                                             $99.00
                                                             <p class="deal-in-on">Deal is on</p>
                                                         </div>
-                                                        <a href="categories-grid.html" class="deal-link">Shop now</a>
+                                                        <a href="categories-grid.php" class="deal-link">Shop now</a>
                                                     </div>
 
                                                 </div>
@@ -627,7 +627,7 @@
                                                             $99.00
                                                             <p class="deal-in-on">Deal is on</p>
                                                         </div>
-                                                        <a href="categories-grid.html" class="deal-link">Shop now</a>
+                                                        <a href="categories-grid.php" class="deal-link">Shop now</a>
                                                     </div>
 
                                                 </div>
@@ -2358,7 +2358,7 @@
                     <div class="col-md-3 has-logo col-sm-6">
                         <div class="footer-top-logo">
                             <h1 class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <img src="assets/images/logo4.png" alt="logo">
                                 </a>
                             </h1>

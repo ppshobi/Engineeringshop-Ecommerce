@@ -480,7 +480,7 @@ jQuery(document).ready(function ($) {
 
     //FUNFACT
     $('.ts-funfact').appear(function () {
-        var count_element = $('.funfact-number', this).html();
+        var count_element = $('.funfact-number', this).php();
         $(".funfact-number", this).countTo({
             from: 0,
             to: count_element,
@@ -497,12 +497,12 @@ jQuery(document).ready(function ($) {
             max: 6789,
             values: [3, 6789],
             slide: function (event, ui) {
-                $(this).find('.amount').html('$' + ui.values[0])
-                $(this).find('.amount2').html('$' + ui.values[1]);
+                $(this).find('.amount').php('$' + ui.values[0])
+                $(this).find('.amount2').php('$' + ui.values[1]);
             }
         });
-        $(this).find('.amount').html('$' + $(this).slider('values', 0));
-        $(this).find('.amount2').html(' $' + $(this).slider('values', 1));
+        $(this).find('.amount').php('$' + $(this).slider('values', 0));
+        $(this).find('.amount2').php(' $' + $(this).slider('values', 1));
     });
 
     //check out shipping
@@ -578,7 +578,7 @@ jQuery(document).ready(function ($) {
         var $this = $(this), finalDate = $(this).data('countdown');
         $this.countdown(finalDate, function(event) {
             var fomat ='<div class="box-count box-days"><div class="number">%D</div><div class="text">Days</div></div><div class="box-count box-hours"><div class="number">%H</div><div class="text">Hrs</div></div><div class="box-count box-min"><div class="number">%M</div><div class="text">Mins</div></div><div class="box-count box-secs"><div class="number">%S</div><div class="text">Secs</div></div>';
-            $this.html(event.strftime(fomat));
+            $this.php(event.strftime(fomat));
         });
     });
     // click categorires menu
@@ -610,12 +610,12 @@ jQuery(document).ready(function ($) {
     /*  [ more Categorie ]
      - - - - - - - - - - - - - - - - - - - - */
     $(document).on('click','.open-cate',function(){
-        $(this).addClass('colse-cate').removeClass('open-cate').html('Close');
+        $(this).addClass('colse-cate').removeClass('open-cate').php('Close');
         $('.category-drop-list').addClass('category-show-more');
     })
     /* Close Categorie */
     $(document).on('click','.colse-cate',function(){
-        $(this).addClass('open-cate').removeClass('colse-cate').html('More Categories');
+        $(this).addClass('open-cate').removeClass('colse-cate').php('More Categories');
         $('.category-drop-list').removeClass('category-show-more');
         return false;
     })
