@@ -1,0 +1,134 @@
+
+.owl-carousel .animated {
+    animation-duration: 1000ms;
+    animation-fill-mode: both;
+}
+.owl-carousel .owl-animated-in {
+    z-index: 0;
+}
+.owl-carousel .owl-animated-out {
+    z-index: 1;
+}
+.owl-carousel .fadeOut {
+    animation-name: fadeOut;
+}
+@keyframes fadeOut {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}
+.owl-height {
+    transition: height 500ms ease-in-out 0s;
+}
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel .owl-stage {
+    position: relative;
+}
+.owl-carousel .owl-stage::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.owl-carousel .owl-stage-outer {
+    overflow: hidden;
+    position: relative;
+}
+.owl-carousel .owl-item {
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+.owl-carousel .owl-dot, .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+    -moz-user-select: none;
+    cursor: pointer;
+}
+.owl-carousel.owl-loaded {
+    display: block;
+}
+.owl-carousel.owl-loading {
+    display: block;
+    opacity: 0;
+}
+.owl-carousel.owl-hidden {
+    opacity: 0;
+}
+.owl-carousel.owl-refresh .owl-item {
+    display: none;
+}
+.owl-carousel.owl-drag .owl-item {
+    -moz-user-select: none;
+}
+.owl-carousel.owl-grab {
+    cursor: grab;
+}
+.owl-carousel.owl-rtl {
+    direction: rtl;
+}
+.owl-carousel.owl-rtl .owl-item {
+    float: right;
+}
+.no-js .owl-carousel {
+    display: block;
+}
+.owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease 0s;
+}
+.owl-carousel .owl-item img {
+    transform-style: preserve-3d;
+}
+.owl-carousel .owl-video-wrapper {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    position: relative;
+}
+.owl-carousel .owl-video-play-icon {
+    background: rgba(0, 0, 0, 0) url("http://kute-themes.com/prestashop/kuteshop/") no-repeat scroll 0 0;
+    cursor: pointer;
+    height: 80px;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    position: absolute;
+    top: 50%;
+    transition: scale 100ms ease 0s;
+    width: 80px;
+    z-index: 1;
+}
+.owl-carousel .owl-video-play-icon:hover {
+}
+.owl-carousel .owl-video-playing .owl-video-play-icon, .owl-carousel .owl-video-playing .owl-video-tn {
+    display: none;
+}
+.owl-carousel .owl-video-tn {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 400ms ease 0s;
+}
+.owl-carousel .owl-video-frame {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
