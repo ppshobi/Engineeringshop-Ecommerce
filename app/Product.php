@@ -3,14 +3,22 @@
 	* 
 	*/
 	require_once('DB2.php');
-	class Category 
+	class Product
 	{
-		public static function add($name,$descr){
+		public static function add($name,$descr,$category,$mfg,$price,$unit,$qty,$visibility,$photoid,$date){
 			$db = new Db();
 			$name=$db -> quote($name);
 			$descr=$db -> quote($descr);
+			$category=$db -> quote($category);
+			$mfg=$db -> quote($mfg);
+			$price=$db -> quote($price);
+			$unit=$db -> quote($unit);
+			$qty=$db -> quote($qty);
+			$visibility=$db -> quote($visibility);
+			$photoid=$db -> quote($photoid);
+			$date=$db -> quote($date);
 
-			$sql=" INSERT INTO category(name,descr) VALUES('$name','$descr')";
+			$sql=" INSERT INTO products(name,descr,category,mfg,price,unit,qty,visibility,photoid,date) VALUES('$name','$descr','$descr','$category','$mfg','$price','$unit','$qty','$visibility','$photoid','$date')";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
