@@ -6,9 +6,9 @@
 			
 			$result=Category::add($_POST['name'],$_POST['description']);
 			if ($result) {
-				$message="Category Successfully added";
+				$message=true;
 			}else{
-				$message="Something went wrong";
+				$message=false;
 			}
 		}
 ?>
@@ -29,14 +29,7 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style type="text/css">
-	#success{
-		display: none;
-	}
-	#error{
-		display: none;
-	}
-</style>
+
 </head>
 
 <body>
@@ -60,9 +53,31 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading"><?php 
+					<div class="panel-heading">					<?php 
 						if (isset($message)) {
-							echo "<div>".$message."</div>";
+							if ($message) {
+								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Successfully Added Category";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+
+
+							}else{
+								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Something went wrong";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+							}
 						}
 
 					?></div>
