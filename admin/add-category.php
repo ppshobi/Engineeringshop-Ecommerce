@@ -1,14 +1,16 @@
 <?php
-	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-		require_once('../app/Category.php');
-		
-		$result=Category::add($_POST['name'],$_POST['description']);
-		if ($result) {
-			echo "<script>" . "document.getElementById(success).style.display = \"'block'\"" . "</script>";
-		}else{
-			echo "<script>" . "document.getElementById('error').style.display='block'" . "</script>";
+	require_once('../app/Category.php');		
+	$message="";
+		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add-cat'])) {
+			
+			
+			$result=Category::add($_POST['name'],$_POST['description']);
+			if ($result) {
+				$message="Category Successfully added";
+			}else{
+				$message="Something went wrong";
+			}
 		}
-	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +20,6 @@
 <title>Add Category</title>
 
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/datepicker3.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 
 <!--Icons-->
@@ -40,7 +41,7 @@
 
 <body>
 	<?php include_once('nav-sidebar.php'); ?>
-		
+	
 	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">			
 		<div class="row">
 			<ol class="breadcrumb">
@@ -59,7 +60,12 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading">Form Elements</div>
+					<div class="panel-heading"><?php 
+						if (isset($message)) {
+							echo "<div>".$message."</div>";
+						}
+
+					?></div>
 					<div class="panel-body">
 						<div class="col-md-6">
 							<form role="form" method="post" action="">
@@ -72,7 +78,7 @@
 									<label>Category Description</label>
 									<textarea class="form-control" name="description" rows="3"></textarea>
 								</div>
-								<button type="submit" class="btn btn-primary">Add Category</button>
+								<button type="submit" name="add-cat" class="btn btn-primary">Add Category</button>
 								<button type="reset" class="btn btn-default">Reset</button>
 							</div>
 						</form>
@@ -124,6 +130,7 @@
 		  if ($(window).width() <= 767) $('#sidebar-collapse').collapse('hide')
 		})
 	</script>	
+	
 </body>
 
 </html>
