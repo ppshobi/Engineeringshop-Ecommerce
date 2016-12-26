@@ -1,14 +1,14 @@
 <?php
 	require_once('../app/Category.php');		
-	$message="";
-	$categories=Category::getAll();
-	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete'])) {
+	$message;
+
+	if ($_SERVER['REQUEST_METHOD'] == 'GET' && isset($_GET['id'])) {
 			
-			$result=Category::delete($_POST['category']);
+			$result=Category::delete($_GET['id']);
 			if ($result) {
-				$message="Category Successfully Deleted";
+				$message=true;
 			}else{
-				$message="Something Went wrong";
+				$message=false;
 			}
 		}
 ?>
@@ -29,14 +29,6 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style type="text/css">
-	#success{
-		display: none;
-	}
-	#error{
-		display: none;
-	}
-</style>
 </head>
 
 <body>
@@ -60,52 +52,41 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading"><?php 
+					<div class="panel-heading">
+					<?php 
 						if (isset($message)) {
-							echo "<div>".$message."</div>";
+							if ($message) {
+								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Successfully Deleted Category";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+
+
+							}else{
+								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Something went wrong";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+							}
 						}
 
-					?></div>
-					<div class="panel-body">
-						<div class="col-md-6">
-							<form role="form" method="post" action="">
-							
-								<div class="form-group">									
-										
-								<div class="form-group">
-									<label>Select Category To delete</label>
-									<select class="form-control" name="category">
-										<?php										
-											foreach($categories as $cat){
-												echo "<option value=\"". $cat['id'] ."\">" . $cat['name'] ."</option>";
-											}
-										?>
-									</select>
-								</div>
-								</div>								
-								<button type="submit" name="delete" class="btn btn-primary">Delete Category</button>							
-							</div>
-						</form>
+					?>
+					<a href="view-categories.php"><button class="btn btn-primary">Back to view Categories</button></a>
 						
 					</div>
-					<div class="alert bg-success" id="success" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Successfully Added Category
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
-					<div class="alert bg-danger" id="error" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Something went wrong
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
+					<div class="panel-body">
+						
+					
 				</div>
 			</div><!-- /.col-->
 		</div><!-- /.row -->

@@ -1,3 +1,17 @@
+<?php
+require_once('../app/Category.php');		
+	$message="";
+	$categories=Category::getAll();
+	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete'])) {
+			
+			$result=Category::delete($_POST['category']);
+			if ($result) {
+				$message="Category Successfully Deleted";
+			}else{
+				$message="Something Went wrong";
+			}
+		}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,82 +55,29 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading">Advanced Table</div>
+					<div class="panel-heading">View &amp edit All Categories Here</div>
 					<div class="panel-body">
 						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 						    <thead>
 						    <tr>
-						        <th data-field="state" data-checkbox="true" >Item ID</th>
-						        <th data-field="id" data-sortable="true">Item ID</th>
-						        <th data-field="name"  data-sortable="true">Item Name</th>
-						        <th data-field="price" data-sortable="true">Item Price</th>
+						        <th data-field="state" data-checkbox="true" >Category Name</th>
+						        <th data-field="id" data-sortable="true">Category Description</th>
+						        <th data-field="name"  data-sortable="true">Edit</th>
+						        <th data-field="price" data-sortable="true">Delete</th>
 						    </tr>
-						    </thead>
-						</table>
-					</div>
-				</div>
-			</div>
-		</div><!--/.row-->	
-		<div class="row">
-			<div class="col-md-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">Basic Table</div>
-					<div class="panel-body">
-						<table data-toggle="table" data-url="tables/data2.json" >
-						    <thead>
-						    <tr>
-						        <th data-field="id" data-align="right">Item ID</th>
-						        <th data-field="name">Item Name</th>
-						        <th data-field="price">Item Price</th>
-						    </tr>
-						    </thead>
-						</table>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">Styled Table</div>
-					<div class="panel-body">
-						<table data-toggle="table" id="table-style" data-url="tables/data2.json" data-row-style="rowStyle">
-						    <thead>
-						    <tr>
-						        <th data-field="id" data-align="right" >Item ID</th>
-						        <th data-field="name" >Item Name</th>
-						        <th data-field="price" >Item Price</th>
-						    </tr>
-						    </thead>
-						</table>
-						<script>
-						    $(function () {
-						        $('#hover, #striped, #condensed').click(function () {
-						            var classes = 'table';
-						
-						            if ($('#hover').prop('checked')) {
-						                classes += ' table-hover';
-						            }
-						            if ($('#condensed').prop('checked')) {
-						                classes += ' table-condensed';
-						            }
-						            $('#table-style').bootstrapTable('destroy')
-						                .bootstrapTable({
-						                    classes: classes,
-						                    striped: $('#striped').prop('checked')
-						                });
-						        });
-						    });
-						
-						    function rowStyle(row, index) {
-						        var classes = ['active', 'success', 'info', 'warning', 'danger'];
-						
-						        if (index % 2 === 0 && index / 2 < classes.length) {
-						            return {
-						                classes: classes[index / 2]
-						            };
-						        }
-						        return {};
+						    <?php
+						    foreach ($categories as $cat) {
+						    	echo "<tr>";
+						    		echo "<td>".$cat['name']."</td>";
+						    		echo "<td>".$cat['descr']."</td>";
+						    		echo "<td>"."<a href=\"edit-category.php?id={$cat['id']}\">Edit" ."</a> </td>";
+						    		echo "<td>"."<a href=\"delete-category.php?id={$cat['id']}\">Delete"."</a> </td>";
+						   		echo "</tr>";
 						    }
-						</script>
+						    ?>
+						    
+						    </thead>
+						</table>
 					</div>
 				</div>
 			</div>
