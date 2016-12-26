@@ -10,7 +10,7 @@
 			$name=$db -> quote($name);
 			$descr=$db -> quote($descr);
 
-			$sql=" INSERT INTO category(name,descr) VALUES('$name','$descr')";
+			$sql=" INSERT INTO unit(name,descr) VALUES('$name','$descr')";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
@@ -25,7 +25,7 @@
 			$name=$db -> quote($name);
 			$descr=$db -> quote($descr);
 
-			$sql=" UPDATE category SET name = '$name',descr = '$descr' WHERE id= '$id' ";
+			$sql=" UPDATE unit SET name = '$name',descr = '$descr' WHERE id= '$id' ";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
@@ -37,7 +37,7 @@
 
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM category";
+			$sql="SELECT * FROM unit";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -51,7 +51,7 @@
 		}
 		public static function getOne($id){
 			$db=new Db();
-			$sql="SELECT * FROM category WHERE id= $id LIMIT 1";
+			$sql="SELECT * FROM unit WHERE id= $id LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -65,7 +65,7 @@
 		}
 		public static function delete($catid){
 			$db=new Db();
-			$sql="DELETE FROM category WHERE id=$catid";
+			$sql="DELETE FROM unit WHERE id=$catid";
 			$result=$db->query($sql);
 			if($result){				
 				return true;

@@ -24,5 +24,9 @@ class Db
 	function quote($var){
 		return htmlspecialchars($var);
 	}
+
+	function lastid(){
+		return self::$connection->insert_id;
+	}
 }
 ?>

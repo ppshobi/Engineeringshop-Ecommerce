@@ -2,14 +2,14 @@
 	require_once('../app/Product.php');	
 	require_once('../app/Category.php');			
 	require_once('../app/Unit.php');			
-	$message="";
+	$message;
 
 	$categories=Category::getAll();
 	$units=Unit::getAll();
 		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add-prod'])) {
 			
 			
-			$result=Product::add($_POST['name'],$_POST['description']);
+			$result=Product::add($_POST['name'],$_POST['description'],$_POST['category'],$_POST['mfg'],$_POST['price'],$_POST['unit'],$_POST['qty'],$_POST['visibility'],$_FILES['img1'],$_FILES['img2'],$_FILES['img3'],$_FILES['img4'],$_FILES['img5']);
 			if ($result) {
 				$message=true;
 			}else{
@@ -34,14 +34,7 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style type="text/css">
-	#success{
-		display: none;
-	}
-	#error{
-		display: none;
-	}
-</style>
+
 </head>
 
 <body>
@@ -65,15 +58,37 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading"><?php 
+					<div class="panel-heading">					<?php 
 						if (isset($message)) {
-							echo "<div>".$message."</div>";
+							if ($message) {
+								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Successfully Added Product";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+
+
+							}else{
+								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Something went wrong";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+							}
 						}
 
 					?></div>
 					<div class="panel-body">
 						<div class="col-md-6">
-							<form role="form" method="post" action="">
+							<form role="form" method="post" action="" enctype="multipart/form-data"  >
 							
 								<div class="form-group">
 									<label>Product Name</label>
@@ -86,7 +101,7 @@
 
 								<div class="form-group">
 									<label>Select Category</label>
-									<select class="form-control">
+									<select class="form-control" name="category">
 										<?php
 											foreach ($categories as $cat) {
 												echo "<option value=".$cat['id'].">".$cat['name']."</option>";
@@ -104,7 +119,7 @@
 								</div>
 								<div class="form-group">
 									<label>Unit</label>
-									<select class="form-control">
+									<select class="form-control" name="unit">
 										<?php
 											foreach ($units as $unit) {
 												echo "<option value=".$unit['id'].">".$unit['name']."</option>";
@@ -151,7 +166,7 @@
 									<input type="file" name="img5"> 
 								</div>
 
-								<button type="submit" name="add-cat" class="btn btn-primary">Add Product</button>
+								<button type="submit" name="add-prod" class="btn btn-primary">Add Product</button>
 								<button type="reset" class="btn btn-default">Reset</button>
 							</div>
 						</form>
