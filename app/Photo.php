@@ -19,7 +19,7 @@
 			return false;
 			
 		}
-		public static function getAllPhoto($product_id){
+		public static function getAll($product_id){
 			$db=new Db();
 			$sql="SELECT * FROM photo WHERE product_id= $product_id";
 			$rows=[];
