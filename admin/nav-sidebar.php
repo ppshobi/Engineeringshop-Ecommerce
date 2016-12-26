@@ -46,11 +46,7 @@
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Category
 						</a>
 					</li>
-					<li>
-						<a class="" href="#">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Edit Category
-						</a>
-					</li>					
+										
 				</ul>
 			</li>
 			<li class="parent ">
@@ -68,11 +64,25 @@
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Products
 						</a>
 					</li>
+								
+				</ul>
+			</li>
+			<li class="parent ">
+				<a href="#">
+					<span data-toggle="collapse" href="#unit"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Unit
+				</a>
+				<ul class="children collapse" id="unit">
 					<li>
-						<a class="" href="#">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Edit Product
+						<a class="" href="add-unit.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Add Unit
 						</a>
-					</li>					
+					</li>
+					<li>
+						<a class="" href="view-units.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Units
+						</a>
+					</li>
+								
 				</ul>
 			</li>
 			<li><a href="widgets.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>
