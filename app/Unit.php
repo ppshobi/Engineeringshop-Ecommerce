@@ -3,7 +3,7 @@
 	* 
 	*/
 	require_once('DB2.php');
-	class Category 
+	class Unit 
 	{
 		public static function add($name,$descr){
 			$db = new Db();

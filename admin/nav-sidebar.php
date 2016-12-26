@@ -50,12 +50,29 @@
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Edit Category
 						</a>
-					</li>
+					</li>					
+				</ul>
+			</li>
+			<li class="parent ">
+				<a href="#">
+					<span data-toggle="collapse" href="#product"><svg class="glyph stroked chevron-down"><use xlink:href="#stroked-chevron-down"></use></svg></span> Product
+				</a>
+				<ul class="children collapse" id="product">
 					<li>
-						<a class="" href="delete-category.php">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Delete Category
+						<a class="" href="add-product.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Add Product
 						</a>
 					</li>
+					<li>
+						<a class="" href="view-products.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Products
+						</a>
+					</li>
+					<li>
+						<a class="" href="#">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Edit Product
+						</a>
+					</li>					
 				</ul>
 			</li>
 			<li><a href="widgets.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>

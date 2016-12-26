@@ -18,7 +18,7 @@
 			$photoid=$db -> quote($photoid);
 			$date=$db -> quote($date);
 
-			$sql=" INSERT INTO products(name,descr,category,mfg,price,unit,qty,visibility,photoid,date) VALUES('$name','$descr','$descr','$category','$mfg','$price','$unit','$qty','$visibility','$photoid','$date')";
+			$sql=" INSERT INTO products(name,descr,category,mfg,price,unit,qty,visibility,photoid,date) VALUES('$name','$descr','$descr','$category','$mfg','$price','$unit','$qty','$visibility','$photoid',CURDATE()";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
