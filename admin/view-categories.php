@@ -1,14 +1,14 @@
 <?php
 require_once('../app/Category.php');		
-	$message="";
+	$message;
 	$categories=Category::getAll();
 	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete'])) {
 			
 			$result=Category::delete($_POST['category']);
 			if ($result) {
-				$message="Category Successfully Deleted";
+				$message=true;
 			}else{
-				$message="Something Went wrong";
+				$message=false;
 			}
 		}
 ?>
@@ -55,7 +55,34 @@ require_once('../app/Category.php');
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading">View &amp edit All Categories Here</div>
+					<div class="panel-heading">					<?php 
+						if (isset($message)) {
+							if ($message) {
+								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Successfully Deleted Product";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+
+
+							}else{
+								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Something went wrong";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+							}
+						}
+
+					?></div>
 					<div class="panel-body">
 						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 						    <thead>
