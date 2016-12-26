@@ -7,15 +7,6 @@
 	$categories=Category::getAll();
 	$units=Unit::getAll();
 	$products=Product::getAll();
-	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['delete'])) {
-			
-			$result=product::delete($_POST['product']);
-			if ($result) {
-				$message="product Successfully Deleted";
-			}else{
-				$message="Something Went wrong";
-			}
-		}
 ?>
 <!DOCTYPE html>
 <html>
@@ -90,7 +81,7 @@
 						    			$product['unit']=$unit['name'];
 						    		}
 						    	}
-						    	
+
 						    	foreach ($categories as $category) {
 						    		if ($category['id']==$product['category']) {
 						    			$product['category']=$category['name'];

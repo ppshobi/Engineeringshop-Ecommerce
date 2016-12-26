@@ -58,7 +58,7 @@
 				while ($r=mysqli_fetch_assoc($result)) {
 					array_push($rows, $r);
 				}
-				return $rows;
+				return $rows[0];
 			}
 			return false;
 			

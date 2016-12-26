@@ -58,14 +58,14 @@
 				while ($r=mysqli_fetch_assoc($result)) {
 					array_push($rows, $r);
 				}
-				return $rows;
+				return $rows[0];
 			}
 			return false;
 			
 		}
-		public static function delete($catid){
+		public static function delete($unitid){
 			$db=new Db();
-			$sql="DELETE FROM unit WHERE id=$catid";
+			$sql="DELETE FROM unit WHERE id=$unitid";
 			$result=$db->query($sql);
 			if($result){				
 				return true;

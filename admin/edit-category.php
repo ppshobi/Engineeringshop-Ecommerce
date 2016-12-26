@@ -68,13 +68,13 @@
 							
 								<div class="form-group">
 									<label>Category Name</label>
-									<input class="form-control" name="name" value="<?php echo $category[0]['name']; ?>" placeholder="Enter Category Name">
+									<input class="form-control" name="name" value="<?php echo $category['name']; ?>" placeholder="Enter Category Name">
 								</div>
 								<div class="form-group">
 									<label>Category Description</label>
-									<textarea class="form-control" name="description" rows="3"><?php echo $category[0]['descr']; ?></textarea>
+									<textarea class="form-control" name="description" rows="3"><?php echo $category['descr']; ?></textarea>
 								</div>
-								<input type="hidden" name="id" value="$_GET['id']">
+								<input type="hidden" name="id" value="<?php echo $_GET['id']?>">
 								<button type="submit" name="edit-cat" class="btn btn-primary">Edit Category</button>
 								<button type="reset" class="btn btn-default">Reset</button>
 							</div>
