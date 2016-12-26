@@ -73,12 +73,19 @@
 			}
 		}
 
-		public static function edit($id,$name,$descr){
+		public static function edit($id,$name,$descr,$category,$mfg,$price,$unit,$qty,$visibility){
 			$db = new Db();
+			$id=$db->quote($id);
 			$name=$db -> quote($name);
 			$descr=$db -> quote($descr);
+			$category=$db -> quote($category);
+			$mfg=$db -> quote($mfg);
+			$price=$db -> quote($price);
+			$unit=$db -> quote($unit);
+			$qty=$db -> quote($qty);
+			$visibility=$db -> quote($visibility);
 
-			$sql=" UPDATE category SET name = '$name',descr = '$descr' WHERE id= '$id' ";
+			$sql=" UPDATE products SET name = '$name',descr = '$descr',category = '$category',mfg = '$mfg',price = '$price',unit = '$unit',qty = '$qty',visibility ='$visibility' WHERE id = '$id' ";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
