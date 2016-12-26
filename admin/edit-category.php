@@ -1,14 +1,18 @@
 <?php
-	require_once('../app/Category.php');		
-	$message="";
-	$categories=Category::getAll();
-	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['edit'])) {
+	require_once('../app/Category.php');	
+	$category;
+	if ($_GET['id']) {
+		$category=Category::getOne($_GET['id']);		
+	}	
+	$message;
+		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['edit-cat'])) {
 			
-			$result=Category::getOne($_POST['category']);
+			
+			$result=Category::edit($_GET['id'],$_POST['name'],$_POST['description']);
 			if ($result) {
-				$message="Category Successfully Deleted";
+				$message=true;
 			}else{
-				$message="Something Went wrong";
+				$message=false;
 			}
 		}
 ?>
@@ -29,14 +33,6 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style type="text/css">
-	#success{
-		display: none;
-	}
-	#error{
-		display: none;
-	}
-</style>
 </head>
 
 <body>
@@ -52,7 +48,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Delete a Category</h1>
+				<h1 class="page-header">Edit Category</h1>
 			</div>
 		</div><!--/.row-->
 				
@@ -70,42 +66,49 @@
 						<div class="col-md-6">
 							<form role="form" method="post" action="">
 							
-								<div class="form-group">									
-										
 								<div class="form-group">
-									<label>Select Category To delete</label>
-									<select class="form-control" name="category">
-										<?php										
-											foreach($categories as $cat){
-												echo "<option value=\"". $cat['id'] ."\">" . $cat['name'] ."</option>";
-											}
-										?>
-									</select>
+									<label>Category Name</label>
+									<input class="form-control" name="name" value="<?php echo $category[0]['name']; ?>" placeholder="Enter Category Name">
 								</div>
-								</div>								
-								<button type="submit" name="delete" class="btn btn-primary">Delete Category</button>							
+								<div class="form-group">
+									<label>Category Description</label>
+									<textarea class="form-control" name="description" rows="3"><?php echo $category[0]['descr']; ?></textarea>
+								</div>
+								<input type="hidden" name="id" value="$_GET['id']">
+								<button type="submit" name="edit-cat" class="btn btn-primary">Edit Category</button>
+								<button type="reset" class="btn btn-default">Reset</button>
 							</div>
 						</form>
 						
 					</div>
-					<div class="alert bg-success" id="success" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Successfully Added Category
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
-					<div class="alert bg-danger" id="error" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Something went wrong
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
+					<?php 
+						if (isset($message)) {
+							if ($message) {
+								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Successfully Updated Category";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+
+
+							}else{
+								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+								echo " <svg class=\"glyph stroked checkmark\">";
+								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
+								echo " </svg>";
+								echo " Something went wrong";
+								echo " <a href=\"#\" class=\"pull-right\">";
+								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
+								echo " </a>";
+								echo " </div>";
+							}
+						}
+
+					?>
 				</div>
 			</div><!-- /.col-->
 		</div><!-- /.row -->
@@ -137,37 +140,4 @@
 	
 </body>
 
-</html>
-
-$seller=$_SESSION['farmercart_admin_id'];
-$catid="";
-if (isset($_GET['catid'])) {
-	$catid=$_GET['catid'];
-}
-
-$sql="DELETE FROM category WHERE id=$catid";
-$result=mysqlexec($sql);
-if ($result) {
-	echo "CategoryDeleted Successfully";
-}else{
-	echo "CategoryDeletion failed";
-}
-
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Delete Category Farmercart</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-
-</head>
-<body>
-<a href="viewcategory.php">
-<button type="button" class="btn btn-success">Back To view Category</button>
-</a>
-</body>
 </html>

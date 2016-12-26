@@ -42,7 +42,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="view-categories.php" href="#">
+						<a class="" href="view-categories.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Category
 						</a>
 					</li>
