@@ -116,10 +116,16 @@
 			return false;
 			
 		}
+
 		public static function delete($id){
 			$db=new Db();
 			$sql="DELETE FROM products WHERE id=$id";
 			$result=$db->query($sql);
+			$sql="DELETE FROM photo WHERE product_id=$id";
+			$result=$db->query($sql);
+			$target="../products/".$id."/";
+			array_map('unlink', glob("$target*.*"));
+			rmdir($target);
 			if($result){				
 				return true;
 			}

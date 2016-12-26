@@ -90,6 +90,7 @@
 						    			$product['unit']=$unit['name'];
 						    		}
 						    	}
+						    	
 						    	foreach ($categories as $category) {
 						    		if ($category['id']==$product['category']) {
 						    			$product['category']=$category['name'];
