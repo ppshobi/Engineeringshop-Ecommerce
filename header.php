@@ -1,3 +1,7 @@
+ <?php
+    require_once('app/Category.php');
+    $categories=Category::getAll();
+ ?>
  <header class="header header-style3">
         <div class="header-top">
             <div class="container">
@@ -81,7 +85,7 @@
                         </a>
                     </h1>
                     <div class="header-search">
-                        <form action="http://kute-themes.com/html/supermarket/html/form.php" class="form form-search-header">
+                        <form action="" class="form form-search-header">
                             <input type="text" placeholder="Search here...">
                             <select name="show-categories" id="show-categories">
                                 <option value="all">All Categories</option>
@@ -172,172 +176,19 @@
                                     <ul class="sub-menu sub-menu-open">
                                         <li class="menu-item has-mega">
                                             <a href="#"><i class="flaticon-atom"></i>Electronics</a>
-                                            <div class="sub-menu mega-menu">
-                                                <div class="row">
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phones</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Octa Core</a></li>
-                                                                <li class="menu-item"><a href="#">Quad Core</a></li>
-                                                                <li class="menu-item"><a href="#">Single SIM Card</a></li>
-                                                                <li class="menu-item"><a href="#">Dual SIM Card</a></li>
-                                                                <li class="menu-item"><a href="#">3GB RAM</a></li>
-                                                                <li class="menu-item"><a href="#">5.0 Display</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phone Part</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Mobile Phone LCDs</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Batteries</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Housings</a></li>
-                                                                <li class="menu-item"><a href="#">Signal Boosters</a></li>
-                                                                <li class="menu-item"><a href="#">SIM Card & Tools</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Phone Bag Cases</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Pouches</a></li>
-                                                                <li class="menu-item"><a href="#">Bumper Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Waterproof Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Leather Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Aluminum Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Rhinestone Cases</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Walkies Talkies</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Walkie-Talkies</a></li>
-                                                                <li class="menu-item"><a href="#">Walkie-Talkie Accessories</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phone Accessories</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Backup Battery Packs</a></li>
-                                                                <li class="menu-item"><a href="#">Screen Protectors</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Cables</a></li>
-                                                                <li class="menu-item"><a href="#">Chargers</a></li>
-                                                                <li class="menu-item"><a href="#">Holders & Stands</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Lenses</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Comunications Equiment</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Antennas for Communications</a></li>
-                                                                <li class="menu-item"><a href="#">Communication Cables</a></li>
-                                                                <li class="menu-item"><a href="#">Fiber Optic Equipment</a></li>
-                                                                <li class="menu-item"><a href="#">Fixed Wireless Terminals</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="img-mega">
-                                                            <figure><img src="assets/images/mega2.jpg" alt="mega" height="481" width="232"></figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                         </li>
-                                        <li class="menu-item">
-                                            <a href="#"><i class="flaticon-technology"></i>Smartphone & Table</a>
-                                        </li>
-                                        <li class="menu-item has-mega">
-                                            <a href="#"><i class="flaticon-monitor"></i>Television</a>
-                                            <div class="sub-menu mega-menu">
-                                                <div class="row">
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phones</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Octa Core</a></li>
-                                                                <li class="menu-item"><a href="#">Quad Core</a></li>
-                                                                <li class="menu-item"><a href="#">Single SIM Card</a></li>
-                                                                <li class="menu-item"><a href="#">Dual SIM Card</a></li>
-                                                                <li class="menu-item"><a href="#">3GB RAM</a></li>
-                                                                <li class="menu-item"><a href="#">5.0 Display</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phone Part</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Mobile Phone LCDs</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Batteries</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Housings</a></li>
-                                                                <li class="menu-item"><a href="#">Signal Boosters</a></li>
-                                                                <li class="menu-item"><a href="#">SIM Card & Tools</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Phone Bag Cases</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Pouches</a></li>
-                                                                <li class="menu-item"><a href="#">Bumper Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Waterproof Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Leather Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Aluminum Cases</a></li>
-                                                                <li class="menu-item"><a href="#">Rhinestone Cases</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Walkies Talkies</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Walkie-Talkies</a></li>
-                                                                <li class="menu-item"><a href="#">Walkie-Talkie Accessories</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Mobile Phone Accessories</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Backup Battery Packs</a></li>
-                                                                <li class="menu-item"><a href="#">Screen Protectors</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Cables</a></li>
-                                                                <li class="menu-item"><a href="#">Chargers</a></li>
-                                                                <li class="menu-item"><a href="#">Holders & Stands</a></li>
-                                                                <li class="menu-item"><a href="#">Mobile Phone Lenses</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="mega-content">
-                                                            <p class="mega-item-title">Comunications Equiment</p>
-                                                            <ul class="menu">
-                                                                <li class="menu-item"><a href="#">Antennas for Communications</a></li>
-                                                                <li class="menu-item"><a href="#">Communication Cables</a></li>
-                                                                <li class="menu-item"><a href="#">Fiber Optic Equipment</a></li>
-                                                                <li class="menu-item"><a href="#">Fixed Wireless Terminals</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="img-mega">
-                                                            <figure><img src="assets/images/mega2.jpg" alt="mega" height="481" width="232"></figure>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-leather-derby-shoe"></i>Shoes & Accessories</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-photo-camera"></i>Camera & Photo</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-time"></i>Watch & Jewellry</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-diamond"></i>Accessories</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-soccer-ball"></i>Sport & Outdoors</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-multiple-computers-connected"></i>Computer & Networking </a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-table-lamp"></i>Flashlights & Lamps</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-transport"></i>Fashion & Accecssories</a></li>
-                                        <li class="menu-item"><a href="#"><i class="flaticon-dollar-symbol"></i>Watch & Shoes</a></li>
+                                        <?php
+                                        foreach ($categories as $category) {
+                                            echo "<li class=\"menu-item\">";
+                                            
+                                            echo "<a href=\"#\"><i class=\"flaticon-technology\"></i>".$category['name']."</a>";
+                                           echo "</li>";
+                                        }
+                                        ?>                                        
+                                        
                                     </ul>
-                                    <span class="more-categories open-cate">More Categories</span>
+                                    <span class="more-categories open-cate">Shop</span>
                                 </div>
                             </div>
                         </li>
@@ -354,19 +205,8 @@
                         </li>
                         <li class="menu-item"><a href="#">New Arrival</a></li>
                         <li class="menu-item"><a href="#">Deals</a></li>
-                        <li class="menu-item has-childrent">
-                            <a href="#">Shop</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="categories-grid.php">Categories Grid 1</a></li>
-                                <li class="menu-item"><a href="category-grid-right-sidebar.php">Categories Grid 1 Right Sidebar</a></li>
-                                <li class="menu-item"><a href="categories-grid2.php">Categories Grid 2</a></li>
-                                <li class="menu-item"><a href="categories-grid2-right-sidebar.php">Categories Grid 2 Right Sidebar</a></li>
-                                <li class="menu-item"><a href="categories-grid3.php">Categories Grid 3</a></li>
-                                <li class="menu-item"><a href="categories-list1.php">Categories List 1</a></li>
-                                <li class="menu-item"><a href="categories-list1-right-sidebar.php">Categories List 1 Right Sidebar</a></li>
-                                <li class="menu-item"><a href="categories-list2.php">Categories List 2</a></li>
-                                <li class="menu-item"><a href="categories-list2-right-sidebar.php">Categories List 2 Right Sidebar</a></li>
-                            </ul>
+                        <li class="menu-item">
+                            <a href="shop.php">Shop</a> 
                         </li>
 
 
