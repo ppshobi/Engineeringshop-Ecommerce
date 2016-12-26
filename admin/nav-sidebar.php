@@ -42,12 +42,17 @@
 						</a>
 					</li>
 					<li>
+						<a class="view-categories.php" href="#">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> View Category
+						</a>
+					</li>
+					<li>
 						<a class="" href="#">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Edit Category
 						</a>
 					</li>
 					<li>
-						<a class="" href="#">
+						<a class="" href="delete-category.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Delete Category
 						</a>
 					</li>
