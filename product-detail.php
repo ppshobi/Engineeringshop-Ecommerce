@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['cart'];
     require_once('app/Product.php');
     require_once('app/Photo.php');
 
@@ -75,7 +77,7 @@
                         <div class="col-md-7">
                             <div class="single-product-content">
                                 <h3 class="product-title"><?php echo $product['name'];?></h3>
-                                <a href="#" class="write">Write Your Review</a>
+                                <a href="#" class="write">Purchase Now</a>
                                 <p class="product-cost"><?php echo $product['price']; ?></p>
                                 <p class="stock">Availability:<span><i class="fa fa-check-square-o" aria-hidden="true"></i>In stock</span></p>
                                 <div class="desc-product-title">Quick OverView</div>
@@ -148,7 +150,7 @@
                                             <p>Secure payments
                                                 Guaranteed refunds
                                                 Escrow protection on every oder</p>
-                                            <a href="#">Read More<i aria-hidden="true" class="fa fa-angle-double-right"></i></a>
+                                            <a href="#"" >Read More<i aria-hidden="true" class="fa fa-angle-double-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -214,6 +216,14 @@
             var src=this.src;
             $("#product-big").attr("src",src);
         });
+        //adding to cart
+        $(".add-to-cart").click(function() {
+            item=$(".hover-cart-item:first").clone();
+            src= $('#product-big').attr('src');
+
+            $(item.appendTo(".list-hover-cart"));
+        });
+
     </script>
 </body>
 

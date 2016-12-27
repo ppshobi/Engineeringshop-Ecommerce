@@ -19,6 +19,21 @@
 			return false;
 			
 		}
+		public static function getOneWithUrl($product_id){
+			$db=new Db();
+			$sql="SELECT * FROM photo WHERE product_id= $product_id LIMIT 1";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				 $url="products/".$product_id."/".$rows[0]['location'];
+				 return $url;
+			}
+			return false;
+			
+		}
 		public static function getAll($product_id){
 			$db=new Db();
 			$sql="SELECT * FROM photo WHERE product_id= $product_id";

@@ -4,8 +4,76 @@
 		"selected_items":
 		[
 			[
+				"inc",
+				"include_once"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"product",
+				"product-big"
+			],
+			[
+				"pho",
+				"photo1"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"q",
+				"quote"
+			],
+			[
 				"_",
 				"_POST"
+			],
+			[
+				"catg",
+				"category"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"im",
+				"img1"
+			],
+			[
+				"ima",
+				"image_directory_create"
+			],
+			[
+				"Pro",
+				"products"
+			],
+			[
+				"cate",
+				"Category"
+			],
+			[
+				"Categ",
+				"Category"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ed",
+				"edit-cat"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
 			],
 			[
 				"categ",
@@ -64,81 +132,46 @@
 	"buffers":
 	[
 		{
-			"file": "admin/add-category.php",
+			"file": "shop.php",
 			"settings":
 			{
-				"buffer_size": 3796,
+				"buffer_size": 39737,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "admin/delete-category.php",
+			"file": "product-detail.php",
 			"settings":
 			{
-				"buffer_size": 3836,
+				"buffer_size": 12235,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/Category.php",
+			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 1447,
+				"buffer_size": 9105,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/DB2.php",
+			"file": "app/Photo.php",
 			"settings":
 			{
-				"buffer_size": 465,
+				"buffer_size": 698,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "admin/edit-category.php",
+			"file": "admin/add-unit.php",
 			"settings":
 			{
-				"buffer_size": 4507,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/xampp/htdocs/farmercart/admin/viewcategory.php",
-			"settings":
-			{
-				"buffer_size": 8868,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "admin/forms.php",
-			"settings":
-			{
-				"buffer_size": 5660,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "admin/view-categories.php",
-			"settings":
-			{
-				"buffer_size": 4921,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "view-categories.php"
-			}
-		},
-		{
-			"file": "admin/nav-sidebar.php",
-			"settings":
-			{
-				"buffer_size": 4464,
+				"buffer_size": 3863,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -187,30 +220,51 @@
 	[
 		"/C/xampp/htdocs/engineeringshop",
 		"/C/xampp/htdocs/engineeringshop/admin",
-		"/C/xampp/htdocs/engineeringshop/app"
+		"/C/xampp/htdocs/engineeringshop/app",
+		"/C/xampp/htdocs/engineeringshop/assets",
+		"/C/xampp/htdocs/engineeringshop/assets/js"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/engineeringshop/assets/js/frontend.js",
+		"/C/xampp/htdocs/shop page backup.php",
+		"/C/xampp/htdocs/engineeringshop/header.php",
+		"/C/xampp/htdocs/engineeringshop/admin/edit-unit.php",
+		"/C/xampp/htdocs/engineeringshop/app/Category.php",
+		"/C/xampp/htdocs/engineeringshop/admin/edit-category.php",
+		"/C/xampp/htdocs/engineeringshop/admin/delete-unit.php",
+		"/C/xampp/htdocs/engineeringshop/admin/view-products.php",
+		"/C/xampp/htdocs/engineeringshop/admin/view-units.php",
+		"/C/xampp/htdocs/engineeringshop/admin/view-categories.php",
+		"/C/xampp/htdocs/engineeringshop/app/Unit.php",
+		"/C/xampp/htdocs/engineeringshop/admin/delete-product.php",
+		"/C/xampp/htdocs/engineeringshop/admin/edit-product.php",
+		"/C/xampp/htdocs/engineeringshop/admin/add-category.php",
+		"/C/xampp/htdocs/engineeringshop/admin/nav-sidebar.php",
+		"/C/xampp/htdocs/engineeringshop/app/Product.php",
+		"/C/xampp/htdocs/engineeringshop/admin/add-product.php",
+		"/C/xampp/htdocs/farmercart/admin/adminfunctions.php",
+		"/C/xampp/htdocs/farmercart/admin/addprod.php",
+		"/C/xampp/htdocs/engineeringshop/app/DB2.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/engineeringshop/admin/delete-category.php",
+		"/C/xampp/htdocs/farmercart/admin/viewproducts.php",
+		"/C/xampp/htdocs/farmercart/admin/viewcategory.php",
+		"/C/xampp/htdocs/engineeringshop/admin/forms.php",
 		"/C/xampp/htdocs/farmercart/admin/deletecat.php",
 		"/C/xampp/htdocs/engineeringshop/app/Database.php",
-		"/C/xampp/htdocs/engineeringshop/app/DB2.php",
-		"/C/xampp/htdocs/engineeringshop/admin/nav-sidebar.php",
 		"/C/xampp/htdocs/farmercart/admin/deleteprod.php",
-		"/C/xampp/htdocs/farmercart/admin/viewcategory.php",
-		"/C/xampp/htdocs/farmercart/admin/adminfunctions.php",
 		"/C/xampp/htdocs/farmercart/admin/editcat.php",
 		"/C/xampp/htdocs/engineeringshop/test.php",
 		"/C/xampp/htdocs/engineeringshop/testquery.php",
 		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
-		"/C/xampp/php/php.ini",
-		"/C/xampp/htdocs/engineeringshop/app/Category.php",
 		"/C/xampp/htdocs/engineeringshop/engineering.sublime-project",
 		"/C/xampp/htdocs/engineeringshop/engineeringshop.sublime-project",
 		"/C/xampp/htdocs/phpinfo"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -224,6 +278,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ?></",
+			"'];?></",
+			"\\n",
+			"category",
+			"Category",
+			"category",
+			"Category",
+			"category",
+			"Category",
+			"cat",
+			"Category",
+			"cat",
+			"Category",
+			"Product",
+			"product",
+			"Product",
+			"add-prod",
+			"Category",
+			"unit",
+			"cat",
+			"category",
+			"Category",
+			"category",
+			"Category",
+			"1",
+			"$_FILES['img1']",
+			"']",
+			"<form",
+			"error_repor",
+			"error",
+			"$link",
+			"category",
+			"pic",
+			"category",
+			"1",
+			"price",
+			"Price",
+			"Unit",
+			"Manufacture",
+			"Category",
+			"category",
+			"Category",
+			",",
 			"categ",
 			"<",
 			"dbc",
@@ -252,168 +349,24 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "admin/add-category.php",
+					"file": "shop.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3796,
+						"buffer_size": 39737,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2052,
-								2052
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "admin/delete-category.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								3836
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Category.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1447,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								642,
-								642
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 513.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/DB2.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 465,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								457,
-								457
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "admin/edit-category.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4507,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								331,
-								331
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/xampp/htdocs/farmercart/admin/viewcategory.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8868,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								13534,
+								13517
 							]
 						],
 						"settings":
@@ -423,85 +376,87 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2964.0,
+						"translation.y": 3720.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "admin/forms.php",
+					"buffer": 1,
+					"file": "product-detail.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5660,
+						"buffer_size": 12235,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4043,
-								4068
+								11080,
+								11080
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 174.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "admin/view-categories.php",
+					"buffer": 2,
+					"file": "footer.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4921,
+						"buffer_size": 9105,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								569,
-								572
+								9105,
+								9105
 							]
 						],
 						"settings":
 						{
-							"auto_name": "view-categories.php",
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1679.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "admin/nav-sidebar.php",
+					"buffer": 3,
+					"file": "app/Photo.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4464,
+						"buffer_size": 698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2114,
-								2114
+								414,
+								414
 							]
 						],
 						"settings":
@@ -510,32 +465,51 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "admin/add-unit.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3863,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{
@@ -544,32 +518,18 @@
 			[
 				0,
 				0,
-				2,
+				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
-			],
-			[
-				1,
-				1,
-				2,
-				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.948822927329,
 			1.0
 		]
 	},
@@ -586,7 +546,7 @@
 	"project": "engineeringshop.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
