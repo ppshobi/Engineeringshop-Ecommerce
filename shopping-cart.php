@@ -1,6 +1,7 @@
 <?php
 session_start();
 require_once('app/Cart.php');
+require_once('app/Photo.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['addtocart'])) {
 
@@ -46,7 +47,7 @@ require_once('app/Cart.php');
                             <tr>
                                 <th class="product-thumbnail">&nbsp;</th>
                                 <th class="product-name">Product Name</th>
-                                <th class="product-edit">&nbsp;</th>
+                            
                                 <th class="product-price">Unit Price</th>
                                 <th class="product-quantity">Qty</th>
                                 <th class="product-subtotal">Subtotal</th>
@@ -54,29 +55,37 @@ require_once('app/Cart.php');
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="cart_item">
-                                <td class="product-thumbnail" data-title="">
-                                    <a href="#"><img height="150" width="185" alt="s_c" class="attachment-shop_thumbnail wp-post-image" src="assets/images/s_c.jpg"></a>
-                                </td>
-                                <td class="product-name" data-title="Product Name">
-                                    <a href="#">Fukasawa's Twelve watch</a>
-                                </td>
-                                <td class="edit"><a href="#">Edit</a></td>
-                                <td class="product-price" data-title="Unit Price">
-                                    <span class="amount">$168.00</span>
-                                </td>
-                                <td class="product-quantity" data-title="Qty">
-                                    <div class="quantity buttons_added">
-                                        <input type="text" class="input-text qty text" title="Qty" value="1" name="qty">
-                                    </div>
-                                </td>
-                                <td class="product-subtotal" data-title="Subtotal">
-                                    <span class="amount">$168.00</span>
-                                </td>
-                                <td class="product-remove" data-title="Remove">
-                                    <a title="Remove this item" class="remove" href="#">×</a>
-                                </td>
-                            </tr>
+                        <?php
+                            $c_cart=Cart::getCart();
+                            foreach ($c_cart as $c_product) {                                
+                            $img=Photo::getOneWithUrl($c_product['id']);
+                            echo "<tr class=\"cart_item\">";
+                                echo "<td class=\"product-thumbnail\" data-title=\"\">";
+                                    echo "<a href=\"#\">";
+                                        echo "<img height=\"150\" width=\"185\" alt=\"s_c\" class=\"attachment-shop_thumbnail wp-post-image\" src=\"".$img."\">";
+                                    echo "</a>";
+                                echo "</td>";
+                                echo "<td class=\"product-name\" data-title=\"Product Name\">";
+                                    echo "<a href=\"#\">".$c_product['name']."</a>";
+                                echo "</td>";
+                                echo "<td class=\"product-price\" data-title=\"Unit Price\">";
+                                    echo "<span class=\"amount\">&#8377; ".$c_product['price']."</span>";
+                                echo "</td>";
+                                echo "<td class=\"product-quantity\" data-title=\"Qty\">";
+                                    echo "<div class=\"quantity buttons_added\">";
+                                    echo "<input type=\"text\" class=\"input-text qty text\" title=\"Qty\" value=\"".$c_product['qty']."\" name=\"qty\">";
+                                    echo "</div>";
+                                echo "</td>";
+                                echo "<td class=\"product-subtotal\" data-title=\"Subtotal\">";
+                                    echo "<span class=\"amount\">&#8377; ".$c_product['subtotal']."</span>";
+                                echo "</td>";
+                                
+                            echo "</tr>";
+
+                            echo "\n";
+                            }
+
+                        ?>
                         </tbody>
                     </table>
                     <div class="button-cart">
