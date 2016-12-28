@@ -1,6 +1,11 @@
  <?php
     require_once('app/Category.php');
+    require_once('app/Cart.php');
+    require_once('app/Photo.php');
     $categories=Category::getAll();
+    $prodct_count=Cart::get_product_count();
+    $cart=Cart::getCart();
+
  ?>
  <header class="header header-style3">
         <div class="header-top">
@@ -132,24 +137,33 @@
                                 <i class="flaticon-commerce"></i>
                                 <span class="text-bold">Cart</span>
                                 <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                <p class="cart-amount">6</p>
+                                <p class="cart-amount"><?php echo $prodct_count; ?></p>
                             </a>
                         </div>
                         <div class="cart-hover">
                             <div class="cart-hover-title">Your Products <span>Prices</span></div>
                             <ul class="list-hover-cart">
-                                <li class="hover-cart-item">
-                                    <a href="#" class="img-hover-cart">
-                                        <img src="assets/images/img-hover-cart.jpg" alt="img-hover-cart" width="75" height="89">
-                                        <span class="delete-product-hover-cart"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-                                    </a>
-                                    <div class="text-hover-cart">
-                                        <p class="name-hover-cart">Men's Skagen Watch</p>
-                                        <p class="version-hover-cart">Vesion <span>2.0</span></p>
-                                        <p class="quanlity-hover-cart">Quanlity: <span>1</span></p>
-                                    </div>
-                                    <div class="price-hover-cart">$150</div>
-                                </li>
+                            <?php
+                            if ($cart) {
+                                foreach ($cart as $cart_product) {
+                                
+                                echo "<li class=\"hover-cart-item\">";
+                                    echo "<a href=\"#\" class=\"img-hover-cart\">";
+                                        echo "<img src=\"".Photo::getOneWithUrl($cart_product['id'])."\" alt=\"img-hover-cart\" width=\"75\" height=\"89\">";                                        
+                                    echo "</a>";
+                                    echo "<div class=\"text-hover-cart\">";
+                                        echo "<p class=\"name-hover-cart\">".$cart_product['name']."</p>";
+                                        echo "<p class=\"version-hover-cart\">Price:<span> ".$cart_product['price']."</span></p>";
+                                        echo "<p class=\"quanlity-hover-cart\">Quantity: <span>".$cart_product['qty']."</span></p>";
+                                    echo "</div>";
+                                    echo "<div class=\"price-hover-cart\">".$cart_product['subtotal']."</div>";
+                                echo "</li>";
+                            }
+
+                            }
+                            
+
+                            ?>
                             </ul>
                             <div class="subtotal-hover-cart">Subtotal <span>$150</span></div>
                             <div class="button-cart-hover">

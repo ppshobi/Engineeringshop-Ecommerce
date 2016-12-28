@@ -234,7 +234,9 @@ session_start();
                 }
             }).success(function(msg){
                 alert("Product Added To Cart");
+                $(".cart-amount").html(parseInt($(".cart-amount").text())+1);
             });
+
 
         });
 
