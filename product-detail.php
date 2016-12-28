@@ -1,8 +1,8 @@
 <?php
 session_start();
-$_SESSION['cart'];
     require_once('app/Product.php');
     require_once('app/Photo.php');
+    require_once('app/Cart.php');
 
     $product_id=$_GET['pid'];
     $product=Product::getOne($product_id);
@@ -13,6 +13,8 @@ $_SESSION['cart'];
      $photo3="products/".$product_id."/".$photos[2]['location'];
      $photo4="products/".$product_id."/".$photos[3]['location'];
      $photo5="products/".$product_id."/".$photos[4]['location'];
+
+
 ?>
 
 <!DOCTYPE html>
@@ -105,12 +107,13 @@ $_SESSION['cart'];
                                         <div class="quantity buttons_added">
                                             <a class="sign minus" href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
                                             <input type="text" size="1" class="input-text qty text" title="Qty" value="1">
+                                            <input type="hidden" size="1" class="product_id" title="Qty" value="<?php echo $product_id; ?>">
                                             <a class="sign plus" href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
                                         </div>
                                     </div>
                                     <div class="button-detail">
                                         <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                       
+
                                     </div>
 
                                 </div>
@@ -124,17 +127,17 @@ $_SESSION['cart'];
                     <li class="active">
                         <a  href="#1a" data-toggle="tab">Description</a>
                     </li>
-                   
+
                 </ul>
                 <div class="product-tabs-content tab-content clearfix">
                     <div class="tab-pane active" id="1a">
                        <?php echo $product['descr']; ?>
                     </div>
-                   
-                    
+
+
                 </div>
             </div>
-           
+
             <div id="section-icon-box">
                 <div class="container">
                     <div class="row">
@@ -216,13 +219,32 @@ $_SESSION['cart'];
             var src=this.src;
             $("#product-big").attr("src",src);
         });
-        //adding to cart
-        $(".add-to-cart").click(function() {
-            item=$(".hover-cart-item:first").clone();
-            src= $('#product-big').attr('src');
 
-            $(item.appendTo(".list-hover-cart"));
+
+        //adding to cart
+        $('.add-to-cart').click(function() {
+            var qty=$(".qty").val();
+            var pid=$(".product_id").val();
+            $.ajax({
+                type: "POST",
+                url: "shopping-cart.php",
+                data: { addtocart : true,
+                        product_id: pid,
+                        qty:qty
+                }
+            }).success(function(msg){
+                alert("Product Added To Cart");
+            });
+
         });
+
+        // $(".add-to-cart").click(function() {
+
+        //     item=$(".hover-cart-item:first").clone();
+        //     src= $('#product-big').attr('src');
+
+        //     $(item.appendTo(".list-hover-cart"));
+        // });
 
     </script>
 </body>
