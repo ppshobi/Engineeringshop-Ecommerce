@@ -153,10 +153,10 @@
                                     echo "</a>";
                                     echo "<div class=\"text-hover-cart\">";
                                         echo "<p class=\"name-hover-cart\">".$cart_product['name']."</p>";
-                                        echo "<p class=\"version-hover-cart\">Price:<span> ".$cart_product['price']."</span></p>";
+                                        echo "<p class=\"version-hover-cart\">Price: &#8377;<span> ".$cart_product['price']."</span></p>";
                                         echo "<p class=\"quanlity-hover-cart\">Quantity: <span>".$cart_product['qty']."</span></p>";
                                     echo "</div>";
-                                    echo "<div class=\"price-hover-cart\">".$cart_product['subtotal']."</div>";
+                                    echo "<div class=\"price-hover-cart\">&#8377; ".$cart_product['subtotal']."</div>";
                                 echo "</li>";
                             }
 
@@ -165,10 +165,9 @@
 
                             ?>
                             </ul>
-                            <div class="subtotal-hover-cart">Subtotal <span>$150</span></div>
+                            <div class="subtotal-hover-cart">Total <span><?php echo "&#8377;".Cart::getTotal(); ?></span></div>
                             <div class="button-cart-hover">
-                                <a href="#" class="go-to-cart button">Go to cart</a>
-                                <a href="#" class="check-out button orange">Check Out</a>
+                                <a href="shopping-cart.php" class="check-out button orange">Check Out</a>
                             </div>
                         </div>
                     </div>
