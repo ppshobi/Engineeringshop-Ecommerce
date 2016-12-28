@@ -1,6 +1,6 @@
 <?php
 	require_once('../app/Category.php');		
-	$message="";
+	$message;
 		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add-cat'])) {
 			
 			
@@ -99,24 +99,7 @@
 						</form>
 						
 					</div>
-					<div class="alert bg-success" id="success" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Successfully Added Category
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
-					<div class="alert bg-danger" id="error" role="alert">
-						<svg class="glyph stroked checkmark">
-							<use xlink:href="#stroked-checkmark"></use>
-						</svg>
-						 Something went wrong
-						 <a href="#" class="pull-right">
-						 	<span class="glyphicon glyphicon-remove"></span>
-						 </a>
-					</div>
+					
 				</div>
 			</div><!-- /.col-->
 		</div><!-- /.row -->
