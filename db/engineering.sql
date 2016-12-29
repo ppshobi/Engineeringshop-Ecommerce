@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2016 at 05:16 AM
+-- Generation Time: Dec 29, 2016 at 10:06 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -38,7 +38,12 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`id`, `name`, `descr`) VALUES
 (1, 'Pumpset', 'To Pump water'),
-(2, 'Pipe', 'Water Pipe');
+(2, 'Pipe', 'Water Pipe'),
+(3, 'Steel Bar', 'Steel Bars'),
+(5, 'hjdsfh', 'jhjkhkj'),
+(6, 'Springler', 'Water Springler ......'),
+(7, 'Water Filter', 'Description'),
+(8, 'gterw', 'sddfsd');
 
 -- --------------------------------------------------------
 
@@ -100,11 +105,16 @@ CREATE TABLE `photo` (
 --
 
 INSERT INTO `photo` (`id`, `product_id`, `location`) VALUES
-(1, 1, '0001/1.jpg'),
-(2, 1, '0001/2.jpg'),
-(3, 1, '0001/3.jpg'),
-(4, 1, '0001/4.jpg'),
-(5, 1, '0001/5.jpg');
+(6, 2, '1.jpg'),
+(7, 2, '2.jpg'),
+(8, 2, '3.jpg'),
+(9, 2, '4.jpg'),
+(10, 2, '5.jpg'),
+(11, 3, '1.jpg'),
+(12, 3, '2.jpg'),
+(13, 3, '3.jpg'),
+(14, 3, '4.jpg'),
+(15, 3, '5.jpg');
 
 -- --------------------------------------------------------
 
@@ -122,7 +132,6 @@ CREATE TABLE `products` (
   `unit` int(11) NOT NULL,
   `qty` int(11) NOT NULL,
   `visibility` int(11) NOT NULL,
-  `photoid` int(11) NOT NULL,
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -130,8 +139,9 @@ CREATE TABLE `products` (
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `name`, `descr`, `category`, `mfg`, `price`, `unit`, `qty`, `visibility`, `photoid`, `date`) VALUES
-(1, 'Motor', 'Water Pump Set', 1, 'Kirloskar', '2000', 3, 10, 1, 1, '2016-12-22 18:30:00');
+INSERT INTO `products` (`id`, `name`, `descr`, `category`, `mfg`, `price`, `unit`, `qty`, `visibility`, `date`) VALUES
+(2, 'Test Product', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\r\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\r\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\r\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\r\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 1, 'Kirloskar', '2000', 4, 10, 1, '2016-12-28 10:38:59'),
+(3, 'Mahindra Water Filterguuh', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\r\ntempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\r\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\r\nconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\r\ncillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non\r\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 1, 'Mahindra', '500', 1, 1000, 1, '2016-12-29 06:09:20');
 
 -- --------------------------------------------------------
 
@@ -228,7 +238,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `items_in_order`
 --
@@ -243,12 +253,12 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT for table `photo`
 --
 ALTER TABLE `photo`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `unit`
 --
