@@ -40,31 +40,9 @@
 
 		}
 
-		public static function edit($id,$name,$descr,$category,$mfg,$price,$unit,$qty,$visibility){
-			$db = new Db();
-			$id=$db->quote($id);
-			$name=$db -> quote($name);
-			$descr=$db -> quote($descr);
-			$category=$db -> quote($category);
-			$mfg=$db -> quote($mfg);
-			$price=$db -> quote($price);
-			$unit=$db -> quote($unit);
-			$qty=$db -> quote($qty);
-			$visibility=$db -> quote($visibility);
-
-			$sql=" UPDATE products SET name = '$name',descr = '$descr',category = '$category',mfg = '$mfg',price = '$price',unit = '$unit',qty = '$qty',visibility ='$visibility' WHERE id = '$id' ";
-			$result=$db -> query($sql);
-			if($result){
-				return true;
-			}else{		
-
-				return false;
-			}
-		}
-
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM products";
+			$sql="SELECT * FROM orders";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -78,7 +56,7 @@
 		}
 		public static function getOne($id){
 			$db=new Db();
-			$sql="SELECT * FROM products WHERE id= $id LIMIT 1";
+			$sql="SELECT * FROM orders WHERE id= $id LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -90,16 +68,25 @@
 			return false;
 			
 		}
+		public static function shipped($id){
+			$db=new Db();
+			$date=date("Y-m-d H:i:s");
+			$sql="update orders set status=1, shipped_date=$date";
+			$result=$db->query($sql);
+			if($result){
+				return true;
+			}
+			return false;
+			
+		}
 
 		public static function delete($id){
 			$db=new Db();
-			$sql="DELETE FROM products WHERE id=$id";
+			$sql="DELETE FROM orders WHERE id=$id";
 			$result=$db->query($sql);
-			$sql="DELETE FROM photo WHERE product_id=$id";
+			$sql="DELETE FROM items_in_order WHERE order_id=$id";
 			$result=$db->query($sql);
-			$target="../products/".$id."/";
-			array_map('unlink', glob("$target*.*"));
-			rmdir($target);
+		
 			if($result){				
 				return true;
 			}
