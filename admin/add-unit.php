@@ -1,4 +1,6 @@
 <?php
+	require_once('../app/Auth.php');
+	Auth::authcheck();
 	require_once('../app/Unit.php');		
 	$message;
 		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add-unit'])) {

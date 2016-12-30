@@ -1,4 +1,7 @@
 <?php
+
+	require_once('../app/Auth.php');
+	Auth::authcheck();
 	require_once('../app/User.php');		
 	$message;
 

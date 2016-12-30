@@ -81,6 +81,7 @@
 		}
 
 		public static function getUserLevel($id){
+			$db= new Db();
 			$sql="SELECT * FROM users WHERE id= $id LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);

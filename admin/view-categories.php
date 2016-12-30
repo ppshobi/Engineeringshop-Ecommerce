@@ -1,4 +1,6 @@
 <?php
+require_once('../app/Auth.php');
+	Auth::authcheck();
 require_once('../app/Category.php');		
 	$message;
 	$categories=Category::getAll();

@@ -1,4 +1,6 @@
 <?php
+	require_once('../app/Auth.php');
+	Auth::authcheck();
 	require_once('../app/Product.php');	
 	require_once('../app/Category.php');			
 	require_once('../app/Unit.php');	

@@ -47,7 +47,7 @@
 			
 		}
 		public static function isadmin(){
-			$userlevel= User::getUserLevel(getuserid());
+			$userlevel= User::getUserLevel(self::getuserid());
 			if ($userlevel==1) {
 				return true;
 			}else{
@@ -64,6 +64,20 @@
 				return true;
 			}
 			return false;
+		}
+		public static function authcheck(){
+			if (Auth::isloggedin()) {
+				if (Auth::isadmin()) {
+					Auth::redirect("index.php");
+				}else{
+					Auth::redirect("../index.php");
+				}
+			}else{
+				Auth::redirect("login.php");
+			}
+		}
+		public static function redirect($url){
+			header('location:'.$url);
 		}
 
 	}

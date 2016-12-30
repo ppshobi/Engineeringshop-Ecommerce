@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="" />
+    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/delete-order.php" afterPath="$PROJECT_DIR$/admin/delete-order.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/login.php" afterPath="$PROJECT_DIR$/admin/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auth.php" afterPath="$PROJECT_DIR$/app/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+    </list>
     <ignored path="Engineeringshop-Ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,123 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="shopping-cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopping-cart.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Order.php">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="53" />
+              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding>
-                <marker date="1483127045135" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-                <marker date="1483127045135" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-                <marker date="1483127045135" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-                <marker date="1483127045135" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
-                <marker date="1483127045135" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
-                <marker date="1483127045135" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
-                <marker date="1483127045135" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
-                <marker date="1483127045135" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
-                <marker date="1483127045135" expanded="true" signature="1885:1920" placeholder="SELECT * FRO... orders" />
-                <marker date="1483127045135" expanded="true" signature="2130:2171" placeholder="update order... " />
-                <marker date="1483127045135" expanded="true" signature="2337:2365" placeholder="DELETE FROM " />
-                <marker date="1483127045135" expanded="true" signature="2409:2451" placeholder="DELETE FROM " />
+                <marker date="1483131492214" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+                <marker date="1483131492214" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+                <marker date="1483131492214" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+                <marker date="1483131492214" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+                <marker date="1483131492214" expanded="true" signature="1607:1648" placeholder="SELECT * FRO... users" />
+                <marker date="1483131492214" expanded="true" signature="1941:1982" placeholder="SELECT * FRO... users" />
+                <marker date="1483131492214" expanded="true" signature="2263:2318" placeholder="SELECT * FRO... users" />
+                <marker date="1483131492214" expanded="true" signature="2573:2600" placeholder="DELETE FROM " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <marker date="1445591992000" expanded="true" signature="4126:4153" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version_check.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/version_check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sql.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/sql.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-              <folding>
-                <marker date="1483120155598" expanded="true" signature="1075:1102" placeholder="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Cart.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-detail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/product-detail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5236">
-              <caret line="241" column="0" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
-              <folding>
-                <marker date="1483091244352" expanded="true" signature="12853:12864" placeholder="{...}" />
-                <marker date="1483091244352" expanded="true" signature="12925:13024" placeholder="//..." />
-                <marker date="1483091244352" expanded="true" signature="13034:13093" placeholder="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="unset.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unset.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -157,6 +71,8 @@
         <option value="$PROJECT_DIR$/checkout.php" />
         <option value="$PROJECT_DIR$/app/Auth.php" />
         <option value="$PROJECT_DIR$/app/Order.php" />
+        <option value="$PROJECT_DIR$/admin/login.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
       </list>
     </option>
   </component>
@@ -261,7 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.php.debug.skipped.paths" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../phpMyAdmin" />
   </component>
@@ -321,16 +237,16 @@
       <updated>1482925523852</updated>
       <workItem from="1482925526622" duration="3425000" />
       <workItem from="1482931423392" duration="5071000" />
-      <workItem from="1483117874263" duration="5360000" />
+      <workItem from="1483117874263" duration="6861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13856000" />
+    <option name="totallyTimeSpent" value="15357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -341,7 +257,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -364,10 +280,42 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="59" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -511,14 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopping-cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/sql.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -530,17 +470,17 @@
     <entry file="file://$PROJECT_DIR$/app/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
-            <marker date="1483120155598" expanded="true" signature="1075:1102" placeholder="DELETE FROM " />
+            <marker date="1483131714059" expanded="true" signature="1081:1108" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkout.php">
+    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/version_check.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -555,32 +495,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../phpMyAdmin/version_check.php">
+    <entry file="file://$PROJECT_DIR$/app/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="96" column="46" selection-start-line="96" selection-start-column="46" selection-end-line="96" selection-end-column="46" />
+          <folding>
+            <marker date="1483129571689" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
+            <marker date="1483129571689" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
+            <marker date="1483129571689" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
+            <marker date="1483129571689" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483129571689" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483129571689" expanded="true" signature="1101:1158" placeholder="SELECT * FRO... items_in_order" />
+            <marker date="1483129571689" expanded="true" signature="1407:1447" placeholder="SELECT * FRO... orders" />
+            <marker date="1483129571689" expanded="true" signature="1699:1741" placeholder="SELECT * FRO... orders" />
+            <marker date="1483129571689" expanded="true" signature="2006:2041" placeholder="SELECT * FRO... orders" />
+            <marker date="1483129571689" expanded="true" signature="2227:2262" placeholder="SELECT * FRO... orders" />
+            <marker date="1483129571689" expanded="true" signature="2473:2521" placeholder="UPDATE order... " />
+            <marker date="1483129571689" expanded="true" signature="2682:2710" placeholder="DELETE FROM " />
+            <marker date="1483129571689" expanded="true" signature="2754:2796" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Order.php">
+    <entry file="file://$PROJECT_DIR$/shopping-cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="53" />
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding>
-            <marker date="1483127045135" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-            <marker date="1483127045135" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-            <marker date="1483127045135" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-            <marker date="1483127045135" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
-            <marker date="1483127045135" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
-            <marker date="1483127045135" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
-            <marker date="1483127045135" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
-            <marker date="1483127045135" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
-            <marker date="1483127045135" expanded="true" signature="1885:1920" placeholder="SELECT * FRO... orders" />
-            <marker date="1483127045135" expanded="true" signature="2130:2171" placeholder="update order... " />
-            <marker date="1483127045135" expanded="true" signature="2337:2365" placeholder="DELETE FROM " />
-            <marker date="1483127045135" expanded="true" signature="2409:2451" placeholder="DELETE FROM " />
+            <marker date="1483131492214" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+            <marker date="1483131492214" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+            <marker date="1483131492214" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+            <marker date="1483131492214" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+            <marker date="1483131492214" expanded="true" signature="1607:1648" placeholder="SELECT * FRO... users" />
+            <marker date="1483131492214" expanded="true" signature="1941:1982" placeholder="SELECT * FRO... users" />
+            <marker date="1483131492214" expanded="true" signature="2263:2318" placeholder="SELECT * FRO... users" />
+            <marker date="1483131492214" expanded="true" signature="2573:2600" placeholder="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
