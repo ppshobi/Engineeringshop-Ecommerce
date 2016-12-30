@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
 <head>
@@ -19,7 +21,7 @@
     <!-- End .banner -->
     <div class="main-content container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <p class="title-left">Check Out</p>
                 <div class="check-1 checkout-box">
                     <div class="check-out-click"><span>1</span>Checkout Method</div>
@@ -27,190 +29,52 @@
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Guest or Register</div>
+                                    <div class="color-333">Checkout as a Login or Register</div>
                                     <div class="method-content-left-bottom">
-                                        <p>Register with us for future convenience:</p>
-                                        <input type="radio" value="">Checout as Guest<br/>
-                                        <input type="radio" value="">Register<br/>
+                                        <p>Register with us for future convenience:</p>    
+                                        <form method="post" action="#">
+                                            <label>Name</label>
+                                            <input type="text" name="name" placeholder="Enter your name">
+                                            <label>Email Address</label>
+                                            <input type="text" placeholder="Email Address">
+                                            <label>Phone Number</label>
+                                            <input type="text" placeholder="Phone Number">
+                                            <label>Address</label>
+                                            <textarea name="address" rows="5" cols="10">
+                                                
+                                            </textarea>
+                                            <label>Password</label>
+                                            <input type="text" placeholder="Password">  
+                                            <button id ="register" name="register" class="button button-check-out" type="submit">Register</button>                                            
+                                        </form>                 
                                         <p>Register and save time!</p>
                                         <p>Register with us for future convenience:</p>
                                         <p>Fast and easy check out</p>
                                         <p>Easy access to your order history and status</p>
-                                    </div>
-                                    <a class="button orange" href="#">Continue</a>
+                                    </div>                                    
                                 </div>
                             </div>
                             <div class="col-md-5">
+                            <form nmethod="post" action="#" >
                                 <div class="method-content-right">
                                     <div class="color-333">Login</div>
                                     <p><a href="#">Already registered?</a></p>
                                     <p><a href="#">Please log in below:</a></p>
                                     <label>Email Address</label>
-                                    <input type="text" placeholder="">
+                                    <input name="username" type="text" placeholder="">
                                     <label>Password</label>
-                                    <input type="text" placeholder="">
+                                    <input type="password" name="password" placeholder="">
                                     <p style="margin-top: 15px;"><a href="#">Required Fields</a></p>
-                                    <p><a href="#">Forgot your password?</a></p>
+                                
                                 </div>
-                                <a class="button button-check-out" href="#">Login</a>
+                                <button type="submit" name="login" class="button button-check-out" href="#">Login</button>
+                            </form>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="check-2 checkout-box">
-                    <div class="check-out-click"><span>2</span>Billing Information </div>
-                    <div class="check-method-content checkout-toggle" style="display: none">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Guest or Register</div>
-                                    <div class="method-content-left-bottom">
-                                        <p>Register with us for future convenience:</p>
-                                        <input type="radio" value="">Checout as Guest<br/>
-                                        <input type="radio" value="">Register<br/>
-                                        <p>Register and save time!</p>
-                                        <p>Register with us for future convenience:</p>
-                                        <p>Fast and easy check out</p>
-                                        <p>Easy access to your order history and status</p>
-                                    </div>
-                                    <a class="button orange" href="#">Continue</a>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="method-content-right">
-                                    <div class="color-333">Login</div>
-                                    <p><a href="#">Already registered?</a></p>
-                                    <p><a href="#">Please log in below:</a></p>
-                                    <label>Email Address</label>
-                                    <input type="text" placeholder="">
-                                    <label>Password</label>
-                                    <input type="text" placeholder="">
-                                    <p style="margin-top: 15px;"><a href="#">Required Fields</a></p>
-                                    <p><a href="#">Forgot your password?</a></p>
-                                </div>
-                                <a class="button button-check-out" href="#">Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="check-3 checkout-box">
-                    <div class="check-out-click"><span>3</span>Shipping Information</div>
-                    <div class="check-method-content checkout-toggle" style="display: none">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Guest or Register</div>
-                                    <div class="method-content-left-bottom">
-                                        <p>Register with us for future convenience:</p>
-                                        <input type="radio" value="">Checout as Guest<br/>
-                                        <input type="radio" value="">Register<br/>
-                                        <p>Register and save time!</p>
-                                        <p>Register with us for future convenience:</p>
-                                        <p>Fast and easy check out</p>
-                                        <p>Easy access to your order history and status</p>
-                                    </div>
-                                    <a class="button orange" href="#">Continue</a>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="method-content-right">
-                                    <div class="color-333">Login</div>
-                                    <p><a href="#">Already registered?</a></p>
-                                    <p><a href="#">Please log in below:</a></p>
-                                    <label>Email Address</label>
-                                    <input type="text" placeholder="">
-                                    <label>Password</label>
-                                    <input type="text" placeholder="">
-                                    <p style="margin-top: 15px;"><a href="#">Required Fields</a></p>
-                                    <p><a href="#">Forgot your password?</a></p>
-                                </div>
-                                <a class="button button-check-out" href="#">Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="check-4 checkout-box">
-                    <div class="check-out-click"><span>4</span>Shipping Method </div>
-                    <div class="check-method-content checkout-toggle" style="display: none">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Guest or Register</div>
-                                    <div class="method-content-left-bottom">
-                                        <p>Register with us for future convenience:</p>
-                                        <input type="radio" value="">Checout as Guest<br/>
-                                        <input type="radio" value="">Register<br/>
-                                        <p>Register and save time!</p>
-                                        <p>Register with us for future convenience:</p>
-                                        <p>Fast and easy check out</p>
-                                        <p>Easy access to your order history and status</p>
-                                    </div>
-                                    <a class="button orange" href="#">Continue</a>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="method-content-right">
-                                    <div class="color-333">Login</div>
-                                    <p><a href="#">Already registered?</a></p>
-                                    <p><a href="#">Please log in below:</a></p>
-                                    <label>Email Address</label>
-                                    <input type="text" placeholder="">
-                                    <label>Password</label>
-                                    <input type="text" placeholder="">
-                                    <p style="margin-top: 15px;"><a href="#">Required Fields</a></p>
-                                    <p><a href="#">Forgot your password?</a></p>
-                                </div>
-                                <a class="button button-check-out" href="#">Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="check-5 checkout-box">
-                    <div class="check-out-click"><span>5</span>Payment Information</div>
-                    <div class="check-method-content checkout-toggle" style="display: none">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Guest or Register</div>
-                                    <div class="method-content-left-bottom">
-                                        <p>Register with us for future convenience:</p>
-                                        <input type="radio" value="">Checout as Guest<br/>
-                                        <input type="radio" value="">Register<br/>
-                                        <p>Register and save time!</p>
-                                        <p>Register with us for future convenience:</p>
-                                        <p>Fast and easy check out</p>
-                                        <p>Easy access to your order history and status</p>
-                                    </div>
-                                    <a class="button orange" href="#">Continue</a>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="method-content-right">
-                                    <div class="color-333">Login</div>
-                                    <p><a href="#">Already registered?</a></p>
-                                    <p><a href="#">Please log in below:</a></p>
-                                    <label>Email Address</label>
-                                    <input type="text" placeholder="">
-                                    <label>Password</label>
-                                    <input type="text" placeholder="">
-                                    <p style="margin-top: 15px;"><a href="#">Required Fields</a></p>
-                                    <p><a href="#">Forgot your password?</a></p>
-                                </div>
-                                <a class="button button-check-out" href="#">Login</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>               
             </div>
-            <div class="col-md-3">
-                <p class="check-title-right">Your Check Progress</p>
-                <div class="check-button">
-                    <a class="button button-white" href="#">Billing Address</a>
-                    <a class="button button-white" href="#">Shipping Address</a>
-                    <a class="button button-white" href="#">Shipping Method</a>
-                    <a class="button button-white" href="#">Payment Method</a>
-                </div>
-            </div>
+            
         </div>
         <div id="section-icon-box">
             <div class="container">

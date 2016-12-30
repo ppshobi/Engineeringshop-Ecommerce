@@ -40,7 +40,7 @@ require_once('app/Photo.php');
         <h4 class="title-page">Shoping Cart</h4>
         <div class="shop-table-content container">
             <form method="post" action="#" class="shoping-form">
-                <a class="button button-check-out" href="#">Proceed  to  Checkout</a>
+                <a class="button button-check-out" href="checkout.php">Proceed  to  Checkout</a>
                 <div class="div-table-cart">
                     <table class="shop_table cart">
                         <thead>
