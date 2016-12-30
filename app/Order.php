@@ -25,13 +25,14 @@
 					foreach ($cart as $product) {
 						$product_id=$product['id'];
 						$qty=$product['qty'];
-						$sql="INSERT INTO items_in_order (order_id,product_id,qty) VALUES($order_id,$product_id,$qty)";	
+						$sql="INSERT INTO items_in_order (order_id,product_id,qty) VALUES('$order_id','$product_id','$qty')";	
 						$result=$db->query($sql);
 					}
 					$order_placing=true;
 				}
 			}
 			if ($order_placing) {
+				Cart::empty();
 				return true;
 			}else{
 				return false;

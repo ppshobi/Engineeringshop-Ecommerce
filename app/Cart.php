@@ -64,6 +64,10 @@ require_once('Photo.php');
 				return 0;
 			}
 		}
+		public static function empty(){
+			$_SESSION['cart']=array();
+			$_SESSION['totalcost']=0;
+		}
 
 	}
 ?>

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Auth.php" afterPath="$PROJECT_DIR$/app/Auth.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/DB2.php" afterPath="$PROJECT_DIR$/app/DB2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/checkout.php" afterPath="$PROJECT_DIR$/checkout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Cart.php" afterPath="$PROJECT_DIR$/app/Cart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Order.php" afterPath="$PROJECT_DIR$/app/Order.php" />
     </list>
     <ignored path="Engineeringshop-Ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,18 +48,19 @@
       <file leaf-file-name="Order.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="158">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
-                <marker date="1483122035066" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-                <marker date="1483122035066" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-                <marker date="1483122035066" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-                <marker date="1483122035066" expanded="true" signature="751:838" placeholder="INSERT INTO items_in_order... " />
-                <marker date="1483122035066" expanded="true" signature="1407:1582" placeholder="UPDATE produ... " />
-                <marker date="1483122035066" expanded="true" signature="1752:1774" placeholder="SELECT * FRO... products" />
-                <marker date="1483122035066" expanded="true" signature="2026:2070" placeholder="SELECT * FRO... products" />
-                <marker date="1483122035066" expanded="true" signature="2326:2356" placeholder="DELETE FROM " />
-                <marker date="1483122035066" expanded="true" signature="2400:2435" placeholder="DELETE FROM " />
+                <marker date="1483122284919" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
+                <marker date="1483122284919" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
+                <marker date="1483122284919" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
+                <marker date="1483122284919" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
+                <marker date="1483122284919" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
+                <marker date="1483122284919" expanded="true" signature="1432:1607" placeholder="UPDATE produ... " />
+                <marker date="1483122284919" expanded="true" signature="1777:1799" placeholder="SELECT * FRO... products" />
+                <marker date="1483122284919" expanded="true" signature="2051:2095" placeholder="SELECT * FRO... products" />
+                <marker date="1483122284919" expanded="true" signature="2351:2381" placeholder="DELETE FROM " />
+                <marker date="1483122284919" expanded="true" signature="2425:2460" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -116,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/app/Cart.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="924">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -324,16 +322,16 @@
       <updated>1482925523852</updated>
       <workItem from="1482925526622" duration="3425000" />
       <workItem from="1482931423392" duration="5071000" />
-      <workItem from="1483117874263" duration="3463000" />
+      <workItem from="1483117874263" duration="3688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11959000" />
+    <option name="totallyTimeSpent" value="12184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -344,7 +342,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -370,38 +368,23 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>36</line>
+          <line>37</line>
           <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>22</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Order.php</url>
-          <line>21</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -546,7 +529,7 @@
     <entry file="file://$PROJECT_DIR$/app/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -605,18 +588,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="158">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1483122035066" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-            <marker date="1483122035066" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-            <marker date="1483122035066" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-            <marker date="1483122035066" expanded="true" signature="751:838" placeholder="INSERT INTO items_in_order... " />
-            <marker date="1483122035066" expanded="true" signature="1407:1582" placeholder="UPDATE produ... " />
-            <marker date="1483122035066" expanded="true" signature="1752:1774" placeholder="SELECT * FRO... products" />
-            <marker date="1483122035066" expanded="true" signature="2026:2070" placeholder="SELECT * FRO... products" />
-            <marker date="1483122035066" expanded="true" signature="2326:2356" placeholder="DELETE FROM " />
-            <marker date="1483122035066" expanded="true" signature="2400:2435" placeholder="DELETE FROM " />
+            <marker date="1483122284919" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
+            <marker date="1483122284919" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
+            <marker date="1483122284919" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
+            <marker date="1483122284919" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483122284919" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483122284919" expanded="true" signature="1432:1607" placeholder="UPDATE produ... " />
+            <marker date="1483122284919" expanded="true" signature="1777:1799" placeholder="SELECT * FRO... products" />
+            <marker date="1483122284919" expanded="true" signature="2051:2095" placeholder="SELECT * FRO... products" />
+            <marker date="1483122284919" expanded="true" signature="2351:2381" placeholder="DELETE FROM " />
+            <marker date="1483122284919" expanded="true" signature="2425:2460" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
