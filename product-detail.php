@@ -35,7 +35,9 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i;Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>
 <body class="categories-page product-detail">
+<div id="header">
   <?php include_once('header.php');?>
+</div>
     <!-- End .banner -->
     <div class="categories main-content">
         <div class="container">
@@ -234,7 +236,7 @@ session_start();
                 }
             }).success(function(msg){
                 alert("Product Added To Cart");
-                $(".cart-amount").html(parseInt($(".cart-amount").text())+1);
+                $("#header").load('header.php');
             });
 
 
