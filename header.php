@@ -44,40 +44,7 @@
                             Check Out
                         </a>
                     </div>
-                    <div class="header-mid-right-content country-select-menu">
-                        <div class="country-select">
-                            <div class="country select">
-                                English<i class="fa fa-caret-down" aria-hidden="true"></i>
-                            </div>
-                            <div class="country-dropdown">
-                                <div class="country">
-                                    <img src="assets/images/flag.jpg" alt="flag" width="24" height="17">
-                                    English
-                                </div>
-                                <div class="country">
-                                    <img src="assets/images/flag2.jpg" alt="flag" width="24" height="17">
-                                    Hungary
-                                </div>
-                                <div class="country">
-                                    <img src="assets/images/flag3.jpg" alt="flag" width="24" height="17">
-                                    German
-                                </div>
-                                <div class="country">
-                                    <img src="assets/images/flag4.jpg" alt="flag" width="24" height="17">
-                                    French
-                                </div>
-                                <div class="country">
-                                    <img src="assets/images/flag5.jpg" alt="flag" width="24" height="17">
-                                    Canada
-                                </div>
-                                <div class="country">
-                                    <img src="assets/images/flag6.jpg" alt="flag" width="24" height="17">
-                                    Australia
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -89,22 +56,7 @@
                             <img alt="logo" src="assets/images/logo2.png">
                         </a>
                     </h1>
-                    <div class="header-search">
-                        <form action="" class="form form-search-header">
-                            <input type="text" placeholder="Search here...">
-                            <select name="show-categories" id="show-categories">
-                                <option value="all">All Categories</option>
-                                <option value="Automovie & Motorcyle">Automovie & Motorcyle</option>
-                                <option value="Electronics">Electronics</option>
-                                <option value="Sport & Outdoors">Sport & Outdoors</option>
-                                <option value="Handbags">Handbags </option>
-                                <option value="Fashion">Fashion </option>
-                                <option value="camera & usb">camera & usb</option>
-                                <option value="smartphone & headphone">smartphone & headphone</option>
-                            </select>
-                            <button class="button-search"><i class="flaticon-search"></i></button>
-                        </form>
-                    </div>
+                    
                 </div>
                 <div class="header-bottom-right">
                     <div class="header-bottom-right-content my-supermarket">
@@ -114,23 +66,17 @@
                         </div>
                         <div class="hover-supermarket">
                             <a href="#" class="singin-super">Sing in</a>
-                            <ul class="market-list">
-                                <li class="market-list-item"><a href="#">My SuperMartket</a></li>
+                            <ul class="market-list">                               
                                 <li class="market-list-item"><a href="#">My Order</a></li>
                                 <li class="market-list-item"><a href="#">My Review</a></li>
                                 <li class="market-list-item"><a href="#">My Favorites</a></li>
                                 <li class="market-list-item"><a href="#">My Coupons</a></li>
                             </ul>
-                            <a href="#" class="submit-request">Submit A Buying Request</a>
-                            <p>Let us help you find what you need</p>
+                           
+                           
                         </div>
                     </div>
-                    <div class="header-bottom-right-content">
-                        <a href="#" class="link-top">
-                            <i class="flaticon-like"></i>
-                            <span class="text-bold">Wishlist</span>
-                        </a>
-                    </div>
+                    
                     <div class="header-bottom-right-content cart-menu-relative">
                         <div class="cart-menu">
                             <a href="#" class="link-top">
@@ -188,7 +134,7 @@
                                 <div class="category-drop-list-inner">
                                     <ul class="sub-menu sub-menu-open">
                                         <li class="menu-item has-mega">
-                                            <a href="#"><i class="flaticon-atom"></i>Electronics</a>
+                                            
                                             
                                         </li>
                                         <?php
@@ -201,7 +147,7 @@
                                         ?>                                        
                                         
                                     </ul>
-                                    <span class="more-categories open-cate">Shop</span>
+                                    <a href="shop.php"><span class="more-categories open-cate">Shop</span></a>
                                 </div>
                             </div>
                         </li>
@@ -212,29 +158,13 @@
                 </a>
                 <nav id="primary-navigation" class="site-navigation main-menu">
                     <ul id="primary-menu" class="menu">
-                        <li class="menu-item active">
-                            <a href="#">Home</a>
-                            
-                        </li>
-                        <li class="menu-item"><a href="#">New Arrival</a></li>
-                        <li class="menu-item"><a href="#">Deals</a></li>
-                        <li class="menu-item">
-                            <a href="shop.php">Shop</a> 
-                        </li>
+                        <li class="menu-item active"> <a href="index.php">Home</a></li>
+                        <li class="menu-item"><a href="about.php">About Us</a></li>
+                         <li class="menu-item"><a href="shop.php">Shop</a></li>
+                        <li class="menu-item"><a href="#">Services</a></li>
+                        <li class="menu-item"><a href="#">Consultancy</a></li>
+                        <li class="menu-item"><a href="contact.php">Contact Us</a></li>                       
 
-
-                        <li class="menu-item has-childrent">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li class="menu-item"><a href="blogpost.php">Blog Post</a></li>
-                                <li class="menu-item"><a href="product-detail.php">Product Detail</a></li>
-                                <li class="menu-item"><a href="shopping-carrt.php">Cart</a></li>
-                                <li class="menu-item"><a href="checkout.php">Check Out</a></li>
-                                <li class="menu-item"><a href="contact.php">Contact Us</a></li>
-                                <li class="menu-item"><a href="about.php">About US</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item"><a href="blog.php">Blog</a></li>
                     </ul>
                 </nav>
             </div>

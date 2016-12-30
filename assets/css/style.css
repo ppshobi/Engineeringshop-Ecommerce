@@ -1036,7 +1036,7 @@ nav > ul > li.item-home .show-submenu {
 .header-style3 h1.logo .logo-name span,
 .header-style3 .header-mid-left .register-or-login a,
 .header-style3 .header-mid-right .header-mid-right-content a:hover {
-  color: #3374a6; }
+  color: #16822b; }
 .header-style3 .cart-menu .cart-amount {
   background-color: #3374a6;
   border-radius: 7px;
@@ -1111,7 +1111,7 @@ nav > ul > li.item-home .show-submenu {
       overflow: hidden;
       padding-bottom: 30px; }
   .header-style3 .has-mega-menu .category-drop-list .more-categories {
-    background-color: #3374a6;
+    background-color: #16822b;
     font-size: 16px;
     color: #ffffff; }
 
@@ -4403,9 +4403,9 @@ a.button:hover {
   .home3 header {
     background-color: #fff; }
   .home3 .menu-primary {
-    background-color: #3374a6; }
+    background-color: #16822b; }
   .home3 .has-mega-menu {
-    background-color: #234f71; }
+    background-color: #16822b; }
   .home3 footer {
     background-color: #fff; }
   .home3 .footer-top {
