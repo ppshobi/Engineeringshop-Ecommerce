@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/add-user.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/edit-user.php" afterPath="$PROJECT_DIR$/admin/edit-user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/nav-sidebar.php" afterPath="$PROJECT_DIR$/admin/nav-sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Order.php" afterPath="$PROJECT_DIR$/app/Order.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-    </list>
+    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="" />
     <ignored path="Engineeringshop-Ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -54,20 +46,20 @@
         <entry file="file://$PROJECT_DIR$/app/Order.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="56" />
+              <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="53" />
               <folding>
-                <marker date="1483126766719" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-                <marker date="1483126766719" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-                <marker date="1483126766719" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-                <marker date="1483126766719" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
-                <marker date="1483126766719" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
-                <marker date="1483126766719" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
-                <marker date="1483126766719" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
-                <marker date="1483126766719" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
-                <marker date="1483126766719" expanded="true" signature="1885:1923" placeholder="SELECT * FRO... orders" />
-                <marker date="1483126766719" expanded="true" signature="2133:2174" placeholder="update order... " />
-                <marker date="1483126766719" expanded="true" signature="2340:2368" placeholder="DELETE FROM " />
-                <marker date="1483126766719" expanded="true" signature="2412:2454" placeholder="DELETE FROM " />
+                <marker date="1483127045135" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
+                <marker date="1483127045135" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
+                <marker date="1483127045135" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
+                <marker date="1483127045135" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
+                <marker date="1483127045135" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
+                <marker date="1483127045135" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
+                <marker date="1483127045135" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
+                <marker date="1483127045135" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
+                <marker date="1483127045135" expanded="true" signature="1885:1920" placeholder="SELECT * FRO... orders" />
+                <marker date="1483127045135" expanded="true" signature="2130:2171" placeholder="update order... " />
+                <marker date="1483127045135" expanded="true" signature="2337:2365" placeholder="DELETE FROM " />
+                <marker date="1483127045135" expanded="true" signature="2409:2451" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -329,15 +321,15 @@
       <updated>1482925523852</updated>
       <workItem from="1482925526622" duration="3425000" />
       <workItem from="1482931423392" duration="5071000" />
-      <workItem from="1483117874263" duration="4932000" />
+      <workItem from="1483117874263" duration="5360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13428000" />
+    <option name="totallyTimeSpent" value="13856000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -574,20 +566,20 @@
     <entry file="file://$PROJECT_DIR$/app/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="56" />
+          <caret line="83" column="46" selection-start-line="83" selection-start-column="18" selection-end-line="83" selection-end-column="53" />
           <folding>
-            <marker date="1483126766719" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
-            <marker date="1483126766719" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
-            <marker date="1483126766719" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
-            <marker date="1483126766719" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
-            <marker date="1483126766719" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
-            <marker date="1483126766719" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
-            <marker date="1483126766719" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
-            <marker date="1483126766719" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
-            <marker date="1483126766719" expanded="true" signature="1885:1923" placeholder="SELECT * FRO... orders" />
-            <marker date="1483126766719" expanded="true" signature="2133:2174" placeholder="update order... " />
-            <marker date="1483126766719" expanded="true" signature="2340:2368" placeholder="DELETE FROM " />
-            <marker date="1483126766719" expanded="true" signature="2412:2454" placeholder="DELETE FROM " />
+            <marker date="1483127045135" expanded="true" signature="438:458" placeholder="INSERT INTO orders... " />
+            <marker date="1483127045135" expanded="true" signature="438:557" placeholder="INSERT INTO orders... " />
+            <marker date="1483127045135" expanded="true" signature="556:557" placeholder="INSERT INTO `orders`... " />
+            <marker date="1483127045135" expanded="true" signature="751:811" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483127045135" expanded="true" signature="751:844" placeholder="INSERT INTO items_in_order... " />
+            <marker date="1483127045135" expanded="true" signature="1085:1105" placeholder="SELECT * FRO... orders" />
+            <marker date="1483127045135" expanded="true" signature="1357:1399" placeholder="SELECT * FRO... orders" />
+            <marker date="1483127045135" expanded="true" signature="1664:1699" placeholder="SELECT * FRO... orders" />
+            <marker date="1483127045135" expanded="true" signature="1885:1920" placeholder="SELECT * FRO... orders" />
+            <marker date="1483127045135" expanded="true" signature="2130:2171" placeholder="update order... " />
+            <marker date="1483127045135" expanded="true" signature="2337:2365" placeholder="DELETE FROM " />
+            <marker date="1483127045135" expanded="true" signature="2409:2451" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>

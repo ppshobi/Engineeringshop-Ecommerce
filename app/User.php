@@ -70,7 +70,7 @@
 			$sql="SELECT * FROM users WHERE id= $id LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
-			if($result){
+			if($result && mysqli_num_rows($result)>0){
 				while ($r=mysqli_fetch_assoc($result)) {
 					array_push($rows, $r);
 				}

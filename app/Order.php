@@ -39,10 +39,23 @@
 			}
 
 		}
-
+		public static function getOrderDetail($order_id){
+			$db=new Db();
+			$sql="SELECT * FROM items_in_order WHERE order_id = '$order_id'";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM orders";
+			$sql="SELECT * FROM orders ORDER BY order_date";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -89,10 +102,10 @@
 			return false;
 			
 		}
-		public static function shipped($id){
+		public static function fullfill($id){
 			$db=new Db();
 			$date=date("Y-m-d H:i:s");
-			$sql="update orders set status=1, shipped_date=$date";
+			$sql="UPDATE orders SET status=1, shipped_date='$date'";
 			$result=$db->query($sql);
 			if($result){
 				return true;
