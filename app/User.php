@@ -3,8 +3,7 @@
 	* 
 	*/
 	require_once('DB2.php');
-	class User
-	{
+	class User	{
 		public static function add($name,$pass,$address,$email,$phone){
 			$db = new Db();
 			$name=$db -> quote($name);

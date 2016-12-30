@@ -1,10 +1,30 @@
 <?php
-require('app/Auth.php');
+require_once('app/Auth.php');
+require_once('app/User.php');
+require_once('app/Order.php');
 $login_status;
-if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
-        Auth::login($_POST['username'],$_POST['password']);
-        $login_status=true;
+$message;
+if(!$login_status){
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
+        $login_status=Auth::login($_POST['username'],$_POST['password']);
+    }
+    if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
+        $name=$_POST['name'];
+        $pass=$_POST['password'];
+        $address=$_POST['address'];
+        $email=$_POST['email'];
+        $phone=$_POST['phone'];
+        $result=User::add($name,$pass,$address,$email,$phone);
+        if ($result) {
+            $message=true;
+        }else{
+            $message=false;
+        }
+    }
+}else{
+
 }
+
 ?>
 <!DOCTYPE html>
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
@@ -29,6 +49,17 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
         <div class="row">
             <div class="col-md-12">
                 <p class="title-left">Check Out</p>
+                <div class="message">
+                    <?php
+                        if (isset(message)) {
+                            if (message) {
+                                echo "<div class=\"success\">successfully Registered</div>";
+                            }else{
+                                echo "<div class=\"error\">Registration Unsuccessfull</div>";
+                            }
+                        }
+                    ?>
+                </div>
                 <div class="check-1 checkout-box">
                     <div class="check-out-click"><span>1</span>Checkout Method</div>
                     <div class="check-method-content checkout-toggle">
@@ -42,15 +73,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
                                             <label>Name</label>
                                             <input type="text" name="name" placeholder="Enter your name">
                                             <label>Email Address</label>
-                                            <input type="text" placeholder="Email Address">
+                                            <input type="text" name="email" placeholder="Email Address">
                                             <label>Phone Number</label>
-                                            <input type="text" placeholder="Phone Number">
+                                            <input name="phone" type="text" placeholder="Phone Number">
                                             <label>Address</label>
                                             <textarea name="address" rows="5" cols="10">
                                                 
                                             </textarea>
                                             <label>Password</label>
-                                            <input type="text" placeholder="Password">  
+                                            <input type="password" name="password" placeholder="Password">  
                                             <button id ="register" name="register" class="button button-check-out" type="submit">Register</button>                                            
                                         </form>                 
                                         <p>Register and save time!</p>
