@@ -1,12 +1,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+				
 				<a class="navbar-brand" href="#"><span>Kinalath Agro Engineering</span>Admin</a>
 				
 			</div>
@@ -17,7 +12,7 @@
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
 		<form role="search">
 			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
+				<h3>Quick Links</h3>
 			</div>
 		</form>
 		<ul class="nav menu">
