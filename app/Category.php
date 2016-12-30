@@ -10,7 +10,7 @@
 			$name=$db -> quote($name);
 			$descr=$db -> quote($descr);
 
-			$sql=" INSERT INTO category(name,descr) VALUES('$name','$descr')";
+			$sql="INSERT INTO category(name,descr) VALUES('$name','$descr')";
 			$result=$db -> query($sql);
 			if($result){
 				return true;

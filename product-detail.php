@@ -80,7 +80,7 @@ session_start();
                             <div class="single-product-content">
                                 <h3 class="product-title"><?php echo $product['name'];?></h3>
                                 <a href="#" class="write">Purchase Now</a>
-                                <p class="product-cost"><?php echo $product['price']; ?></p>
+                                <p class="product-cost"><?php echo " &#8377; ".$product['price']; ?></p>
                                 <p class="stock">Availability:<span><i class="fa fa-check-square-o" aria-hidden="true"></i>In stock</span></p>
                                 <div class="desc-product-title">Quick OverView</div>
                                 <div class="desc-product"><?php echo $product['descr']; ?>
