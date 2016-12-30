@@ -68,6 +68,27 @@
 			return false;
 			
 		}
+
+		public static function getOrderFullFilled(){
+			$db=new Db();
+			$sql="SELECT * FROM orders WHERE status=1";
+			$result=$db->query($sql);
+			if($result){
+				return mysqli_num_rows($result);
+			}
+			return false;
+			
+		}
+		public static function getOrderUnFilled(){
+			$db=new Db();
+			$sql="SELECT * FROM orders WHERE status=0";
+			$result=$db->query($sql);
+			if($result){
+				return mysqli_num_rows($result);
+			}
+			return false;
+			
+		}
 		public static function shipped($id){
 			$db=new Db();
 			$date=date("Y-m-d H:i:s");
@@ -79,6 +100,7 @@
 			return false;
 			
 		}
+
 
 		public static function delete($id){
 			$db=new Db();

@@ -22,10 +22,14 @@
 			}
 		}
 
-		public static function edit($id,$name,$pass,$address,$email,$phone){
+		public static function edit($id,$name,$email,$phone,$address,$pass,$level){
 			$db = new Db();
 			$name=$db -> quote($name);
-			$descr=$db -> quote($descr);
+			$email=$db -> quote($email);
+			$phone=$db -> quote($phone);
+			$address=$db -> quote($address);
+			$pass=$db -> quote($pass);
+			$level=$db -> quote($level);
 
 			$sql=" UPDATE users SET name='$name',username='$email',password='$pass',address='$address',level='$level',phone='$phone' WHERE id= '$id' ";
 			$result=$db -> query($sql);
@@ -47,6 +51,16 @@
 					array_push($rows, $r);
 				}
 				return $rows;
+			}
+			return false;
+			
+		}
+		public static function getCount(){
+			$db=new Db();
+			$sql="SELECT * FROM users";
+			$result=$db->query($sql);
+			if($result){
+				return mysqli_num_rows($result);
 			}
 			return false;
 			

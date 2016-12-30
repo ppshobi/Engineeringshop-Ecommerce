@@ -59,7 +59,7 @@
 				</a>
 				<ul class="children collapse" id="order">					
 					<li>
-						<a class="" href="view-products.php">
+						<a class="" href="view-orders.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Manage Orders
 						</a>
 					</li>
@@ -89,11 +89,7 @@
 					<span data-toggle="collapse" href="#user"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg></span> Users
 				</a>
 				<ul class="children collapse" id="user">
-					<li>
-						<a class="" href="add-user.php">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Add User
-						</a>
-					</li>
+
 					<li>
 						<a class="" href="view-users.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Manage Users

@@ -109,6 +109,16 @@
 			return false;
 			
 		}
+		public static function getCount(){
+			$db=new Db();
+			$sql="SELECT * FROM products";
+			$result=$db->query($sql);
+			if($result){
+				return mysqli_num_rows($result);
+			}
+			return false;
+			
+		}
 		public static function getOne($id){
 			$db=new Db();
 			$sql="SELECT * FROM products WHERE id= $id LIMIT 1";
