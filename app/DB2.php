@@ -19,6 +19,10 @@ class Db
 
 	function query($sql){
 		$result=mysqli_query(self::$connection,$sql);
+		if (!$result) {
+			echo mysqli_error(self::$connection);
+			die();
+		}
 		return $result;
 	}
 	function quote($var){

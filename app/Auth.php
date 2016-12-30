@@ -12,7 +12,7 @@
 			$user=User::getUserByUsername($username);
 			if($user){
 				if($pass==$user['password']){
-					$SESSION['current_user']=$user['id'];
+					$_SESSION['current_user']=$user['id'];
 					return true;
 				}else{
 					//password is wrong
@@ -41,7 +41,7 @@
 		}
 
 		public static function getuserid(){
-			if(isloggedin()){
+			if(self::isloggedin()){
 				return($_SESSION['current_user']);
 			}
 			
