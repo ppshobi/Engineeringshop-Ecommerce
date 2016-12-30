@@ -1,4 +1,10 @@
 <?php
+require('app/Auth.php');
+$login_status;
+if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
+        Auth::login($_POST['username'],$_POST['password']);
+        $login_status=true;
+}
 ?>
 <!DOCTYPE html>
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>

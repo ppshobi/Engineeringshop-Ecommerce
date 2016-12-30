@@ -66,6 +66,34 @@
 			return false;
 			
 		}
+
+		public static function getUserLevel($id){
+			$sql="SELECT * FROM users WHERE id= $id LIMIT 1";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows[0]['level'];
+			}
+			return false;
+			
+		}
+		public static function getUserByUsername($username){
+			$db=new Db();
+			$sql="SELECT * FROM users WHERE username= '$username' LIMIT 1";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows[0];
+			}
+			return false;
+			
+		}
 		public static function delete($id){
 			$db=new Db();
 			$sql="DELETE FROM users WHERE id=$id";
