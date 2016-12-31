@@ -1,6 +1,8 @@
 <?php
 	require_once('../app/Auth.php');
+	if(!Auth::isadmin()){
 	Auth::authcheck();
+	}
 	require_once('../app/Category.php');		
 	$message;
 		if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['add-cat'])) {
