@@ -56,25 +56,17 @@
 			
 			
 		}
-		public static function delete($id){
-			$db=new Db();
-			$sql="DELETE FROM users WHERE id=$id";
-			$result=$db->query($sql);
-			if($result){				
-				return true;
-			}
-			return false;
-		}
+		
 		public static function authcheck(){
-			// if (Auth::isloggedin()) {
-			// 	if (Auth::isadmin()) {
-			// 		Auth::redirect("index.php");
-			// 	}else{
-			// 		Auth::redirect("../index.php");
-			// 	}
-			// }else{
-			// 	Auth::redirect("login.php");
-			// }
+			if (self::isloggedin()) {
+				if (self::isadmin()) {
+					self::redirect("index.php");
+				}else{
+					self::redirect("../index.php");
+				}
+			}else{
+				self::redirect("login.php");
+			}
 		}
 		public static function redirect($url){
 			header('location:'.$url);

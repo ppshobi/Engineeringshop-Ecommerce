@@ -2,7 +2,9 @@
 <?php
 session_start();
 require_once('../app/Auth.php');
-//Auth::authcheck();
+if(!Auth::isadmin()){
+	Auth::authcheck();
+}
 
 require_once('../app/User.php');
 require_once('../app/Order.php');
