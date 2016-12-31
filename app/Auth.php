@@ -66,15 +66,15 @@
 			return false;
 		}
 		public static function authcheck(){
-			if (Auth::isloggedin()) {
-				if (Auth::isadmin()) {
-					Auth::redirect("index.php");
-				}else{
-					Auth::redirect("../index.php");
-				}
-			}else{
-				Auth::redirect("login.php");
-			}
+			// if (Auth::isloggedin()) {
+			// 	if (Auth::isadmin()) {
+			// 		Auth::redirect("index.php");
+			// 	}else{
+			// 		Auth::redirect("../index.php");
+			// 	}
+			// }else{
+			// 	Auth::redirect("login.php");
+			// }
 		}
 		public static function redirect($url){
 			header('location:'.$url);

@@ -161,7 +161,7 @@
                         <li class="menu-item active"> <a href="index.php">Home</a></li>
                         <li class="menu-item"><a href="about.php">About Us</a></li>
                          <li class="menu-item"><a href="shop.php">Shop</a></li>
-                        <li class="menu-item"><a href="#">Services</a></li>
+                        <li class="menu-item"><a href="services.php">Services</a></li>
                         <li class="menu-item"><a href="#">Consultancy</a></li>
                         <li class="menu-item"><a href="contact.php">Contact Us</a></li>                       
 
