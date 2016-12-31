@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/add-category.php" afterPath="$PROJECT_DIR$/admin/add-category.php" />
-    </list>
+    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="" />
     <ignored path="Engineeringshop-Ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -79,14 +77,11 @@
             <state relative-caret-position="1826">
               <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
               <folding>
-                <marker date="1483131492214" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
-                <marker date="1483131492214" expanded="true" signature="840:969" placeholder="UPDATE users... " />
-                <marker date="1483131492214" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
-                <marker date="1483131492214" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
-                <marker date="1483131492214" expanded="true" signature="1607:1648" placeholder="SELECT * FRO... users" />
-                <marker date="1483131492214" expanded="true" signature="1941:1982" placeholder="SELECT * FRO... users" />
-                <marker date="1483131492214" expanded="true" signature="2263:2318" placeholder="SELECT * FRO... users" />
-                <marker date="1483131492214" expanded="true" signature="2573:2600" placeholder="DELETE FROM " />
+                <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+                <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+                <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+                <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+                <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
@@ -274,16 +269,16 @@
       <workItem from="1482925526622" duration="3425000" />
       <workItem from="1482931423392" duration="5071000" />
       <workItem from="1483117874263" duration="7171000" />
-      <workItem from="1483198412857" duration="2629000" />
+      <workItem from="1483198412857" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18296000" />
+    <option name="totallyTimeSpent" value="18891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -294,7 +289,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -338,14 +333,11 @@
         <state relative-caret-position="1826">
           <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding>
-            <marker date="1483131492214" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
-            <marker date="1483131492214" expanded="true" signature="840:969" placeholder="UPDATE users... " />
-            <marker date="1483131492214" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1607:1648" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1941:1982" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="2263:2318" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="2573:2600" placeholder="DELETE FROM " />
+            <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+            <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+            <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -527,14 +519,11 @@
         <state relative-caret-position="1826">
           <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
           <folding>
-            <marker date="1483131492214" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
-            <marker date="1483131492214" expanded="true" signature="840:969" placeholder="UPDATE users... " />
-            <marker date="1483131492214" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1607:1648" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="1941:1982" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="2263:2318" placeholder="SELECT * FRO... users" />
-            <marker date="1483131492214" expanded="true" signature="2573:2600" placeholder="DELETE FROM " />
+            <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+            <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+            <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
