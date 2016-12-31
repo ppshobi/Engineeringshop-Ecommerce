@@ -67,7 +67,7 @@
 		}
 		public static function getOne($id){
 			$db=new Db();
-			$sql="SELECT * FROM users WHERE id= $id LIMIT 1";
+			$sql="SELECT * FROM users WHERE id= '$id' LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result && mysqli_num_rows($result)>0){
@@ -82,7 +82,7 @@
 
 		public static function getUserLevel($id){
 			$db= new Db();
-			$sql="SELECT * FROM users WHERE id= $id LIMIT 1";
+			$sql="SELECT * FROM users WHERE id= '$id' LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
@@ -110,7 +110,7 @@
 		}
 		public static function delete($id){
 			$db=new Db();
-			$sql="DELETE FROM users WHERE id=$id";
+			$sql="DELETE FROM users WHERE id='$id'";
 			$result=$db->query($sql);
 			if($result){				
 				return true;
