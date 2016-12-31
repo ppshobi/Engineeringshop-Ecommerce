@@ -1,7 +1,8 @@
 <?php
 require_once('../app/Auth.php');
+	if(!Auth::isadmin()){
 	Auth::authcheck();
-	require_once('../app/Product.php');	
+}	require_once('../app/Product.php');	
 	require_once('../app/Category.php');			
 	require_once('../app/Unit.php');	
 	require_once('../app/Order.php');	

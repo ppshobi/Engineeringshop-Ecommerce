@@ -1,6 +1,9 @@
 <?php
 session_start();
 require_once('app/Auth.php');
+if(!Auth::isadmin()){
+    Auth::authcheck();
+}
 require_once('app/User.php');
 require_once('app/Order.php');
 $login_status=Auth::isloggedin();

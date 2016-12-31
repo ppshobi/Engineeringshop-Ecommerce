@@ -1,7 +1,7 @@
 <?php
 	require_once('../app/Auth.php');
 	if(!Auth::isadmin()){
-	Auth::authcheck();
+		Auth::authcheck();
 	}
 	require_once('../app/Category.php');		
 	$message;
