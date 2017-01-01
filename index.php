@@ -286,7 +286,7 @@
                                 <div class="lastet-content">
                                     <h5 class="title-post"><a href="#">Claritas est etiam Prosessus</a></h5>
                                     <div class="desc-post">Contrary to popular belief, Lorem Ipsum is not random Latinv literature from 45 BC...</div>
-                                    <a href="#">Read More<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>

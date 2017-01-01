@@ -51,191 +51,43 @@ require_once('app/Photo.php');
                                     </nav>
                                 </div>
                             </div>
-                            <div class="panel-categories">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="view-categories">
-                                            <div class="click-grid color-active">
-                                                <i class="flaticon-four-grid-layout-design-interface-symbol"></i>
-                                            </div>
-                                            <div class="click-list">
-                                                <i class="flaticon-squares-gallery-grid-layout-interface-symbol"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select-categories">
-                                            <div class="select-categories-content">
-                                                <span>Short by</span>
-                                                <select name="position">
-                                                    <option value="position1">Position</option>
-                                                    <option value="position2">Position 2</option>
-                                                </select>
-                                            </div>
-                                            <div class="select-categories-content">
-                                                <span>Show</span>
-                                                <select name="show">
-                                                    <option value="show1">6</option>
-                                                    <option value="show2">Show all</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <div class="page-nav">
-                                            <div class="page-nav-item active">1</div>
-                                            <div class="page-nav-item">2</div>
-                                            <div class="page-nav-item">3</div>
-                                            <div class="page-nav-item"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="products-categories">
-                            <?php
-                            foreach ($products as $product) {
-                                $product_id=$product['id'];
-                                $photo=Photo::getOne($product_id);                                
-                                $photo="products/".$product_id."/".$photo['location'];
+                                <?php
 
-                                echo "<div class=\"product-box\">";
-                                echo " <div class=\"product-box-content\">";
-                                echo "<figure class=\"img-product\">";
-                                echo "<img src=\"".$photo."\" alt=\"product\" height=\"207\" width=\"175\">";
-                                echo "<a href=\"product-detail.php?pid=".$product_id."\" class=\"flaticon-search\"></a>";
-                                echo " </figure>";
-                                echo "<div class=\"product-box-text\">";
-                                echo "  <a href=\"product-detail.php?pid=".$product_id."\" class=\"product-name\">".$product['name']."</a>";                    
-                                echo "<p class=\"product-cost\">"."&#8377; ".$product['price']."</p>";
-                                echo "<p class=\"desc-product\">".$product['descr']."</p>";
-                                echo "<div class=\"product-box-bottom\">";
-                                echo "<a href=\"#\" class=\"add-to-cart\"><i class=\"flaticon-commerce\"></i>Add To Cart</a>";
-                                echo "</div>";
-                                echo "</div>";
-                                echo "</div>";
-                                echo "</div>";
-                             }
-                            ?>
-                               
-                                <div class="product-box">
-                                    <div class="product-box-content">
-                                        <figure class="img-product">
-                                            <img src="assets/images/p6.jpg" alt="product" height="207" width="175">
-                                            <a href="#" class="flaticon-search"></a>
-                                        </figure>
-                                        <div class="product-box-text">
-                                            <a href="#" class="product-name">Men's Skagen Watch</a>
-                                            <a href="#" class="write">Write Your Review</a>
-                                            <p class="product-cost">$200.00</p>
-                                            <p class="desc-product">Cum altera mandamus in, mea verear disputationi et.
-                                                Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique.
-                                                Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
-                                            </p>
-                                            <div class="product-box-bottom">
-                                                <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                                <a href="#" class="wishlist"><i class="flaticon-like"></i></a>
-                                                <a href="#" class="refresh-product"><i class="flaticon-arrows"></i></a>
-                                            </div>
-                                        </div>
+                                foreach ($products as $product) {
+                                    
+                                    $count=1;
+                                    if($count==1){
+                                        echo "<div class=\"row\">";
+                                    }
+                                    $product_id=$product['id'];
+                                    $photo=Photo::getOne($product_id);                                
+                                    $photo="products/".$product_id."/".$photo['location'];
 
-                                    </div>
-                                </div>
-                                <div class="product-box">
-                                    <div class="product-box-content">
-                                        <figure class="img-product">
-                                            <img src="assets/images/p1.jpg" alt="product" height="207" width="175">
-                                            <a href="#" class="flaticon-search"></a>
-                                        </figure>
-                                        <div class="product-box-text">
-                                            <a href="#" class="product-name">Men's Skagen Watch</a>
-                                            <a href="#" class="write">Write Your Review</a>
-                                            <p class="product-cost">$200.00</p>
-                                            <p class="desc-product">Cum altera mandamus in, mea verear disputationi et.
-                                                Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique.
-                                                Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
-                                            </p>
-                                            <div class="product-box-bottom">
-                                                <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                                <a href="#" class="wishlist"><i class="flaticon-like"></i></a>
-                                                <a href="#" class="refresh-product"><i class="flaticon-arrows"></i></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="product-box">
-                                    <div class="product-box-content">
-                                        <figure class="img-product">
-                                            <img src="assets/images/p2.jpg" alt="product" height="207" width="175">
-                                            <a href="#" class="flaticon-search"></a>
-                                        </figure>
-                                        <div class="product-box-text">
-                                            <a href="#" class="product-name">Men's Skagen Watch</a>
-                                            <a href="#" class="write">Write Your Review</a>
-                                            <p class="product-cost">$200.00</p>
-                                            <p class="desc-product">Cum altera mandamus in, mea verear disputationi et.
-                                                Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique.
-                                                Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
-                                            </p>
-                                            <div class="product-box-bottom">
-                                                <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                                <a href="#" class="wishlist"><i class="flaticon-like"></i></a>
-                                                <a href="#" class="refresh-product"><i class="flaticon-arrows"></i></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="product-box">
-                                    <div class="product-box-content">
-                                        <figure class="img-product">
-                                            <img src="assets/images/p3.jpg" alt="product" height="207" width="175">
-                                            <a href="#" class="flaticon-search"></a>
-                                        </figure>
-                                        <div class="product-box-text">
-                                            <a href="#" class="product-name">Men's Skagen Watch</a>
-                                            <a href="#" class="write">Write Your Review</a>
-                                            <p class="product-cost">$200.00</p>
-                                            <p class="desc-product">Cum altera mandamus in, mea verear disputationi et.
-                                                Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique.
-                                                Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
-                                            </p>
-                                            <div class="product-box-bottom">
-                                                <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                                <a href="#" class="wishlist"><i class="flaticon-like"></i></a>
-                                                <a href="#" class="refresh-product"><i class="flaticon-arrows"></i></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="product-box">
-                                    <div class="product-box-content">
-                                        <figure class="img-product">
-                                            <img src="assets/images/p4.jpg" alt="product" height="207" width="175">
-                                            <a href="#" class="flaticon-search"></a>
-                                        </figure>
-                                        <div class="product-box-text">
-                                            <a href="#" class="product-name">Men's Skagen Watch</a>
-                                            <a href="#" class="write">Write Your Review</a>
-                                            <p class="product-cost">$200.00</p>
-                                            <p class="desc-product">Cum altera mandamus in, mea verear disputationi et.
-                                                Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique.
-                                                Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque.
-                                            </p>
-                                            <div class="product-box-bottom">
-                                                <a href="#" class="add-to-cart"><i class="flaticon-commerce"></i>Add To Cart</a>
-                                                <a href="#" class="wishlist"><i class="flaticon-like"></i></a>
-                                                <a href="#" class="refresh-product"><i class="flaticon-arrows"></i></a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                
-                               
-                              
-                                
+                                    echo "<div class=\"product-box\">";
+                                    echo " <div class=\"product-box-content\">";
+                                    echo "<figure class=\"img-product\">";
+                                    echo "<img src=\"".$photo."\" alt=\"product\" height=\"207\" width=\"175\">";
+                                    echo "<a href=\"product-detail.php?pid=".$product_id."\" class=\"flaticon-search\"></a>";
+                                    echo " </figure>";
+                                    echo "<div class=\"product-box-text\">";
+                                    echo "  <a href=\"product-detail.php?pid=".$product_id."\" class=\"product-name\">".$product['name']."</a>";                    
+                                    echo "<p class=\"product-cost\">"."&#8377; ".$product['price']."</p>";
+                                    echo "<p class=\"desc-product\">".$product['descr']."</p>";
+                                    echo "<div class=\"product-box-bottom\">";
+                                    echo "<a href=\"#\" class=\"add-to-cart\"><i class=\"flaticon-commerce\"></i>Add To Cart</a>";
+                                    echo "</div>";
+                                    echo "</div>";
+                                    echo "</div>";
+                                    echo "</div>";
+                                    $count++;
+                                    if ($count==5) {
+                                        echo "</div>";
+                                        $count=1;
+                                    }
+                                 }
+                                ?> 
                             </div>
                             <div class="panel-categories">
                                 <div class="row">
