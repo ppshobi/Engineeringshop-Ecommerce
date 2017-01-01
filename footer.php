@@ -123,7 +123,7 @@
                 </ul>
                 <div class="copyright">
                     <i class="fa fa-copyright" aria-hidden="true"></i>
-                    Copyright 2016 <a href="#">SuperMarket</a> All rights reserved.
+                    Copyright 2017 <a href="#">Kinalath Agro Engineering</a> All rights reserved.
                 </div>
             </div>
         </div>

@@ -18,7 +18,7 @@
         <div class="header-mid">
             <div class="container">
                 <div class="header-mid-left">
-                    <p class="wellcome-to">Wellcome!</p>
+                    <p class="wellcome-to">Welcome!</p>
                     <p class="register-or-login">
                         <a href="#" class="register">Join Free</a>
                         or
@@ -32,12 +32,7 @@
                             My Account
                         </a>
                     </div>
-                    <div class="header-mid-right-content">
-                        <a href="#">
-                            <i class="flaticon-like"></i>
-                            My Wishlist
-                        </a>
-                    </div>
+
                     <div class="header-mid-right-content">
                         <a href="#">
                             <i class="flaticon-check-square"></i>
@@ -62,7 +57,7 @@
                     <div class="header-bottom-right-content my-supermarket">
                         <div class="supermarket">
                             <p>Hi, Sign in</p>
-                            <h4><a class="link-top" href="#"><span class="text-bold">My Super Market</span><i class="fa fa-caret-down" aria-hidden="true"></i></a></h4>
+                            <h4><a class="link-top" href="#"><span class="text-bold">My Account</span><i class="fa fa-caret-down" aria-hidden="true"></i></a></h4>
                         </div>
                         <div class="hover-supermarket">
                             <a href="#" class="singin-super">Sing in</a>
@@ -130,7 +125,7 @@
                         <li class="menu-item">
                             <a href="#">Categories</a>
                             <span class="click-categories flaticon-bars"></span>
-                            <div class="category-drop-list">
+                            <div class="category-drop-list" style="display: none;">
                                 <div class="category-drop-list-inner">
                                     <ul class="sub-menu sub-menu-open">
                                         <li class="menu-item has-mega">

@@ -24,20 +24,7 @@
     <div class="main-content">
         <div class="about-top">
             <div class="container">
-                <div class="breadcrumb-sidebar">
-                    <div class="breadcrumb-wrap">
-                        <nav class="breadcrumb-trail breadcrumbs">
-                            <ul class="trail-items">
-                                <li class="trail-item trail-begin">
-                                    <a href="#"><span>Home</span></a>
-                                </li>
-                                <li class="trail-item trail-end">
-                                    <span>Electronic</span>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                
                 <p class="title-left">About Us</p>
                 <div class="row">
                 <div class="col-md-3">
