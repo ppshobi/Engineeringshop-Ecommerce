@@ -49,7 +49,7 @@ require_once('../app/Auth.php');
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Tables</h1>
+				<h1 class="page-header">Manage Your Orders</h1>
 			</div>
 		</div><!--/.row-->
 				
@@ -57,7 +57,7 @@ require_once('../app/Auth.php');
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="panel panel-default">
-					<div class="panel-heading">Manage Your Orders</div>
+					<div class="panel-heading">Order Management</div>
 					<div class="panel-body">
 						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
 						    <thead>
