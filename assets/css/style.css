@@ -4552,6 +4552,7 @@ a.button:hover {
     .product-tabs-style2 .left-tab figure {
       margin: 0; }
   .product-tabs-style2 .right-tab {
+    margin-top:48px;
     width: 80%;
     float: left;
     position: relative; }

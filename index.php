@@ -100,8 +100,9 @@
         <section id="section21">
             <div class="container">
                 <div class="product-tabs product-tabs-style2">
-                    <h4 class="tab-title">Sport & Furniture</h4>
+                    <h2>Featured Products</h2>
                     <div class="left-tab">
+
                         <ul class="left-tab-list">
                             <li class="tab-list-item"><a href="#">Digital Camera</a></li>
                             <li class="tab-list-item"><a href="#">Security Camera Pro 7.0</a></li>
@@ -120,12 +121,7 @@
                         </div>
                     </div>
                     <div class="right-tab">
-                        <ul  class="nav nav-pills">
-                            <li class="active"><a  href="#1sf" data-toggle="tab">New Arrivals</a></li>
-                            <li><a href="#2sf" data-toggle="tab">Sale Products</a></li>
-                            <li><a href="#3sf" data-toggle="tab">Bestseller</a></li>
-                            <li><a href="#4sf" data-toggle="tab">Most Viewed</a></li>
-                        </ul>
+                       
                         <div class="product-tabs-content tab-content clearfix">
                             <div class="tab-pane active" id="1sf">
                                 <div class="supermartket-owl-carousel" data-number="1" data-margin="0" data-navcontrol="yes" data-dots="yes">
@@ -139,11 +135,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
@@ -154,11 +146,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-2.jpg" alt="feature" width="194" height="230"></figure>
@@ -169,11 +157,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
@@ -184,11 +168,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
@@ -199,11 +179,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
@@ -214,11 +190,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
@@ -229,11 +201,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
@@ -244,11 +212,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                     </div>
                                     <div class="tab-pane-slide">
@@ -261,11 +225,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
@@ -276,11 +236,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
@@ -291,11 +247,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
@@ -306,11 +258,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
@@ -321,11 +269,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
@@ -336,11 +280,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
@@ -351,11 +291,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
@@ -366,511 +302,12 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="2sf">
-                                <div class="supermartket-owl-carousel" data-number="1" data-margin="0" data-navcontrol="yes" data-dots="yes">
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="3sf">
-                                <div class="supermartket-owl-carousel" data-number="1" data-margin="0" data-navcontrol="yes" data-dots="yes">
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="tab-pane" id="4sf">
                                 <div class="supermartket-owl-carousel" data-number="1" data-margin="0" data-navcontrol="yes" data-dots="yes">
                                     <div class="tab-pane-slide">
@@ -883,11 +320,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
@@ -898,11 +331,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
@@ -913,11 +342,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
@@ -928,11 +353,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
@@ -943,11 +364,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
@@ -958,11 +375,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
@@ -973,11 +386,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
@@ -988,11 +397,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                     </div>
                                     <div class="tab-pane-slide">
@@ -1005,11 +410,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
@@ -1020,11 +421,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
@@ -1035,11 +432,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
@@ -1050,11 +443,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
@@ -1065,11 +454,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
@@ -1080,11 +465,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
@@ -1095,11 +476,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
@@ -1110,11 +487,7 @@
                                                     <span></span>
                                                 </div>
                                             </div>
-                                            <ul class="product-item-actions">
-                                                <li><a href="#"><i class="flaticon-like"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-arrows"></i></a></li>
-                                                <li><a href="#"><i class="flaticon-commerce"></i></a></li>
-                                            </ul>
+                                            
                                         </div>
                                     </div>
                                 </div>
