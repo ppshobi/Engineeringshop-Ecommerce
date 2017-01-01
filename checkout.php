@@ -8,6 +8,7 @@ require_once('app/User.php');
 require_once('app/Order.php');
 $login_status=Auth::isloggedin();
 $message;
+$intent;
 if(!isset($login_status) or !$login_status){
     if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
         $login_status=Auth::login($_POST['username'],$_POST['password']);
@@ -25,6 +26,9 @@ if(!isset($login_status) or !$login_status){
             $message=false;
         }
     }
+}elseif(isset($_GET['login']) or isset($_GET['register'])){
+    $intent=true;
+
 }else{
     $order=Order::place();
     if ($order) {
@@ -72,6 +76,8 @@ if(!isset($login_status) or !$login_status){
                 </div>
                 <?php
                     if(!isset($login_status) or !$login_status){
+                        include_once('checkout-box.php');
+                    }elseif (isset($intent) and $intent) {
                         include_once('checkout-box.php');
                     }
                 ?>

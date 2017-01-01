@@ -8,21 +8,15 @@
 
  ?>
  <header class="header header-style3">
-        <div class="header-top">
-            <div class="container">
-                <h5>Sport Headphone Equipment</h5>
-                <p>Protect her inevitable but unfortunate collision happened to himself </p>
-                <a href="#" class="button red">View Now</a>
-            </div>
-        </div>
+       
         <div class="header-mid">
             <div class="container">
                 <div class="header-mid-left">
                     <p class="wellcome-to">Welcome!</p>
                     <p class="register-or-login">
-                        <a href="#" class="register">Join Free</a>
+                        <a href="checkout.php?register" class="register">Join Free</a>
                         or
-                        <a href="#" class="login">Sing in</a>
+                        <a href="checkout.php?login" class="login">Sign in</a>
                     </p>
                 </div>
                 <div class="header-mid-right">
@@ -60,12 +54,10 @@
                             <h4><a class="link-top" href="#"><span class="text-bold">My Account</span><i class="fa fa-caret-down" aria-hidden="true"></i></a></h4>
                         </div>
                         <div class="hover-supermarket">
-                            <a href="#" class="singin-super">Sing in</a>
+                            <a href="checkout.php?login" class="singin-super">Sign in</a>
                             <ul class="market-list">                               
-                                <li class="market-list-item"><a href="#">My Order</a></li>
-                                <li class="market-list-item"><a href="#">My Review</a></li>
-                                <li class="market-list-item"><a href="#">My Favorites</a></li>
-                                <li class="market-list-item"><a href="#">My Coupons</a></li>
+                                <li class="market-list-item"><a href="#">My Orders</a></li>
+                                
                             </ul>
                            
                            
