@@ -176,34 +176,7 @@
 						</form>
 						
 					</div>
-					<?php 
-						if (isset($message)) {
-							if ($message) {
-								echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
-								echo " <svg class=\"glyph stroked checkmark\">";
-								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
-								echo " </svg>";
-								echo " Successfully Deleted Category";
-								echo " <a href=\"#\" class=\"pull-right\">";
-								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
-								echo " </a>";
-								echo " </div>";
-
-
-							}else{
-								echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
-								echo " <svg class=\"glyph stroked checkmark\">";
-								echo " <use xlink:href=\"#stroked-checkmark\"></use>";
-								echo " </svg>";
-								echo " Something went wrong";
-								echo " <a href=\"#\" class=\"pull-right\">";
-								echo " <span class=\"glyphicon glyphicon-remove\"></span>";
-								echo " </a>";
-								echo " </div>";
-							}
-						}
-
-					?>
+					
 				</div>
 			</div><!-- /.col-->
 		</div><!-- /.row -->
