@@ -5,6 +5,7 @@
 	require_once('DB2.php');
 	require_once('Auth.php');
 	require_once('Cart.php');
+	require_once('Product.php');
 	class Order
 	{
 		public static function place(){
@@ -107,6 +108,20 @@
 			$date=date("Y-m-d H:i:s");
 			$sql="UPDATE orders SET status=1, shipped_date='$date'";
 			$result=$db->query($sql);
+			$items_in_order=self::getOrderDetail($id);
+			foreach ($items_in_order as $item) {
+				$qty=$item['qty'];
+				$product_id=$item['product_id'];
+				$actual_product=Product::getOne($product_id);
+				$old_qty=$actual_product['qty'];
+				$new_qty=$old_qty-$qty;
+				$sql="UPDATE products SET qty='$new_qty' WHERE id='$product_id'";
+				$qty_update=$db->query($sql);
+				if ($qty_update) {
+					//sucecssfully update qty;
+				}
+
+			}
 			if($result){
 				return true;
 			}
