@@ -640,3 +640,9 @@ jQuery(document).ready(function ($) {
     }
 
 });
+//page active
+$(window).load(function(){
+    page=window.location.pathname.split("/").pop();
+    menuChildren = $('a[href="' + page + '"]');  
+    $(menuChildren).parent('li').addClass('active');
+});

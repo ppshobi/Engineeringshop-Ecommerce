@@ -153,7 +153,7 @@
                 </a>
                 <nav id="primary-navigation" class="site-navigation main-menu">
                     <ul id="primary-menu" class="menu">
-                        <li class="menu-item active"> <a href="index.php">Home</a></li>
+                        <li class="menu-item"> <a href="index.php">Home</a></li>
                         <li class="menu-item"><a href="about.php">About Us</a></li>
                          <li class="menu-item"><a href="shop.php">Shop</a></li>
                         <li class="menu-item"><a href="services.php">Services</a></li>
