@@ -104,17 +104,17 @@
                     <div class="left-tab">
 
                         <ul class="left-tab-list">
-                            <li class="tab-list-item"><a href="#">Digital Camera</a></li>
-                            <li class="tab-list-item"><a href="#">Security Camera Pro 7.0</a></li>
-                            <li class="tab-list-item"><a href="#">Wifi Camera Fashion</a></li>
-                            <li class="tab-list-item"><a href="#">Camera 3G Pro</a></li>
-                            <li class="tab-list-item"><a href="#">Camera Digital 16MP</a></li>
-                            <li class="tab-list-item"><a href="#">Wireless Spy Camera</a></li>
-                            <li class="tab-list-item"><a href="#">SmartPhone</a></li>
-                            <li class="tab-list-item"><a href="#">Cladding Phone</a></li>
-                            <li class="tab-list-item"><a href="#">Phone Pomponents</a></li>
-                            <li class="tab-list-item"><a href="#">Accessories</a></li>
-                            <li class="tab-list-item"><a href="#">Phone Headset</a></li>
+                            <li class="tab-list-item"><a href="#">Crompton</a></li>
+                            <li class="tab-list-item"><a href="#">Kirloskar</a></li>
+                            <li class="tab-list-item"><a href="#">KSB </a></li>
+                            <li class="tab-list-item"><a href="#">V-Guard</a></li>
+                            <li class="tab-list-item"><a href="#">Anand</a></li>
+                            <li class="tab-list-item"><a href="#">Havells</a></li>
+                            <li class="tab-list-item"><a href="#">Usha</a></li>
+                            <li class="tab-list-item"><a href="#">CRI</a></li>
+                            <li class="tab-list-item"><a href="#">Accord</a></li>
+                            <li class="tab-list-item"><a href="#">Aris</a></li>
+                            <li class="tab-list-item"><a href="#">Eagle</a></li>
                         </ul>
                         <div class="banner-text">
                             <figure><a href="#"><img src="assets/images/tab-left-h3-2.jpg" alt="tab" width="233" height="199"></a></figure>
@@ -128,9 +128,9 @@
                                     <div class="tab-pane-slide">
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
+                                            <a href="#" class="feature-slide-name">End suction pumps</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 4500.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -139,9 +139,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
+                                            <a href="#" class="feature-slide-name">In-line pumps</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 4505.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -150,9 +150,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-2.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
+                                            <a href="#" class="feature-slide-name">Double suction pumps</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 3345.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -161,9 +161,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
+                                            <a href="#" class="feature-slide-name">Self-priming pumps</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 545.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -172,9 +172,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
+                                            <a href="#" class="feature-slide-name">Wet Pipe</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 75.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -183,9 +183,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
+                                            <a href="#" class="feature-slide-name">Dry Pipe System</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 445.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -194,9 +194,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
+                                            <a href="#" class="feature-slide-name">Deluge Systems</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 645.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -205,9 +205,9 @@
                                         </div>
                                         <div class="product-list-content">
                                             <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
+                                            <a href="#" class="feature-slide-name">Pre-Action System</a>
                                             <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
+                                                <span class="price">&#8377; 245.00</span>
                                                 <div class="rate">
                                                     <span></span>
                                                 </div>
@@ -215,283 +215,12 @@
                                             
                                         </div>
                                     </div>
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
+
+                                       
                                 </div>
                             </div>
                             
-                            <div class="tab-pane" id="4sf">
-                                <div class="supermartket-owl-carousel" data-number="1" data-margin="0" data-navcontrol="yes" data-dots="yes">
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane-slide">
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-9.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera IP Wifi OKISA</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-10.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Wireless IP Camera 720P</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-11.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-12.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-13.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-14.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Beatvs Solo2 On-Ear</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-15.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Fashion Bluesher</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="product-list-content">
-                                            <figure><img src="assets/images/h3-tab-16.jpg" alt="feature" width="194" height="230"></figure>
-                                            <a href="#" class="feature-slide-name">Camera 3G Mini Q7 HD</a>
-                                            <div class="feature-slide-cost">
-                                                <span class="price">$45.00</span>
-                                                <div class="rate">
-                                                    <span></span>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -503,7 +232,7 @@
         <section id="section23-2">
             <div class="container">
                 <div class="lastes-news lastes-news-style1 lastes-news-slide">
-                    <h4 class="title-left">From The  Blog</h4>
+                    <h4 class="title-left">Recent Works</h4>
                     <div class="supermartket-owl-carousel" data-number="3" data-margin="30" data-navcontrol="yes">
                         <div class="latest-content">
                             <figure><a href="#"><img src="assets/images/latest1.jpg" alt="latest" width="370" height="205"></a></figure>
@@ -513,9 +242,9 @@
                                     <span class="post-month">dec</span>
                                 </div>
                                 <div class="lastet-content">
-                                    <h5 class="title-post"><a href="#">Claritas est etiam Prosessus</a></h5>
+                                    <h5 class="title-post"><a href="#">Panamaram Paddy Field</a></h5>
                                     <div class="desc-post">Contrary to popular belief, Lorem Ipsum is not random Latinv literature from 45 BC...</div>
-                                    <a href="#">Read More<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -527,9 +256,9 @@
                                     <span class="post-month">dec</span>
                                 </div>
                                 <div class="lastet-content">
-                                    <h5 class="title-post"><a href="#">Claritas est etiam Prosessus</a></h5>
+                                    <h5 class="title-post"><a href="#">Gudalur Vegetable Field</a></h5>
                                     <div class="desc-post">Contrary to popular belief, Lorem Ipsum is not random Latinv literature from 45 BC...</div>
-                                    <a href="#">Read More<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -541,9 +270,9 @@
                                     <span class="post-month">dec</span>
                                 </div>
                                 <div class="lastet-content">
-                                    <h5 class="title-post"><a href="#">Claritas est etiam Prosessus</a></h5>
+                                    <h5 class="title-post"><a href="#">Water Supply for Calicut</a></h5>
                                     <div class="desc-post">Contrary to popular belief, Lorem Ipsum is not random Latinv literature from 45 BC...</div>
-                                    <a href="#">Read More<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    
                                 </div>
                             </div>
                         </div>

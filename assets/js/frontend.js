@@ -153,7 +153,7 @@ jQuery(document).ready(function ($) {
                 items: $numberItem,
                 loop: $loop,
                 nav: $Nav,
-                navText: ['<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>'],
+                navText: ['', ''],
                 navContainer: false,
                 dots: $Dots,
                 autoplay: $autoplay,
