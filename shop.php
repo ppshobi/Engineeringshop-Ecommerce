@@ -53,14 +53,11 @@ require_once('app/Photo.php');
                             </div>
                             
                             <div class="products-categories">
-                                <?php
-
+                            <div class="row" style="margin-top: 20px;">
+                                <?php                               
                                 foreach ($products as $product) {
                                     
-                                    $count=1;
-                                    if($count==1){
-                                       // echo "<div class=\"row\">";
-                                    }
+                                    
                                     $product_id=$product['id'];
                                     $photo=Photo::getOne($product_id);                                
                                     $photo="products/".$product_id."/".$photo['location'];
@@ -76,18 +73,14 @@ require_once('app/Photo.php');
                                     echo "<p class=\"product-cost\">"."&#8377; ".$product['price']."</p>";
                                     echo "<p class=\"desc-product\">".$product['descr']."</p>";
                                     echo "<div class=\"product-box-bottom\">";
-                                    echo "<a href=\"#\" class=\"add-to-cart\"><i class=\"flaticon-commerce\"></i>Add To Cart</a>";
+                                    echo "<a href=\"product-detail.php?pid=".$product_id."\" class=\"add-to-cart\"><i class=\"flaticon-commerce\"></i>Add To Cart</a>";
                                     echo "</div>";
                                     echo "</div>";
                                     echo "</div>";
                                     echo "</div>";
-                                    $count++;
-                                    if ($count==5) {
-                                        //echo "</div>";
-                                        $count=1;
-                                    }
-                                 }
+                                                                    }
                                 ?> 
+                                </div>
                             </div>
                             <div class="panel-categories">
                                 <div class="row">
