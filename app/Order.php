@@ -55,7 +55,7 @@
 		}
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM orders ORDER BY order_date";
+			$sql="SELECT * FROM orders ORDER BY order_date DESC";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
