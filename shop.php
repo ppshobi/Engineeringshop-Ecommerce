@@ -59,7 +59,7 @@ require_once('app/Photo.php');
                                     
                                     $count=1;
                                     if($count==1){
-                                        echo "<div class=\"row\">";
+                                       // echo "<div class=\"row\">";
                                     }
                                     $product_id=$product['id'];
                                     $photo=Photo::getOne($product_id);                                
@@ -68,7 +68,7 @@ require_once('app/Photo.php');
                                     echo "<div class=\"product-box\">";
                                     echo " <div class=\"product-box-content\">";
                                     echo "<figure class=\"img-product\">";
-                                    echo "<img src=\"".$photo."\" alt=\"product\" height=\"207\" width=\"175\">";
+                                    echo "<img src=\"".$photo."\" alt=\"product\" height=\"210\" width=\"240\">";
                                     echo "<a href=\"product-detail.php?pid=".$product_id."\" class=\"flaticon-search\"></a>";
                                     echo " </figure>";
                                     echo "<div class=\"product-box-text\">";
@@ -83,7 +83,7 @@ require_once('app/Photo.php');
                                     echo "</div>";
                                     $count++;
                                     if ($count==5) {
-                                        echo "</div>";
+                                        //echo "</div>";
                                         $count=1;
                                     }
                                  }

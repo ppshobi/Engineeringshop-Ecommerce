@@ -6048,7 +6048,9 @@ a.button:hover {
       line-height: 20px;
       margin: 0 0 4px; }
   .categories-page .product-box-content .product-name {
-    font-size: 16px; }
+    font-size: 16px; 
+    line-height: 2em;
+  }
   .categories-page .product-box-content .categories-page .product-box-content .product-cost {
     font-size: 16px;
     margin: 5px 0 8px !important; }
@@ -6118,7 +6120,7 @@ a.button:hover {
   transition: all 0.3s ease-in-out 0s;
   width: 100%; }
 .categories-grid3 .product-box {
-  width: 20%; }
+  width: 25%; }
 
 .categories-grid2 .breadcrumb-sidebar {
   margin-top: 20px; }
