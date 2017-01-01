@@ -60,7 +60,12 @@
 				<ul class="children collapse" id="order">					
 					<li>
 						<a class="" href="view-orders.php">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Manage Orders
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Fullfil or Delete Orders
+						</a>
+					</li>
+					<li>
+						<a class="" href="view-old-orders.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Fullfilled Orders
 						</a>
 					</li>
 								

@@ -56,7 +56,21 @@
 		}
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM orders ORDER BY order_date DESC";
+			$sql="SELECT * FROM orders WHERE status =0 ORDER BY order_date DESC";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
+		public static function getAllFullfilled(){
+			$db=new Db();
+			$sql="SELECT * FROM orders WHERE status =1 ORDER BY order_date DESC ";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
