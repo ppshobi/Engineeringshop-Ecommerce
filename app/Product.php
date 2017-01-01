@@ -97,7 +97,7 @@
 
 		public static function getAll(){
 			$db=new Db();
-			$sql="SELECT * FROM products";
+			$sql="SELECT * FROM products ORDER BY id DESC";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){
