@@ -88,39 +88,13 @@ require_once('app/Photo.php');
                         ?>
                         </tbody>
                     </table>
-                    <div class="button-cart">
-                        <a class="button button-check-out" href="#">Clear Shoping Cart</a>
-                        <a class="button button-check-out" href="#">Update Shoping Cart</a>
-                        <a class="button button-check-out" href="#">Continue Shoping</a>
+                    <div class="button-cart">                        
+                        <a class="button button-check-out" href="shop.php">Continue Shoping</a>
+                        <a class="button button-check-out" href="checkout.php">Proceed to Checkout</a>
                     </div>
                 </div>
 
-            </form>
-            <div class="row">               
-                
-                <div class="col-md-4 pull-right">
-                    <div class="cart_totals cart-box">
-                        <table>
-                            <tbody>
-                            <tr class="cart-subtotal">
-                                <th>Shipping Charge:</th>
-                                <td><span class="amount">$168.00</span></td>
-                            </tr>
-                            <tr class="cart-subtotal">
-                                <th>Sub Total:</th>
-                                <td><span class="amount">$168.00</span></td>
-                            </tr>
-                            <tr class="grand">
-                                <th>Grand Total:</th>
-                                <td><span class="amount">$168.00</span></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <a class="button button-check-out" href="#">Proceed To Checkout</a>
-                    </div>
-                </div>
-            </div>
-
+            </form>           
         </div>
         <div id="section-icon-box">
             <div class="container">
