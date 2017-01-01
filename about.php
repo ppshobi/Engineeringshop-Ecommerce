@@ -23,10 +23,9 @@
     <!-- End .banner -->
     <div class="main-content">
         <div class="about-top">
-            <div class="container">
+            <div class="container">                
                 
-                <p class="title-left">About Us</p>
-                <div class="row">
+                <div class="row" style="margin-top:30px;">
                 <div class="col-md-3">
                         <div class="about-top3">
                             <p class="title-left">Why Choose Us</p>
@@ -36,30 +35,32 @@
                                 <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>International Shipping</a></li>
                                 <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Affiliates</a></li>
                                 <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Group Sales</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>International Shipping</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Affiliates</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Group Sales</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Affiliates</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Group Sales</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>International Shipping</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Secure Shopping</a></li>
                             </ul>
                         </div>
                     </div>
                     
                     <div class="col-md-5">
-                        <div class="about-top2">
-                            <p class="title-left">&nbsp;</p>
-                            <p>Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst.
-                                Duis pellentesque ligula a risus suscipit dignissim. Nunc non nisl lacus.
-                                Integer pharetra lacinia dapibus. Donec eu dolor dui, vel posuere mauris.<br/><br/>
-
-                                Pellentesque semper congue sodales. In consequat, metus eget con sequat ornare,
-                                augue dolor blandit purus, vitae lacinia nisi tellus in erat. Nulla ac justo
-                                eget massa aliquet sodales. Maecenas mattis male suada sem, in fringilla massa
-                                dapibus quis. Suspendisse aliquam leo id neque auctor molestie. Etiam at nulla tellus.<br/><br/>
-
-                                Nulla auctor mauris ut dui luctus semper. In hac habitasse platea dictumst.
+                        <div class="about-top3">
+                            <p class="title-left">About Kinalath Agro Engineering Works</p>
+                            <p>Acknowledged for embarking technical innovation in the field of agricultural implements, we, Kinalath Agro Engineering Works have been in operation since 2000. With in-depth understanding of the market demands, available technology and scope for improvisation, we have been consistently working on our product range to maintain an innovative edge along with aspect of cost efficiency. Our products are widely demanded in the international market for their sturdy designs, ease of operation and durability.
+                            <br/><br/> 
+                            Guided by the principles of integrity and quality, We strive to achieve total effectiveness throughout the organization.We are amongst the top manufacturers, suppliers and exporters in our domain. We design and develop a series of world class Water Supply Solutions and Agricultural Implements. Our current production capacity is around 200 implements per month. We cater to a worldwide clientele that mostly comprises semi-government organizations. 
+                            <br/><br/>
+                            We are engaged in manufacturing and exporting a wide gamut of sturdy Tractor Trailers and Agricultural Implements. Based on new technologies, these are innovative, high performing, long-lasting and user-friendly. Following is the list of products we offer:
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="about-top1">
-                            <p class="title-left">Well Come To Shop</p>
-                            <a href="#"><img src="assets/images/about-big.jpg" alt="ab" height="242" width="372"></a>
+                            <p class="title-left">Welcome To New Solutions</p>
+                            <a href="#"><img src="assets/images/about-big.jpg" alt="ab" height="490" width="372"></a>
                         </div>
                     </div>
                     
@@ -70,7 +71,7 @@
             <div class="container">
                 <div class="about-bottom-slide">
                     <div class="about-bottom-title-item">
-                        <p class="title-left">OUR MEMBER</p>
+                        <p class="title-left">OUR Speciality</p>
                         <span>
                             Consectetur adipiscing elit. Donec pellentesque venenatis elit, quis aliquet mauris malesuada vel.
                             Donec vitae libero dolor, eget dapibus justo.<br/>
@@ -79,63 +80,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="about-bottom-box supermartket-owl-carousel has-dots" data-number="4" data-margin="30" data-dots="yes">
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab1.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Micheal Jack</a>
-                        <p class="about-career">Mannager</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab2.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Henrry Ford</a>
-                        <p class="about-career">Art Director</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab3.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Anna Simson</a>
-                        <p class="about-career">Design Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab4.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Jennifer Thomson</a>
-                        <p class="about-career">Tech Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab1.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Anna Simson</a>
-                        <p class="about-career">Design Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab2.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Jennifer Thomson</a>
-                        <p class="about-career">Tech Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab1.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Anna Simson</a>
-                        <p class="about-career">Design Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab2.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Jennifer Thomson</a>
-                        <p class="about-career">Tech Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-                    <div class="about-box">
-                        <figure><img src="assets/images/ab4.jpg" alt="" height="201" width="271"></figure>
-                        <a href="#" class="about-name">Jennifer Thomson</a>
-                        <p class="about-career">Tech Leader</p>
-                        <p class="about-desc">Pellentesque semper congue sodales. <br/>In cons quat, metus eget con  in erat. </p>
-                    </div>
-
-                </div>
+                
                 <div class="div-icon-box">
                     <div class="row">
                         <div class="col-md-4">
