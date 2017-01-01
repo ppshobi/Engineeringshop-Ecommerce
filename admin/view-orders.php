@@ -72,7 +72,7 @@ require_once('../app/Auth.php');
 						    	$user=User::getOne($userid);
 						   		$order_id=$order['id'];
 						    	echo "<tr>";
-						    		echo "<td>"."<a href=\"order-detail.php?id=$order_id\">".$order_id."</a></td>";					    		
+						    		echo "<td>"."<a href=\"order-detail.php?id=$order_id\">".$order_id."(Details)</a></td>";					    		
 						    		echo "<td>".$order['order_date']."</td>";
 						    		echo "<td>".$user['name']."</td>";
 						    		echo "<td>".$order['shipto']."</td>";
