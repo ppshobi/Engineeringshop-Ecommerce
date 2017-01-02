@@ -120,7 +120,7 @@
 		public static function fullfill($id){
 			$db=new Db();
 			$date=date("Y-m-d H:i:s");
-			$sql="UPDATE orders SET status=1, shipped_date='$date'";
+			$sql="UPDATE orders SET status=1, shipped_date='$date' WHERE id='$id'";
 			$result=$db->query($sql);
 			$items_in_order=self::getOrderDetail($id);
 			foreach ($items_in_order as $item) {
@@ -148,7 +148,7 @@
 			$db=new Db();
 			$sql="DELETE FROM orders WHERE id=$id";
 			$result=$db->query($sql);
-			$sql="DELETE FROM items_in_order WHERE order_id=$id";
+			$sql="DELETE FROM items_in_order WHERE order_id='$id'";
 			$result=$db->query($sql);
 		
 			if($result){				
