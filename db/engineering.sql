@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 01, 2017 at 07:06 PM
+-- Generation Time: Jan 02, 2017 at 08:21 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -64,7 +64,8 @@ INSERT INTO `items_in_order` (`id`, `order_id`, `product_id`, `qty`) VALUES
 (4, 0, 3, 1),
 (5, 0, 2, 3),
 (7, 8, 11, 2),
-(8, 9, 6, 3);
+(8, 9, 6, 3),
+(9, 10, 9, 1);
 
 -- --------------------------------------------------------
 
@@ -87,8 +88,9 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `order_date`, `user_id`, `totalcost`, `shipto`, `status`, `shipped_date`) VALUES
-(8, '2017-01-01 18:06:21', 2, '380', 'Kalpetta', 0, NULL),
-(9, '2017-01-01 18:33:25', 2, '11550', 'Kalpetta', 0, NULL);
+(8, '2017-01-01 18:06:21', 2, '380', 'Kalpetta', 1, '2017-01-01 19:28:07'),
+(9, '2017-01-01 18:33:25', 2, '11550', 'Kalpetta', 1, '2017-01-01 19:28:07'),
+(10, '2017-01-01 19:39:41', 5, '510', 'hghjgjhg hg jhg gjhg', 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -179,7 +181,7 @@ INSERT INTO `products` (`id`, `name`, `descr`, `category`, `mfg`, `price`, `unit
 (8, 'PEARL Mini Family', 'These pumps can withstand wide voltage fluctuations from 180-240 volts. The thermal overload protector prevents motor burning. The stainless steel shaft is used for avoiding rust problem. The locked impeller promises consistent performance. These pumps are very useful in water supply for domestic use in bungalows, apartments, hotels and hospitals. This multi-purpose pump is constructed with high quality materials for durability.', 1, 'Kirloskar', '2250', 4, 50, 1, '2017-01-01 16:44:03'),
 (9, 'Spit Metal Pulsating Sprinkler', 'GARDENING TOOL SPIT METAL PULSATING SPRINKLER GARDEN LAWN IRRIGATION 5 QTY Spare Sector Pulsating Sprinkler Head in metal, ideal for large surfaces.Jet interruption device for uniform distribution of water adjustable water flow Radius of coverage 39 feet Main Nozzle size 4mm Watering Degree (coverage) -15Â° to 360Â° Maximum Flow Rate- 960 LPH Min Pressure 2 Kg/cmÂ² Max Pressure 4 Kg/cmÂ²', 6, 'Pepper', '510', 4, 50, 1, '2017-01-01 17:01:20'),
 (10, 'KK-IRIS-2010 Female Sprinkler', 'Its depend on the pressure of water...normally 5 to 10 meters ', 1, 'Kisan Kraft', '140', 4, 50, 1, '2017-01-01 17:02:56'),
-(11, 'JW - 4 Arms Water Sprinkler', 'Four Arms Water Sprinkler For Gardening Features &amp; Specifications: Rotating Four Arms Sprinkler Comes With an Innovative Design Base Premium Quality and Easy to Use Sprinkler is Suitable for Large Gardens, Lawns and Vegetable Patches for Heavy Sprinkling Covers Approximately 6 to 8 Meters Diameter Depending on Water Pressure Can Operate on 1/2&quot;, 3/4&quot;, 1&quot; Water / Hose Pipe which can be Connected to Outdoor Faucet For Higher Water Pressure Use Push Pull', 6, 'JW', '190', 4, 50, 1, '2017-01-01 17:04:27');
+(11, 'JW - 4 Arms Water Sprinkler', 'Four Arms Water Sprinkler For Gardening Features &amp; Specifications: Rotating Four Arms Sprinkler Comes With an Innovative Design Base Premium Quality and Easy to Use Sprinkler is Suitable for Large Gardens, Lawns and Vegetable Patches for Heavy Sprinkling Covers Approximately 6 to 8 Meters Diameter Depending on Water Pressure Can Operate on 1/2&quot;, 3/4&quot;, 1&quot; Water / Hose Pipe which can be Connected to Outdoor Faucet For Higher Water Pressure Use Push Pull', 6, 'JW', '190', 4, 48, 1, '2017-01-01 17:04:27');
 
 -- --------------------------------------------------------
 
@@ -282,17 +284,17 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `items_in_order`
 --
 ALTER TABLE `items_in_order`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `photo`
 --
