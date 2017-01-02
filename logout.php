@@ -1,0 +1,9 @@
+<?php
+session_start();
+require_once('app/Auth.php');
+unset($_SESSION['cart']);
+unset($_SESSION['totalcost']);
+Auth::logout();
+session_destroy();
+Auth::redirect('index.php');
+?>

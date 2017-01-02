@@ -28,9 +28,9 @@
                     </div>
 
                     <div class="header-mid-right-content">
-                        <a href="#">
+                        <a href="logout.php">
                             <i class="flaticon-check-square"></i>
-                            Check Out
+                            Log Out
                         </a>
                     </div>
                    
