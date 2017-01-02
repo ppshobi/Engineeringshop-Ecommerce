@@ -1,10 +1,10 @@
 <div class="check-1 checkout-box">
-                    <div class="check-out-click"><span>1</span>Checkout Method</div>
+                    <div class="check-out-click"><span></span>Login or Register to Continue</div>
                     <div class="check-method-content checkout-toggle">
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="method-content-left">
-                                    <div class="color-333">Checkout as a Login or Register</div>
+                                    <div class="color-333"> Login or Register</div>
                                     <div class="method-content-left-bottom">
                                         <p>Register with us for future convenience:</p>    
                                         <form method="post" action="#">
