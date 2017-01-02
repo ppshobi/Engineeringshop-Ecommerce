@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <p class="title-left">Store 1</p>
+                        <p class="title-left">Email</p>
                         <div class="div-icon-border">
                             <div class="icon-box-contact">
                                 <div class="icon-contact">
@@ -63,104 +63,47 @@
                                     <p><a href="#">Support1@BigShop.com</a></p>
                                 </div>
                             </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Phone</p>
-                                    <p><span>0123-465-789-111</span></p>
-                                    <p><span>0123-465-789-111</span></p>
-                                </div>
-                            </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Mail Office</p>
-                                    <p><span>Sed ut perspiciatis unde omnis</span></p>
-                                    <p><span>Street Name, Los Angeles</span></p>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <p class="title-left">Store 1</p>
+                        <p class="title-left">Phone Number</p>
                         <div class="div-icon-border">
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Email</p>
-                                    <p><a href="#">Support1@BigShop.com</a></p>
-                                    <p><a href="#">Support1@BigShop.com</a></p>
-                                </div>
-                            </div>
                             <div class="icon-box-contact">
                                 <div class="icon-contact">
                                     <i class="fa fa-phone" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-contact-text">
-                                    <p>Phone</p>
-                                    <p><span>0123-465-789-111</span></p>
-                                    <p><span>0123-465-789-111</span></p>
+                                    <p>Email</p>
+                                    <p><a href="#">9847500463</a></p>
+                                    <p><a href="#">9847500463</a></p>
                                 </div>
                             </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Mail Office</p>
-                                    <p><span>Sed ut perspiciatis unde omnis</span></p>
-                                    <p><span>Street Name, Los Angeles</span></p>
-                                </div>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <p class="title-left">Store 1</p>
+                        <p class="title-left">Address</p>
                         <div class="div-icon-border">
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Email</p>
-                                    <p><a href="#">Support1@BigShop.com</a></p>
-                                    <p><a href="#">Support1@BigShop.com</a></p>
-                                </div>
-                            </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Phone</p>
-                                    <p><span>0123-465-789-111</span></p>
-                                    <p><span>0123-465-789-111</span></p>
-                                </div>
-                            </div>
                             <div class="icon-box-contact">
                                 <div class="icon-contact">
                                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-contact-text">
-                                    <p>Mail Office</p>
-                                    <p><span>Sed ut perspiciatis unde omnis</span></p>
-                                    <p><span>Street Name, Los Angeles</span></p>
+                                    <p>Address</p>
+                                    <p><a href="#">Assumption Junction</a></p>
+                                    <p><a href="#">Sulthan Bathery</a></p>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <p class="title-left">Store 1</p>
+                        <p class="title-left">Website</p>
                         <div class="div-icon-border">
                             <div class="icon-box-contact">
                                 <div class="icon-contact">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
                                 </div>
                                 <div class="icon-contact-text">
                                     <p>Email</p>
@@ -168,26 +111,7 @@
                                     <p><a href="#">Support1@BigShop.com</a></p>
                                 </div>
                             </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Phone</p>
-                                    <p><span>0123-465-789-111</span></p>
-                                    <p><span>0123-465-789-111</span></p>
-                                </div>
-                            </div>
-                            <div class="icon-box-contact">
-                                <div class="icon-contact">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </div>
-                                <div class="icon-contact-text">
-                                    <p>Mail Office</p>
-                                    <p><span>Sed ut perspiciatis unde omnis</span></p>
-                                    <p><span>Street Name, Los Angeles</span></p>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
