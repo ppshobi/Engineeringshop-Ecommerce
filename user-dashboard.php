@@ -4,9 +4,19 @@ require_once('app/Auth.php');
 
 require_once('app/User.php');
 require_once('app/Order.php');
+require_once('app/Question.php');
 $login_status=Auth::isloggedin();
+$message;
 if (!$login_status) {
     Auth::redirect('checkout.php?login');
+}
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {    
+    $result=Question::add($_POST['question'],Auth::getuserid());
+    if ($result) {
+        $message=true;
+    }else{
+        $message=false;
+    }
 }
 
 ?>
@@ -72,6 +82,23 @@ if (!$login_status) {
                             echo "</table>";
                     }elseif(isset($_GET['questions'])){
                         //display question answer
+                        if (isset($message)) {
+                            if ($message) {
+                                echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
+                               
+                                echo " Successfully Placed Your Question";
+                                
+                                echo " </div>";
+
+
+                            }else{
+                                echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
+                               
+                                echo " Something went wrong";
+                               
+                                echo " </div>";
+                            }
+                        }
                         echo "<div class=\"questions\">";
                             echo "Ask a question<br/>";
                             echo "<form method=\"post\">";
