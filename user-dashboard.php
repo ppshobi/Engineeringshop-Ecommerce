@@ -84,18 +84,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
                         //display question answer
                         if (isset($message)) {
                             if ($message) {
-                                echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";
-                               
-                                echo " Successfully Placed Your Question";
-                                
+                                echo "<div class=\"alert bg-success\" id=\"success\" role=\"alert\">";                               
+                                    echo " Successfully Placed Your Question";
                                 echo " </div>";
 
 
                             }else{
                                 echo "<div class=\"alert bg-danger\" id=\"success\" role=\"alert\">";
-                               
-                                echo " Something went wrong";
-                               
+                                    echo " Something went wrong";
                                 echo " </div>";
                             }
                         }
@@ -105,7 +101,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
                                 echo "<textarea name=\"question\" rows=\"5\" cols=\"50\"></textarea><br/>";
                                 echo "<input type=\"submit\" name=\"ask\" value=\"Ask Question\">";
                             echo "</form>";
+                            $question=Question::getUserQuestion(Auth::getuserid());
+                            if($question){
+                                echo "<p class=\"question\">".$question['question']."</p>";
+                                echo "<p class=\"answer\">".$question['answer']."</p>";
+                            }
                         echo "</div>";
+
                     }
                 ?>
             </div>
