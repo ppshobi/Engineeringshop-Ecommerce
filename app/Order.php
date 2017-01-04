@@ -68,6 +68,20 @@
 			return false;
 			
 		}
+		public static function getAllUserOrders($userid){
+			$db=new Db();
+			$sql="SELECT * FROM orders WHERE user_id = $userid ORDER BY order_date DESC";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
 		public static function getAllFullfilled(){
 			$db=new Db();
 			$sql="SELECT * FROM orders WHERE status =1 ORDER BY order_date DESC ";

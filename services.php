@@ -44,7 +44,7 @@
                                 <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Secure Shopping</a></li>
                             </ul>
                         </div>
-                    </div>
+                </div>
                     
                     <div class="col-md-5">
                         <div class="about-top3">

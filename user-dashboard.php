@@ -33,9 +33,52 @@ if (!$login_status) {
         <div class="row">
             <div class="col-md-12">
                 <p class="title-left">User Dash Board</p>
-               
-
-
+                <div class="col-md-3">
+                        <div class="about-top3">
+                            <p class="title-left">Quick Links</p>
+                            <ul class="chose-us">
+                                <li class="chose-us-item"><a href="user-dashboard.php?myorders"><i class="flaticon-check-square"></i>My Orders</a></li>
+                                <li class="chose-us-item"><a href="user-dashboard.php?questions"><i class="flaticon-check-square"></i>Questions</a></li>
+                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Logout</a></li>
+                                
+                            </ul>
+                        </div>
+                </div>
+                <div class="col-md-9">
+                <?php
+                    if(isset($_GET['myorders'])){
+                        //display Previous Orders
+                        echo "<h2> Previous Orders</h2>";
+                        $orders=Order::getAllUserOrders(Auth::getuserid());
+                        echo "<table>";
+                            echo "<thead>";
+                                echo "<tr>";
+                                    echo "<th>Order ID</th>";
+                                    echo "<th>Order Date</th>";
+                                    echo "<th>Total Amount</th>";
+                                echo "</tr>";
+                            echo "</thead>";
+                            echo "<tbody>";
+                            foreach ($orders as $order) {                       
+                                $order_id=$order['id'];
+                                echo "<tr>";
+                                    echo "<td>"."<a href=\"order-detail.php?id=$order_id\">".$order_id."(Details)</a></td>";                                
+                                    echo "<td>".$order['order_date']."</td>";
+                                    echo "<td>".$order['totalcost']."</td>";
+                                echo "</tr>";
+                        
+                            }
+                            echo "</tbody>";
+                            echo "</table>";
+                    }elseif(isset($_GET['questions'])){
+                        //display question answer
+                        echo "<div class=\"questions\">"
+                
+                        echo "</div>"
+                    }
+                ?>
+            </div>
+            
                            
             </div>
             
