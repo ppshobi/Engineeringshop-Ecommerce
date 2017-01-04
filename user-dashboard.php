@@ -72,9 +72,13 @@ if (!$login_status) {
                             echo "</table>";
                     }elseif(isset($_GET['questions'])){
                         //display question answer
-                        echo "<div class=\"questions\">"
-                
-                        echo "</div>"
+                        echo "<div class=\"questions\">";
+                            echo "Ask a question<br/>";
+                            echo "<form method=\"post\">";
+                                echo "<textarea name=\"question\" rows=\"5\" cols=\"50\"></textarea><br/>";
+                                echo "<input type=\"submit\" name=\"ask\" value=\"Ask Question\">";
+                            echo "</form>";
+                        echo "</div>";
                     }
                 ?>
             </div>
