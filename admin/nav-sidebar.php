@@ -91,6 +91,25 @@
 			</li>
 			<li class="parent ">
 				<a href="#">
+					<span data-toggle="collapse" href="#user"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg></span> Questions
+				</a>
+				<ul class="children collapse" id="user">
+
+					<li>
+						<a class="answer-questions.php" href="">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Answer New Questions
+						</a>
+					</li>
+					<li>
+						<a class="" href="view-old-questions.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Old Questions
+						</a>
+					</li>
+								
+				</ul>
+			</li>
+			<li class="parent ">
+				<a href="#">
 					<span data-toggle="collapse" href="#user"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg></span> Users
 				</a>
 				<ul class="children collapse" id="user">
