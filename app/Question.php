@@ -9,8 +9,8 @@
 			$db = new Db();
 			$name=$db -> quote($question);
 			$descr=$db -> quote($userid);
-
-			$sql="INSERT INTO question(user_id, question) VALUES('$userid','$question')";
+			$date=new date("Y-m-d");
+			$sql="INSERT INTO question(user_id, question,q_date) VALUES('$userid','$question','$date')";
 			$result=$db -> query($sql);
 			if($result){
 				return true;
@@ -24,6 +24,34 @@
 		public static function getAll(){
 			$db=new Db();
 			$sql="SELECT * FROM question";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
+		public static function getNewQuestions(){
+			$db=new Db();
+			$sql="SELECT * FROM question WHERE answer IS NULL";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
+		public static function getOldQuestions(){
+			$db=new Db();
+			$sql="SELECT * FROM question WHERE answer IS NOT NULL";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result){

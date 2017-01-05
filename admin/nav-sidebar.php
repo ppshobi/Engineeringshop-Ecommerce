@@ -91,12 +91,12 @@
 			</li>
 			<li class="parent ">
 				<a href="#">
-					<span data-toggle="collapse" href="#user"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg></span> Questions
+					<span data-toggle="collapse" href="#question"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg></span> Questions
 				</a>
-				<ul class="children collapse" id="user">
+				<ul class="children collapse" id="question">
 
 					<li>
-						<a class="answer-questions.php" href="">
+						<a class="" href="answer-questions.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Answer New Questions
 						</a>
 					</li>
