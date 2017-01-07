@@ -37,6 +37,20 @@
 			return false;
 			
 		}
+		public static function getOne($question_id){
+			$db=new Db();
+			$sql="SELECT * FROM question WHERE id='$question_id' LIMIT 1";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows[0];
+			}
+			return false;
+			
+		}
 		public static function getOpenQuestions(){
 			$db=new Db();
 			$sql="SELECT * FROM question WHERE status = 0";
@@ -69,7 +83,7 @@
 		}
 		public static function getComments($question_id){
 			$db=new Db();
-			$sql="SELECT * FROM comments WHERE question_id='$question_id'";
+			$sql="SELECT * FROM comments WHERE question_id='$question_id' ORDER BY created_at DESC";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result and mysqli_num_rows($result)>0){

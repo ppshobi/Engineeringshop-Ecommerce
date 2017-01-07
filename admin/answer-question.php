@@ -9,7 +9,8 @@ require_once('../app/User.php');
 
 	$message;
 	$users=User::getAll();
-	$questions=Question::getOpenQuestions();
+	$comments=Question::getComments($_GET['id']);
+	$question=Question::getOne($_GET['id']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,36 +52,28 @@ require_once('../app/User.php');
 				<div class="panel panel-default">
 					<div class="panel-heading">Question Management</div>
 					<div class="panel-body">
-						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
-						    <thead>
-						    <tr>
-						        <th data-field="state" data-checkbox="true" >Question Date</th>
-						        <th data-field="id" data-sortable="true">User</th>
-						        <th data-field="id" data-sortable="true">Phone Number</th>
- 								<th data-field="id" data-sortable="true">Question</th>
- 								<th data-field="id" data-sortable="true">Delete Question</th>
-						        <th data-field="id" data-sortable="true">Answer Question</th>
-						    </tr>
+						
 						    <?php
-						    foreach ($questions as $question) {				    	
-						    	$userid=$question['user_id'];
-						    	$user=User::getOne($userid);
-						   		$question_id=$question['id'];
-						    	echo "<tr>";					    					    		
-						    		echo "<td>".$question['created_at']."</td>";
-						    		echo "<td>".$user['name']."</td>";
-						    		echo "<td>".$user['phone']."</td>";					    		
-						    		echo "<td>".$question['question']."</td>";
-						    		echo "<td>"."<a href=\"delete-question.php?id={$question['id']}\">Delete"."</a> </td>";
-						    		echo "<td>"."<a href=\"answer-question.php?id={$question['id']}\">Answer" ."</a> </td>";
-						    		
-						   		echo "</tr>";
+						    echo "<h3 class=\"question\">".$question['question']."</h3>";
+						    if ($comments) {
+							    foreach ($comments as $comment) {				    	
+							    	$userid=$comment['user_id'];
+							    	$userlevel=User::getUserLevel($userid);
+							   		$comment_id=$comment['id'];						    	
+							    	if($userlevel==1){
+	                                    echo "<p class=\"answer admin\">".$comment['comment']."</p>";
+	                                }else{
+	                                    echo "<p class=\"answer user\">".$comment['comment']."</p>";
+	                                }
+	                            }
 						    }
+						    
 						    ?>
+						    <form method="post">
+                               <textarea name="comment" rows="5" cols="50"></textarea><br/>
+                               <input type="submit" name="comment" value="Comment">
+                           	</form>
 						    
-						    
-						    </thead>
-						</table>
 					</div>
 				</div>
 			</div>
