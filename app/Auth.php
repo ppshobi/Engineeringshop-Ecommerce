@@ -54,8 +54,8 @@
 				return false;
 			}
 			
-			
 		}
+
 		
 		public static function authcheck(){
 			if (self::isloggedin()) {
@@ -68,6 +68,7 @@
 				self::redirect("login.php");
 			}
 		}
+
 		public static function redirect($url){
 			header('location:'.$url);
 		}

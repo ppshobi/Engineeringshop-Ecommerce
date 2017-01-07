@@ -7,10 +7,12 @@
 	{
 		public static function add($question,$userid){
 			$db = new Db();
-			$name=$db -> quote($question);
-			$descr=$db -> quote($userid);
-			$date=new date("Y-m-d");
-			$sql="INSERT INTO question(user_id, question,q_date) VALUES('$userid','$question','$date')";
+			$question=$db -> quote($question);
+			$user_id=$db -> quote($userid);
+			$date=date('Y-m-d H:i:s');
+
+			$sql="INSERT INTO question(question,user_id,status,created_at) VALUES('$question','$user_id',0,'$date')";
+
 			$result=$db -> query($sql);
 			if($result){
 				return true;
@@ -35,48 +37,8 @@
 			return false;
 			
 		}
-		public static function getNewQuestions(){
-			$db=new Db();
-			$sql="SELECT * FROM question WHERE answer IS NULL";
-			$rows=[];
-			$result=$db->query($sql);
-			if($result){
-				while ($r=mysqli_fetch_assoc($result)) {
-					array_push($rows, $r);
-				}
-				return $rows;
-			}
-			return false;
-			
-		}
-		public static function getOldQuestions(){
-			$db=new Db();
-			$sql="SELECT * FROM question WHERE answer IS NOT NULL";
-			$rows=[];
-			$result=$db->query($sql);
-			if($result){
-				while ($r=mysqli_fetch_assoc($result)) {
-					array_push($rows, $r);
-				}
-				return $rows;
-			}
-			return false;
-			
-		}
-		public static function getOne($id){
-			$db=new Db();
-			$sql="SELECT * FROM question WHERE id= $id LIMIT 1";
-			$rows=[];
-			$result=$db->query($sql);
-			if($result){
-				while ($r=mysqli_fetch_assoc($result)) {
-					array_push($rows, $r);
-				}
-				return $rows[0];
-			}
-			return false;
-			
-		}
+		
+		
 		public static function getUserQuestion($userid){
 			$db=new Db();
 			$sql="SELECT * FROM question WHERE user_id= $userid LIMIT 1";
@@ -90,6 +52,19 @@
 			}
 			return false;
 			
+		}
+		public static function getComments($question_id){
+			$db=new Db();
+			$sql="SELECT * FROM comments WHERE question_id='$question_id'";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result and mysqli_num_rows($result)>0){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows[0];
+			}
+			return false;
 		}
 		public static function delete($catid){
 			$db=new Db();

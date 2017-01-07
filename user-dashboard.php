@@ -103,8 +103,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
                             echo "</form>";
                             $question=Question::getUserQuestion(Auth::getuserid());
                             if($question){
-                                echo "<p class=\"question\">".$question['question']."</p>";
-                                echo "<p class=\"answer\">".$question['answer']."</p>";
+                                $comments=Question::getComments($question['id']);
+                                
+                                echo "<h3 class=\"question\">".$question['question']."</h3>";
+                                if ($comments) {
+                                    foreach ($comments as $comment) {
+                                        if(User::getUserLevel($comment['user_id'])==1){
+                                            echo "<p class=\"answer admin\">".$comment['comment']."</p>";
+                                        }else{
+                                            echo "<p class=\"answer user\">".$comment['comment']."</p>";
+                                        }
+                                        
+                                    }
+                                }
+                               
+                                
                             }
                         echo "</div>";
 
