@@ -37,6 +37,20 @@
 			return false;
 			
 		}
+		public static function getOpenQuestions(){
+			$db=new Db();
+			$sql="SELECT * FROM question WHERE status = 0";
+			$rows=[];
+			$result=$db->query($sql);
+			if($result){
+				while ($r=mysqli_fetch_assoc($result)) {
+					array_push($rows, $r);
+				}
+				return $rows;
+			}
+			return false;
+			
+		}
 		
 		
 		public static function getUserQuestion($userid){

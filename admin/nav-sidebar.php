@@ -96,13 +96,13 @@
 				<ul class="children collapse" id="question">
 
 					<li>
-						<a class="" href="answer-questions.php">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Answer New Questions
+						<a class="" href="manage-questions.php">
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Manage Questions
 						</a>
 					</li>
 					<li>
 						<a class="" href="view-old-questions.php">
-							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Old Questions
+							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Archived Questions
 						</a>
 					</li>
 								

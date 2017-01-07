@@ -9,7 +9,7 @@ require_once('../app/User.php');
 
 	$message;
 	$users=User::getAll();
-	$questions=Question::getNewQuestions();
+	$questions=Question::getOpenQuestions();
 ?>
 <!DOCTYPE html>
 <html>
@@ -67,7 +67,7 @@ require_once('../app/User.php');
 						    	$user=User::getOne($userid);
 						   		$question_id=$question['id'];
 						    	echo "<tr>";					    					    		
-						    		echo "<td>".$question['q_date']."</td>";
+						    		echo "<td>".$question['created_at']."</td>";
 						    		echo "<td>".$user['name']."</td>";
 						    		echo "<td>".$user['phone']."</td>";					    		
 						    		echo "<td>".$question['question']."</td>";
