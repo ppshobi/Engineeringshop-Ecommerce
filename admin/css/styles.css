@@ -928,7 +928,20 @@ h1.page-header {
 	height: 65px;
 	overflow: scroll;
 }
-
+.answer{
+  display: block;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.admin{
+  background-color: #8eca8f;
+  text-align: right;
+}
+.user{
+  background-color: #ffb110;
+  text-align: left;
+}
 
 
 

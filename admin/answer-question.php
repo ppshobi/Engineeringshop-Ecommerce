@@ -64,10 +64,11 @@ require_once('../app/User.php');
 			<div class="col-lg-12">
 				<div class="panel panel-default">
 					<div class="panel-heading">Question Management</div>
-					<div class="panel-body">
-						
+					<div class="panel-body col-md-12">
+						<div class="col-md-6 row">
 						    <?php
 						    echo "<h3 class=\"question\">".$question['question']."</h3>";
+
 						    if ($comments) {
 							    foreach ($comments as $comment) {				    	
 							    	$userid=$comment['user_id'];
@@ -83,10 +84,12 @@ require_once('../app/User.php');
 						    
 						    ?>
 						    <form method="post">
-                               <textarea name="comment" rows="5" cols="50"></textarea><br/>
+                               <textarea name="comment" width="100%" rows="5" cols="50"></textarea><br/>
                                <input type="hidden" name="q_id" value="<?php echo $question['id']; ?>">
                                <input type="submit" name="com" value="Comment">
                            	</form>
+						    </div>
+						    
 						    
 					</div>
 				</div>
