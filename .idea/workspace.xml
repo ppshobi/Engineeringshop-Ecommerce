@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="" />
+    <list default="true" id="1e519eac-0ef8-487d-9664-87b1fc44a171" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/answer-question.php" afterPath="$PROJECT_DIR$/admin/answer-question.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Question.php" afterPath="$PROJECT_DIR$/app/Question.php" />
+    </list>
     <ignored path="Engineeringshop-Ecommerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -71,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="answer-questions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/answer-questions.php">
+      <file leaf-file-name="answer-question.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/answer-question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1100">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +88,7 @@
       <file leaf-file-name="nav-sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/nav-sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="2838">
               <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding />
             </state>
@@ -94,15 +98,17 @@
       <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="102" column="21" selection-start-line="102" selection-start-column="98" selection-end-line="103" selection-end-column="21" />
               <folding>
-                <marker date="1483633550817" expanded="true" signature="237:321" placeholder="INSERT INTO question... " />
-                <marker date="1483633550817" expanded="true" signature="491:513" placeholder="SELECT * FRO... question" />
-                <marker date="1483633550817" expanded="true" signature="771:1119" placeholder="SELECT * FRO... question" />
-                <marker date="1483633550817" expanded="true" signature="1371:1415" placeholder="SELECT * FRO... question" />
-                <marker date="1483633550817" expanded="true" signature="1683:1736" placeholder="SELECT * FRO... question" />
-                <marker date="1483633550817" expanded="true" signature="1994:2024" placeholder="DELETE FROM " />
+                <marker date="1483862554179" expanded="true" signature="246:343" placeholder="INSERT INTO question... " />
+                <marker date="1483862554179" expanded="true" signature="690:805" placeholder="INSERT INTO comments... " />
+                <marker date="1483862554179" expanded="true" signature="976:998" placeholder="SELECT * FRO... question" />
+                <marker date="1483862554179" expanded="true" signature="1259:1313" placeholder="SELECT * FRO... question" />
+                <marker date="1483862554179" expanded="true" signature="1575:1614" placeholder="SELECT * FRO... question" />
+                <marker date="1483862554179" expanded="true" signature="1885:1938" placeholder="SELECT * FRO... question" />
+                <marker date="1483862554179" expanded="true" signature="2207:2285" placeholder="SELECT * FRO... comments" />
+                <marker date="1483862554179" expanded="true" signature="2567:2597" placeholder="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -111,7 +117,7 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="1144">
               <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
@@ -131,8 +137,8 @@
       <file leaf-file-name="DB2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DB2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -157,6 +163,8 @@
         <option value="$PROJECT_DIR$/app/Auth.php" />
         <option value="$PROJECT_DIR$/app/Product.php" />
         <option value="$PROJECT_DIR$/admin/answer-questions.php" />
+        <option value="$PROJECT_DIR$/app/Question.php" />
+        <option value="$PROJECT_DIR$/admin/answer-question.php" />
       </list>
     </option>
   </component>
@@ -207,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,7 +264,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,14 +332,15 @@
       <workItem from="1483117874263" duration="7171000" />
       <workItem from="1483198412857" duration="3224000" />
       <workItem from="1483632335392" duration="1774000" />
+      <workItem from="1483859404030" duration="1416000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20665000" />
+    <option name="totallyTimeSpent" value="22081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -343,7 +352,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -366,14 +375,156 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>73</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>72</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/answer-question.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="94" />
+      <option name="time" value="103" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1483294091141" expanded="true" signature="477:630" placeholder="INSERT INTO products... " />
+            <marker date="1483294091141" expanded="true" signature="1750:1900" placeholder="INSERT INTO photo... " />
+            <marker date="1483294091141" expanded="true" signature="2641:2816" placeholder="UPDATE produ... " />
+            <marker date="1483294091141" expanded="true" signature="2986:3025" placeholder="SELECT * FRO... products" />
+            <marker date="1483294091141" expanded="true" signature="3276:3298" placeholder="SELECT * FRO... products" />
+            <marker date="1483294091141" expanded="true" signature="3477:3521" placeholder="SELECT * FRO... products" />
+            <marker date="1483294091141" expanded="true" signature="3777:3807" placeholder="DELETE FROM " />
+            <marker date="1483294091141" expanded="true" signature="3851:3886" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/answer-questions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/nav-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <marker date="1483862554179" expanded="true" signature="246:343" placeholder="INSERT INTO question... " />
+            <marker date="1483862554179" expanded="true" signature="690:805" placeholder="INSERT INTO comments... " />
+            <marker date="1483862554179" expanded="true" signature="976:998" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1259:1313" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1575:1614" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1885:1938" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="2207:2285" placeholder="SELECT * FRO... comments" />
+            <marker date="1483862554179" expanded="true" signature="2567:2597" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+            <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+            <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1650" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1943:1986" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="2267:2322" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="2577:2609" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DB2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -612,6 +763,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
+            <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
+            <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1607:1650" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="1943:1986" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="2267:2322" placeholder="SELECT * FRO... users" />
+            <marker date="1483201189079" expanded="true" signature="2577:2609" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/nav-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2838">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/answer-questions.php" />
     <entry file="file://$PROJECT_DIR$/app/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -629,67 +815,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1483201189079" expanded="true" signature="316:432" placeholder="INSERT INTO users... " />
-            <marker date="1483201189079" expanded="true" signature="840:969" placeholder="UPDATE users... " />
-            <marker date="1483201189079" expanded="true" signature="1139:1158" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="1409:1428" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="1607:1637" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="1607:1650" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="1943:1986" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="2267:2322" placeholder="SELECT * FRO... users" />
-            <marker date="1483201189079" expanded="true" signature="2577:2609" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/DB2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="102" column="21" selection-start-line="102" selection-start-column="98" selection-end-line="103" selection-end-column="21" />
           <folding>
-            <marker date="1483633550817" expanded="true" signature="237:321" placeholder="INSERT INTO question... " />
-            <marker date="1483633550817" expanded="true" signature="491:513" placeholder="SELECT * FRO... question" />
-            <marker date="1483633550817" expanded="true" signature="771:1119" placeholder="SELECT * FRO... question" />
-            <marker date="1483633550817" expanded="true" signature="1371:1415" placeholder="SELECT * FRO... question" />
-            <marker date="1483633550817" expanded="true" signature="1683:1736" placeholder="SELECT * FRO... question" />
-            <marker date="1483633550817" expanded="true" signature="1994:2024" placeholder="DELETE FROM " />
+            <marker date="1483862554179" expanded="true" signature="246:343" placeholder="INSERT INTO question... " />
+            <marker date="1483862554179" expanded="true" signature="690:805" placeholder="INSERT INTO comments... " />
+            <marker date="1483862554179" expanded="true" signature="976:998" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1259:1313" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1575:1614" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="1885:1938" placeholder="SELECT * FRO... question" />
+            <marker date="1483862554179" expanded="true" signature="2207:2285" placeholder="SELECT * FRO... comments" />
+            <marker date="1483862554179" expanded="true" signature="2567:2597" placeholder="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/nav-sidebar.php">
+    <entry file="file://$PROJECT_DIR$/admin/answer-question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/answer-questions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1100">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>

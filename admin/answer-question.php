@@ -9,8 +9,21 @@ require_once('../app/User.php');
 
 	$message;
 	$users=User::getAll();
-	$comments=Question::getComments($_GET['id']);
-	$question=Question::getOne($_GET['id']);
+	$comments;
+	$question;
+	if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['com'])) { 
+		$comments=Question::getComments($_POST['q_id']);
+		$question=Question::getOne($_POST['q_id']);   
+	    $result=Question::comment($_POST['comment'],$_POST['q_id'],Auth::getuserid());
+	    if ($result) {
+	        $message=true;
+	    }else{
+	        $message=false;
+	    }
+	}else{
+		$comments=Question::getComments($_GET['id']);
+		$question=Question::getOne($_GET['id']);
+	}
 ?>
 <!DOCTYPE html>
 <html>
@@ -71,7 +84,8 @@ require_once('../app/User.php');
 						    ?>
 						    <form method="post">
                                <textarea name="comment" rows="5" cols="50"></textarea><br/>
-                               <input type="submit" name="comment" value="Comment">
+                               <input type="hidden" name="q_id" value="<?php echo $question['id']; ?>">
+                               <input type="submit" name="com" value="Comment">
                            	</form>
 						    
 					</div>

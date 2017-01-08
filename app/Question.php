@@ -21,6 +21,23 @@
 				return false;
 			}
 		}
+		public static function comment($comment,$question_id,$userid){
+			$db = new Db();
+			$comment=$db -> quote($comment);
+			$user_id=$db -> quote($userid);
+			$question_id=$db -> quote($question_id);
+			$date=date('Y-m-d H:i:s');
+
+			$sql="INSERT INTO comments(question_id, comment,user_id,created_at) VALUES('$question_id', '$comment','$user_id','$date')";
+
+			$result=$db -> query($sql);
+			if($result){
+				return true;
+			}else{		
+
+				return false;
+			}
+		}
 
 
 		public static function getAll(){
@@ -83,14 +100,14 @@
 		}
 		public static function getComments($question_id){
 			$db=new Db();
-			$sql="SELECT * FROM comments WHERE question_id='$question_id' ORDER BY created_at DESC";
+			$sql="SELECT * FROM comments WHERE question_id=$question_id ORDER BY created_at DESC";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result and mysqli_num_rows($result)>0){
 				while ($r=mysqli_fetch_assoc($result)) {
 					array_push($rows, $r);
 				}
-				return $rows[0];
+				return $rows;
 			}
 			return false;
 		}
