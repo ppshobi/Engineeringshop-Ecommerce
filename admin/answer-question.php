@@ -77,7 +77,7 @@ require_once('../app/User.php');
 							    	if($userlevel==1){
 	                                    echo "<p class=\"answer admin\">".$comment['comment']."</p>";
 	                                }else{
-	                                    echo "<p class=\"answer user\">".$comment['comment']."</p>";
+	                                    echo "<p class=\"answer users\">".$comment['comment']."</p>";
 	                                }
 	                            }
 						    }
