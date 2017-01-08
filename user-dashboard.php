@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['comment'])) {
                             <ul class="chose-us">
                                 <li class="chose-us-item"><a href="user-dashboard.php?myorders"><i class="flaticon-check-square"></i>My Orders</a></li>
                                 <li class="chose-us-item"><a href="user-dashboard.php?questions"><i class="flaticon-check-square"></i>Questions</a></li>
-                                <li class="chose-us-item"><a href="#"><i class="flaticon-check-square"></i>Logout</a></li>
+                                <li class="chose-us-item"><a href="logout.php"><i class="flaticon-check-square"></i>Logout</a></li>
                                 
                             </ul>
                         </div>
