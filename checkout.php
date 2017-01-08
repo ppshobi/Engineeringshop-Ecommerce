@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 require_once('app/Auth.php');
 
@@ -73,6 +74,9 @@ if(!isset($login_status) or !$login_status){
                     ?>
                 </div>
                 <?php
+                    if (isset($login_status)and $login_status) {
+                        Auth::redirect("user-dashboard.php");
+                    }
                     if(!isset($login_status) or !$login_status){
                         include_once('checkout-box.php');
                     }elseif (isset($intent) and $intent) {
