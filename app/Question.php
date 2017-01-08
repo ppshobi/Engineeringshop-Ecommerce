@@ -14,6 +14,7 @@
 			$sql="INSERT INTO question(question,user_id,status,created_at) VALUES('$question','$user_id',0,'$date')";
 
 			$result=$db -> query($sql);
+			
 			if($result){
 				return true;
 			}else{		
@@ -100,7 +101,7 @@
 		}
 		public static function getComments($question_id){
 			$db=new Db();
-			$sql="SELECT * FROM comments WHERE question_id=$question_id ORDER BY created_at DESC";
+			$sql="SELECT * FROM comments WHERE question_id=$question_id ORDER BY created_at ASC";
 			$rows=[];
 			$result=$db->query($sql);
 			if($result and mysqli_num_rows($result)>0){

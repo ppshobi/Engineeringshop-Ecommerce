@@ -18,7 +18,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
         $message=false;
     }
 }
-
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['comment'])) {    
+    $result=Question::comment($_POST['question'],$_POST['q_id'],Auth::getuserid());
+    if ($result) {
+        $message=true;
+    }else{
+        $message=false;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
@@ -96,16 +103,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
                             }
                         }
                         echo "<div class=\"questions\">";
-                            echo "Ask a question<br/>";
-                            echo "<form method=\"post\">";
-                                echo "<textarea name=\"question\" rows=\"5\" cols=\"50\"></textarea><br/>";
-                                echo "<input type=\"submit\" name=\"ask\" value=\"Ask Question\">";
-                            echo "</form>";
+                            
                             $question=Question::getUserQuestion(Auth::getuserid());
                             if($question){
                                 $comments=Question::getComments($question['id']);
                                 
                                 echo "<h3 class=\"question\">".$question['question']."</h3>";
+                                echo "<div class=\"comments col-md-6\">";
                                 if ($comments) {
                                     foreach ($comments as $comment) {
                                         if(User::getUserLevel($comment['user_id'])==1){
@@ -116,8 +120,20 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['ask'])) {
                                         
                                     }
                                 }
-                               
+                                echo "Comment<br/>";
+                                echo "<form method=\"post\">";
+                                echo "<textarea name=\"question\" rows=\"5\" cols=\"50\"></textarea><br/>";
+                                echo "<input type=\"submit\" name=\"comment\" value=\"Comment\">";
+                                echo "<input type=\"hidden\" name=\"q_id\" value=\"". $question['id']."\">";
+                                echo "</form>";
+                               echo "</div>";
                                 
+                            }else{
+                                echo "Ask a question<br/>";
+                                echo "<form method=\"post\">";
+                                echo "<textarea name=\"question\" rows=\"5\" cols=\"50\"></textarea><br/>";
+                                echo "<input type=\"submit\" name=\"ask\" value=\"Ask Question\">";
+                                echo "</form>";
                             }
                         echo "</div>";
 
