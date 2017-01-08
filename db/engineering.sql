@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2017 at 01:48 PM
+-- Generation Time: Jan 08, 2017 at 11:54 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -56,6 +56,17 @@ CREATE TABLE `comments` (
   `user_id` int(11) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `comments`
+--
+
+INSERT INTO `comments` (`id`, `question_id`, `comment`, `user_id`, `created_at`) VALUES
+(1, 5, 'This is agro enginering', 1, '2017-01-08 02:48:43'),
+(2, 5, 'THis is another agro\r\n', 1, '2017-01-08 02:53:01'),
+(3, 5, 'THis is another agro\r\n', 1, '2017-01-08 03:32:43'),
+(5, 5, 'User Comment', 0, '2017-01-08 05:34:23'),
+(6, 5, 'Another User Comment', 5, '2017-01-08 05:37:07');
 
 -- --------------------------------------------------------
 
@@ -206,6 +217,7 @@ INSERT INTO `products` (`id`, `name`, `descr`, `category`, `mfg`, `price`, `unit
 CREATE TABLE `question` (
   `id` int(11) NOT NULL,
   `question` text NOT NULL,
+  `user_id` int(11) NOT NULL,
   `status` int(11) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -214,9 +226,9 @@ CREATE TABLE `question` (
 -- Dumping data for table `question`
 --
 
-INSERT INTO `question` (`id`, `question`, `status`, `created_at`) VALUES
-(2, 'hai', 0, '2017-01-07 12:46:55'),
-(3, 'hai', 0, '2017-01-07 12:46:55');
+INSERT INTO `question` (`id`, `question`, `user_id`, `status`, `created_at`) VALUES
+(2, 'hai', 0, 0, '2017-01-07 12:46:55'),
+(5, 'HEllo WHat is this thing', 5, 0, '2017-01-07 08:28:09');
 
 -- --------------------------------------------------------
 
@@ -309,7 +321,8 @@ ALTER TABLE `products`
 -- Indexes for table `question`
 --
 ALTER TABLE `question`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `user_id` (`user_id`);
 
 --
 -- Indexes for table `unit`
@@ -336,7 +349,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `items_in_order`
 --
@@ -361,7 +374,7 @@ ALTER TABLE `products`
 -- AUTO_INCREMENT for table `question`
 --
 ALTER TABLE `question`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `unit`
 --
