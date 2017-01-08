@@ -100,11 +100,11 @@
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Manage Questions
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a class="" href="view-old-questions.php">
 							<svg class="glyph stroked chevron-right"><use xlink:href="#stroked-chevron-right"></use></svg> Archived Questions
 						</a>
-					</li>
+					</li> -->
 								
 				</ul>
 			</li>

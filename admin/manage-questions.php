@@ -58,7 +58,7 @@ require_once('../app/User.php');
 						        <th data-field="id" data-sortable="true">User</th>
 						        <th data-field="id" data-sortable="true">Phone Number</th>
  								<th data-field="id" data-sortable="true">Question</th>
- 								<th data-field="id" data-sortable="true">Delete Question</th>
+ 								<!-- <th data-field="id" data-sortable="true">Delete Question</th> -->
 						        <th data-field="id" data-sortable="true">Answer Question</th>
 						    </tr>
 						    <?php
@@ -71,7 +71,7 @@ require_once('../app/User.php');
 						    		echo "<td>".$user['name']."</td>";
 						    		echo "<td>".$user['phone']."</td>";					    		
 						    		echo "<td>".$question['question']."</td>";
-						    		echo "<td>"."<a href=\"delete-question.php?id={$question['id']}\">Delete"."</a> </td>";
+						    		// echo "<td>"."<a href=\"delete-question.php?id={$question['id']}\">Delete"."</a> </td>";
 						    		echo "<td>"."<a href=\"answer-question.php?id={$question['id']}\">Answer" ."</a> </td>";
 						    		
 						   		echo "</tr>";
