@@ -96,6 +96,14 @@
 			return false;
 			
 		}
+
+		public static function total_sales_sum(){
+			//this function returns the sum of total shipped orders
+			$orders=self::getAllFullfilled();
+			$order_totals=array_column($orders, 'totalcost');
+			$total_sum=array_sum($order_totals);
+			return $total_sum;
+		}
 		public static function getOne($id){
 			$db=new Db();
 			$sql="SELECT * FROM orders WHERE id= $id LIMIT 1";
@@ -112,6 +120,7 @@
 		}
 
 		public static function getOrderFullFilled(){
+			//returns count of fulfilled orders
 			$db=new Db();
 			$sql="SELECT * FROM orders WHERE status=1";
 			$result=$db->query($sql);
