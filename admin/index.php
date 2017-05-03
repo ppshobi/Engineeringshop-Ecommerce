@@ -11,6 +11,7 @@ require_once('../app/Category.php');
 require_once('../app/Order.php');
 require_once('../app/Product.php');
 require_once('../app/Question.php');
+require_once('../app/Unit.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -134,8 +135,8 @@ require_once('../app/Question.php');
 							<svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large"><?php echo User::getCount(); ?></div>
-							<div class="text-muted">New Users</div>
+							<div class="large"><?php echo Unit::count(); ?></div>
+							<div class="text-muted">Units</div>
 						</div>
 					</div>
 				</div>

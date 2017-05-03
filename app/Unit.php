@@ -63,6 +63,17 @@
 			return false;
 			
 		}
+		public static function count(){
+			$db=new Db();
+			$sql="SELECT COUNT(*) FROM unit";
+			$result=$db->query($sql);
+			if($result){
+				$row=mysqli_fetch_array($result);
+				return $row[0];
+			}
+			return 0;
+			
+		}
 		public static function delete($unitid){
 			$db=new Db();
 			$sql="DELETE FROM unit WHERE id=$unitid";
