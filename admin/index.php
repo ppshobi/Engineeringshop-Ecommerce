@@ -10,6 +10,7 @@ require_once('../app/User.php');
 require_once('../app/Category.php');
 require_once('../app/Order.php');
 require_once('../app/Product.php');
+require_once('../app/Question.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -120,8 +121,8 @@ require_once('../app/Product.php');
 							<svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large"><?php echo Order::getOrderUnFilled() ?></div>
-							<div class="text-muted">Unfinished Orders</div>
+							<div class="large"><?php echo Question::count() ?></div>
+							<div class="text-muted">Questions</div>
 						</div>
 					</div>
 				</div>
