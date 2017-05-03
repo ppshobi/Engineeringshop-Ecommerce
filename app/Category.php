@@ -35,6 +35,17 @@
 			}
 		}
 
+		public static function count(){
+			$db=new Db();
+			$sql="SELECT COUNT(*) FROM category";
+			$result=$db->query($sql);
+			if($result){
+				$row=mysqli_fetch_array($result);
+				return $row[0];
+			}
+			return 0;
+			
+		}
 		public static function getAll(){
 			$db=new Db();
 			$sql="SELECT * FROM category";
@@ -49,6 +60,7 @@
 			return false;
 			
 		}
+		
 		public static function getOne($id){
 			$db=new Db();
 			$sql="SELECT * FROM category WHERE id= $id LIMIT 1";
@@ -61,8 +73,8 @@
 				return $rows[0];
 			}
 			return false;
-			
 		}
+
 		public static function delete($catid){
 			$db=new Db();
 			$sql="DELETE FROM category WHERE id=$catid";
