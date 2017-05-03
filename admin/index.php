@@ -148,8 +148,8 @@ require_once('../app/Unit.php');
 							<svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large"><?php echo Product::getCount(); ?></div>
-							<div class="text-muted">Products</div>
+							<div class="large"><?php echo "&#8377; ".Order::total_sales_sum(); ?></div>
+							<div class="text-muted">Total Sales Amount</div>
 						</div>
 					</div>
 				</div>
