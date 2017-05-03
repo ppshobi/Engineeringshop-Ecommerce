@@ -122,5 +122,17 @@
 			return false;
 		}
 
+		public static function count(){
+			$db=new Db();
+			$sql="SELECT COUNT(*) FROM question";
+			$result=$db->query($sql);
+			if($result){
+				$row=mysqli_fetch_array($result);
+				return $row[0];
+			}
+			return 0;
+			
+		}
+
 	}
 ?>
