@@ -90,7 +90,7 @@
 			$sql="SELECT * FROM question WHERE user_id= $userid LIMIT 1";
 			$rows=[];
 			$result=$db->query($sql);
-			if($result){
+			if(mysqli_num_rows($result)>0){
 				while ($r=mysqli_fetch_assoc($result)) {
 					array_push($rows, $r);
 				}

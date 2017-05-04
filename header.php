@@ -21,7 +21,7 @@
                 </div>
                 <div class="header-mid-right">
                     <div class="header-mid-right-content">
-                        <a href="#">
+                        <a href="user-dashboard.php">
                             <i class="flaticon-user-outline"></i>
                             My Account
                         </a>
