@@ -7,13 +7,13 @@
                                     <div class="color-333"> Login or Register</div>
                                     <div class="method-content-left-bottom">
                                         <p>Register with us for future convenience:</p>    
-                                        <form method="post" action="#">
+                                        <form method="post" action="#" id="register">
                                             <label>Name</label>
                                             <input type="text" name="name" placeholder="Enter your name">
                                             <label>Email Address</label>
-                                            <input type="text" name="email" placeholder="Email Address">
+                                            <input type="email" name="email" placeholder="Email Address" required>
                                             <label>Phone Number</label>
-                                            <input name="phone" type="text" placeholder="Phone Number">
+                                            <input name="phone" type="number" placeholder="Phone Number" required>
                                             <label>Address</label>
                                             <textarea name="address" rows="5" cols="10">
                                                 

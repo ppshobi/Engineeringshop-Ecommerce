@@ -55,6 +55,13 @@ if(!isset($login_status) or !$login_status){
     <link rel='stylesheet' href='assets/css/style.css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i;Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 </head>
+<style type="text/css">
+    #register .error{
+        color:red;
+        display: block;
+
+    }
+</style>
 <body class="checkout-page">
   <?php include_once('header.php');?>
     <!-- End .banner -->
@@ -156,12 +163,39 @@ if(!isset($login_status) or !$login_status){
     <script type='text/javascript' src='assets/js/owl.carousel.min.js'></script>
     <script type='text/javascript' src='assets/js/jquery.appear.min.js'></script>
     <script type='text/javascript' src='assets/js/jquery.countTo.js'></script>
+    <script type='text/javascript' src='assets/js/jquery.validate.min.js'></script>
     <script type='text/javascript' src='assets/js/ui.js'></script>
     <script type='text/javascript' src='assets/js/jquery.bxslider.min.js'></script>
     <script type='text/javascript' src='assets/js/jquery.mmenu.all.min.js'></script>
     <script type='text/javascript' src='assets/js/chosen.jquery.min.js'></script>
     <script type='text/javascript' src='assets/js/jquery.countdown.js'></script>
     <script type='text/javascript' src='assets/js/frontend.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#register').validate({ // initialize the plugin
+                rules: {
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    phone: {
+                        required: true,
+                        number:true,
+                        minlength: 10
+                    },
+                    name:{
+                        required:true
+                    },
+                    address:{
+                        required:true,
+                        minlength:10
+                    }
+                }
+            });
+
+        });
+    </script>
 </body>
 
 </html>
